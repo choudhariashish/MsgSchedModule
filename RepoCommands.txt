@@ -1,0 +1,32 @@
+Local repository initialization
+
+mkdir ~/MsgSchedModule
+cd ~/MsgSchedModule
+git init
+
+Setting up access to this repository
+
+cd ~/MsgSchedModule
+git config remote.upload.url http://$username@asc.homelinux.net/git/MsgSchedModule.git/
+echo machine asc.homelinux.net login $username password $password >> ~/.netrc
+
+Initial repository creation
+
+cd ~/MsgSchedModule
+git --bare init
+echo hello > hello.txt
+git add hello.txt
+git commit -m 'initial checkin'
+git push upload master
+
+Checkout commands
+
+cd ~/MsgSchedModule
+git pull upload master
+
+Checkin commands
+
+cd ~/MsgSchedModule
+git add somefile.pl
+git commit
+git push upload master
