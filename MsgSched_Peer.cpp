@@ -382,13 +382,13 @@ void Peer::Detected_ECN_CE()
 	static MS_Tick_Type Time_To_Activate_ECN = 0;
 	static bool ECN_Status = true;
 
-	if( Time_To_Activate_ECN >= Tick->Get_Current_Tick() )
+	if( Time_To_Activate_ECN <= Tick->Get_Current_Tick() )
 	{
 		Time_To_Activate_ECN = 0;
 		ECN_Status = true;
 	}
 
-	if( ECN_Status && Max_Better_Obs_RTT_Count_ECN==MAX_BETTER_OBS_RTT_COUNT)
+	if( ECN_Status )
 	{
 		Max_Better_Obs_RTT_Count_ECN = Calculate_ECN_Counter();
 
