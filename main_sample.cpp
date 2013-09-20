@@ -18,7 +18,10 @@ MS_Agent *ms_Agent = MS_Agent::Get_Instance();
 tcp_client client;
 
 bool threadbreak = false;
+bool PT_Done = false;
 int peerID=8;
+int TPT=20000, PT=0, PA=0;
+int PCsize = 10;
 
 void receiverFunc()
 {
@@ -68,7 +71,9 @@ void receiverFunc()
 				ch[0] = ' ';
 				ch = client.receive(1);
 			}
-//			cout << " pC: "<<atoi(indata)<<"\n\n";
+			cout << " PA: "<<atoi(indata)<<"\n\n";
+			PA = atoi(indata);
+
 			for(int k=0;k<10;k++)
 				indata[k]=' ';
 			it=0;
@@ -102,6 +107,11 @@ void receiverFunc()
 			client.closeSocket();
 			break;
 		}
+		if(PA == TPT)
+		{
+			PT_Done = true;
+			break;
+		}
 
 	}
 }
@@ -110,9 +120,7 @@ void receiverFunc()
 int main()
 {
 	MS_Tick_Type PhaseTime=100000, Obs_RTT=400;
-    char data[10];
-    int TotalPower=20000, PowerTransfered=0;
-    int PowerChunkSize = 10;
+    char data[100];
     int msgID=1;
     int MyKmax=20;
 
@@ -130,25 +138,32 @@ int main()
     	if(ms_Agent->Invariant_Check(peerID))
     	{
 
-    		sprintf(data, "*%d#%d#%d#%d#", peerID, msgID, PowerChunkSize, ECN_TRANSPORT);
+    		sprintf(data, "*%d#%d#%d#%d#", peerID, msgID, PCsize, ECN_TRANSPORT);
 
     		client.send_data(data);
 
       		ms_Agent->Event_Msg_Sent(peerID, msgID);
 
     		msgID++;
-    		PowerTransfered += PowerChunkSize;
-//        	cout << "\n\npower transfered: "<<PowerTransfered;
+    		PT += PCsize;
 
-        	if(PowerTransfered == TotalPower)
+        	if(ms_Agent->Get_Current_Tick() == PhaseTime)
         	{
-        		cout << "\n\npower transfered\n\n";
+        		cout << "\n\nPhaseTime Over\n\n";
         		threadbreak = true;
         		break;
         	}
-
+        	if(PT_Done)
+        	{
+        		cout << "\n\nAll Power Transfered\n\n";
+        		threadbreak = true;
+        		break;
+        	}
     	}
     }
+
+    cout<<"\n\n\n\nPT:"<<PT<<" PA:"<<PA;
+
 
 	receiverThread->interrupt();
 	receiverThread->join();

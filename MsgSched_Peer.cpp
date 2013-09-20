@@ -253,6 +253,7 @@ void Peer::Store_New_Msg_Deadline(int _MsgID)
 	cout << "\nMS_Peer : Info: Store Deadline, PeerID:"<<My_ID<<" msgID:"<<_MsgID;
 #endif
 	Deadline_Data *new_Deadline = new Deadline_Data(Tick->Get_Current_Tick(), Curr_Relative_Deadline);
+
 	Deadline_Data_Map[_MsgID] = new_Deadline;
 
 #ifdef DEBUG_PEER
@@ -375,8 +376,9 @@ void Peer::Ack_Recv_Is_Better()
 	cout << ", ack is better";
 #endif
 
-
+#ifdef ENABLE_ECN
 	if(Max_Better_Obs_RTT_Count_ECN==MAX_BETTER_OBS_RTT_COUNT)
+#endif
 	{
 		cout << ", ack is better";
 	// reset counter for next Better_RTT
@@ -426,7 +428,7 @@ void Peer::Detected_ECN_CE()
 
 		Max_Better_Obs_RTT_Count_ECN = Calculate_ECN_Counter();
 
-		Curr_RTT = Curr_RTT + RESPONSE_TIME_MARGIN*20;
+		Curr_RTT = Curr_RTT + RESPONSE_TIME_MARGIN*Curr_K*2;
 		Curr_Relative_Deadline = Curr_RTT + RESPONSE_TIME_MARGIN;
 
 		Update_Period();
