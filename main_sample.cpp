@@ -109,7 +109,7 @@ void receiverFunc()
 
 int main()
 {
-	MS_Tick_Type PhaseTime=100000, Obs_RTT=1000;
+	MS_Tick_Type PhaseTime=100000, Obs_RTT=400;
     char data[10];
     int TotalPower=20000, PowerTransfered=0;
     int PowerChunkSize = 10;

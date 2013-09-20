@@ -11,6 +11,10 @@
 #include "MsgSched.h"
 #include "MsgSched_Defines.h"
 
+static bool ECN_Status = true;
+
+
+
 int Peer::GetID()
 {
 	return My_ID;
@@ -224,6 +228,7 @@ void Peer::Check_Deadline_Miss()
 #ifdef ENABLE_ECN
 	if(Max_Better_Obs_RTT_Count_ECN_Fallback_Time==Tick->Get_Current_Tick())
 	{
+		ECN_Status = true;
 		Max_Better_Obs_RTT_Count_ECN=MAX_BETTER_OBS_RTT_COUNT;
 //#ifdef DEBUG_PEER
 		cout << "\n\nMS_Peer : Info: EVENT: COUNTER FALLBACK";
@@ -273,45 +278,62 @@ void Peer::Deadline_Met(int _MsgID)
 	cout << "\nMS_Peer : Info: deadline met, PeerID:"<<My_ID<<" msgID:"<<_MsgID;
 #endif
 
-	// check for Better RTT
-	MS_Tick_Type temp_RTM_Margin = ((Curr_RTT + Deadline_Data_Map.at(_MsgID)->Time_Sent)-Tick->Get_Current_Tick());
+	static int count=0;
 
+	// check for Better RTT
 	MS_Tick_Type temp_MsgRTT = Tick->Get_Current_Tick()-Deadline_Data_Map.at(_MsgID)->Time_Sent;
 
-
+	cout << "\ntemp_MsgRTT: "<<temp_MsgRTT<<" Curr_RTT: "<<Curr_RTT<<"\n";
 
 	if( temp_MsgRTT < Curr_RTT )
 	{
 		if( (Curr_RTT - temp_MsgRTT) > RESPONSE_TIME_MARGIN )
 		{
-//	if( temp_RTM_Margin > RESPONSE_TIME_MARGIN )
-//		{
+			cout << "\n(Curr_RTT-temp_MsgRTT): "<<(Curr_RTT - temp_MsgRTT);
+
+
 			Better_RTT_Obs_Counter++;
 
 			if(Obs_Avg_RTT <=1)
 				Obs_Avg_RTT = temp_MsgRTT;
 
+
+//#ifdef ENABLE_ECN
+//
+//			Obs_Avg_RTT = (temp_MsgRTT + Obs_Avg_RTT) / 2;
+//
+//			cout <<"\nAvg. count: "<<count<<" Obs_Avg_RTT: "<<Obs_Avg_RTT<<" Curr_RTT: " \
+//						<<Curr_RTT<<"\n";
+//
+//			if(Better_RTT_Obs_Counter == Max_Better_Obs_RTT_Count_ECN)
+//			{
+//				Ack_Recv_Is_Better();
+//			}
+
+//#else
 			Obs_Avg_RTT = (temp_MsgRTT + Obs_Avg_RTT) / 2;
 
-#ifdef ENABLE_ECN
-			if(Better_RTT_Obs_Counter == Max_Better_Obs_RTT_Count_ECN)
-#else
 			if(Better_RTT_Obs_Counter == MAX_BETTER_OBS_RTT_COUNT)
-#endif
 			{
 				Ack_Recv_Is_Better();
 				// reset Obs_Avg_RTT to accumulate next
-				// MAX_BETTER_OBS_RTT_COUNT/Max_Better_Obs_RTT_Count_ECN
-				// averages
+				// MAX_BETTER_OBS_RTT_COUNT averages
 				Obs_Avg_RTT = 0;
+				Better_RTT_Obs_Counter = 0;
+
 			}
 
+//#endif
+
+
+		}
+		else
+		{
+			// we need continuous good RTT's to adapt
+			Better_RTT_Obs_Counter = 0;
+			Obs_Avg_RTT = 0;
 		}
 	}
-	else
-	// we need continuous good RTT's to adapt
-	Better_RTT_Obs_Counter = 0;
-
 	Delete_Msg_Deadline(_MsgID);
 }
 
@@ -352,11 +374,23 @@ void Peer::Ack_Recv_Is_Better()
 #ifdef DEBUG_PEER
 	cout << ", ack is better";
 #endif
+
+
+	if(Max_Better_Obs_RTT_Count_ECN==MAX_BETTER_OBS_RTT_COUNT)
+	{
+		cout << ", ack is better";
 	// reset counter for next Better_RTT
 	Better_RTT_Obs_Counter = 0;
 
+#ifdef ENABLE_ECN
+	Curr_RTT =  Curr_RTT - RESPONSE_TIME_MARGIN;
+	Curr_Relative_Deadline = Curr_RTT + RESPONSE_TIME_MARGIN;
+#else
+	Curr_RTT = Obs_Avg_RTT + RESPONSE_TIME_MARGIN;
 	Curr_Relative_Deadline = Obs_Avg_RTT + RESPONSE_TIME_MARGIN;
-	Curr_RTT = Obs_Avg_RTT;
+#endif
+
+	cout<<"  Curr_RTT: "<<Curr_RTT<<"\n";
 
 	/*
 	 * #################################################################
@@ -374,31 +408,29 @@ void Peer::Ack_Recv_Is_Better()
 			<<Curr_Relative_Deadline \
 			<<".....(adapting)\n";
 #endif
-	Obs_Avg_RTT = 0;
+	}
+
 }
 
 void Peer::Detected_ECN_CE()
 {
 	static MS_Tick_Type Time_To_Activate_ECN = 0;
-	static bool ECN_Status = true;
-
-	if( Time_To_Activate_ECN <= Tick->Get_Current_Tick() )
-	{
-		Time_To_Activate_ECN = 0;
-		ECN_Status = true;
-	}
 
 	if( ECN_Status )
 	{
+
+		cout << "\nECN_STATUS: "<<ECN_Status<<"\n";
+
+		Time_To_Activate_ECN = Calculate_ECN_Activate_Time();
+		Max_Better_Obs_RTT_Count_ECN_Fallback_Time = Time_To_Activate_ECN;
+
 		Max_Better_Obs_RTT_Count_ECN = Calculate_ECN_Counter();
 
-		Curr_RTT = Curr_RTT + RESPONSE_TIME_MARGIN;
+		Curr_RTT = Curr_RTT + RESPONSE_TIME_MARGIN*20;
 		Curr_Relative_Deadline = Curr_RTT + RESPONSE_TIME_MARGIN;
 
 		Update_Period();
 
-		Time_To_Activate_ECN = Calculate_ECN_Activate_Time();
-		Max_Better_Obs_RTT_Count_ECN_Fallback_Time = Time_To_Activate_ECN;
 		ECN_Status = false;
 
 //#ifdef DEBUG_PEER
@@ -423,7 +455,7 @@ void Peer::Detected_ECN_CE()
 
 int Peer::Calculate_ECN_Counter()
 {
-	return Curr_K*4;
+	return Curr_K*2;
 }
 
 MS_Tick_Type Peer::Calculate_ECN_Activate_Time()

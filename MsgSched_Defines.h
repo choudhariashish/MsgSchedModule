@@ -33,7 +33,7 @@ typedef	unsigned long int	MS_Tick_Type;
  Note: RESPONSE_TIME_MARGIN + Curr_RTT = Curr_Relative_Deadline
  default: MAX_BETTER_OBSERVED_RTT = 2, RESPONSE_TIME_MARGIN = (2 * Msg_Sched_Tick_Resolution);
 */
-#define RESPONSE_TIME_MARGIN	10 // in Ticks, 1 (Tick) =  MS_Tick_Resolution (milliseconds)
+#define RESPONSE_TIME_MARGIN	5 // in Ticks, 1 (Tick) =  MS_Tick_Resolution (milliseconds)
 #define MAX_BETTER_OBS_RTT_COUNT	3
 
 // if ENABLE_ECN is defined then Max_Better_Obs_RTT_Count will increase from
