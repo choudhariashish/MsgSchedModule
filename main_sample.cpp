@@ -23,97 +23,63 @@ int peerID=8;
 int TPT=20000, PT=0, PA=0;
 int PCsize = 10;
 
+int parseValue(char buff[], int hashPos)
+{
+    int value[4]={0,0,0,0};
+    sscanf(buff, "*%d#%d#%d#%d#", &value[0], &value[1], &value[2], &value[3]);
+    return value[hashPos];
+}
+
 void receiverFunc()
 {
-    char indata[10];
+    char indata[100];
     int msgID=0, ECN=0;
     int it=0;
+    int i=0;
     string ch;
 
-	while(1)
-	{
-		ch = client.receive(1);
+	// flush buffers
+	for(int k=0;k<100;k++)
+		indata[k]=' ';
 
-		if(ch[0] == '*')
-		{
-			// Peer ID
-			ch = client.receive(1);
-			while(ch[0] != '#')
-			{
-				indata[it++] = ch[0];
-				ch[0] = ' ';
-				ch = client.receive(1);
-			}
-//			cout << "\n\nACK: peerID: "<<atoi(indata);
-			for(int k=0;k<10;k++)
-				indata[k]=' ';
-			it=0;
+    while(1)
+    {
+    	ch = client.receive(1);
 
-			// Message ID
-			ch = client.receive(1);
-			while(ch[0] != '#')
-			{
-				indata[it++] = ch[0];
-				ch[0] = ' ';
-				ch = client.receive(1);
-			}
-//			cout << " msgID: "<<atoi(indata);
-			msgID = atoi(indata);
-			for(int k=0;k<10;k++)
-				indata[k]=' ';
-			it=0;
+    	if(ch[0]=='*')
+    	{
+    		while(1)
+    		{
+    			if(ch[0] == '#') i++;
+    			indata[it] = ch[0];
+    			if(i==4) break;
+    			it++;
+    			ch[0] = ' ';
+    			ch = client.receive(1);
+    		}
+    		cout<<"\n"<<indata<<"\n";
 
-			// Power Chunk Size
-			ch = client.receive(1);
-			while(ch[0] != '#')
-			{
-				indata[it++] = ch[0];
-				ch[0] = ' ';
-				ch = client.receive(1);
-			}
-			cout << " PA: "<<atoi(indata)<<"\n\n";
-			PA = atoi(indata);
+    		ms_Agent->Event_Msg_Ack_Received(peerID, parseValue(indata,1), parseValue(indata,3));
+    		PA = parseValue(indata,2);
+    	}
+    	// flush buffers
+    	for(int k=0;k<100;k++)
+    		indata[k]=' ';
+    	i=0;
+    	it=0;
+    	ch[0]=' ';
 
-			for(int k=0;k<10;k++)
-				indata[k]=' ';
-			it=0;
-
-			// ECN Detection
-			ch = client.receive(1);
-			while(ch[0] != '#')
-			{
-				indata[it++] = ch[0];
-				ch[0] = ' ';
-				ch = client.receive(1);
-			}
-			cout << "\nECN: "<<atoi(indata)<<": ";
-			if( atoi(indata) == 11 )
-			{
-//				cout << "detected ECN_CE\n";
-				ECN = atoi(indata);
-			}
-			for(int k=0;k<10;k++)
-				indata[k]=' ';
-			it=0;
-
-			ms_Agent->Event_Msg_Ack_Received(peerID, msgID, ECN);
-			ECN=0;
-			msgID=0;
-		}
-		else
-			ch[0] = ' ';
-		if(threadbreak)
-		{
-			client.closeSocket();
-			break;
-		}
-		if(PA == TPT)
-		{
-			PT_Done = true;
-			break;
-		}
-
-	}
+    	if(threadbreak)
+    	{
+    		client.closeSocket();
+    		break;
+    	}
+    	if(PA == TPT)
+    	{
+    		PT_Done = true;
+    		break;
+    	}
+    }
 }
 
 
@@ -137,16 +103,17 @@ int main()
     {
     	if(ms_Agent->Invariant_Check(peerID))
     	{
+    		if(PT < TPT)
+    		{
+    			sprintf(data, "*%d#%d#%d#%d#", peerID, msgID, PCsize, ECN_TRANSPORT);
 
-    		sprintf(data, "*%d#%d#%d#%d#", peerID, msgID, PCsize, ECN_TRANSPORT);
+    			client.send_data(data);
 
-    		client.send_data(data);
+    			ms_Agent->Event_Msg_Sent(peerID, msgID);
 
-      		ms_Agent->Event_Msg_Sent(peerID, msgID);
-
-    		msgID++;
-    		PT += PCsize;
-
+    			msgID++;
+    			PT += PCsize;
+    		}
         	if(ms_Agent->Get_Current_Tick() == PhaseTime)
         	{
         		cout << "\n\nPhaseTime Over\n\n";
@@ -163,8 +130,6 @@ int main()
     }
 
     cout<<"\n\n\n\nPT:"<<PT<<" PA:"<<PA;
-
-
 	receiverThread->interrupt();
 	receiverThread->join();
     ms_Agent->~MS_Agent();
