@@ -51,6 +51,13 @@ void MS_Agent::Set_My_Kmax_And_Phase_Time(int _My_KmaxLocal, MS_Tick_Type _Phase
 #endif
 }
 
+#ifdef ALLOW_DELTA_VARY
+void MS_Agent::Set_PCmin_PC_max(int _PCmin, int _PCmax)
+{
+	PCmin = _PCmin;
+	PCmax = _PCmax;
+}
+#endif
 
 void MS_Agent::Tick_Changed()
 {
@@ -72,13 +79,13 @@ void MS_Agent::Event_Msg_Received(int _PeerID, int _MsgID)
 
 }
 
-void MS_Agent::Event_Msg_Ack_Received(int _PeerID, int _MsgID, int _ECN)
+void MS_Agent::Event_Msg_Ack_Received(int _PeerID, int _MsgID, int _ECN, int _Perror)
 {
 	if(All_Peer_Map.find(_PeerID) == All_Peer_Map.end())
 		cerr << "\nMS_Agent: Error: invalid peer ID for Event ack receive\n";
 	else
 	{
-		All_Peer_Map.at(_PeerID)->Msg_Ack_Received(_MsgID, _ECN);
+		All_Peer_Map.at(_PeerID)->Msg_Ack_Received(_MsgID, _ECN, _Perror);
 	}
 }
 void MS_Agent::Event_Msg_Sent(int _PeerID, int _MsgID)
@@ -224,7 +231,9 @@ int MS_Agent::Get_Number_Of_Peers()
 
 MS_Agent::MS_Agent():
 My_KmaxLocal(0),
-Phase_Time(0)
+Phase_Time(0),
+PCmin(10),
+PCmax(10)
 {
 	Tick = MS_Tick::Get_Instance();
 	Tick->Start();

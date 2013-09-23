@@ -13,8 +13,6 @@
 
 static bool ECN_Status = true;
 
-
-
 int Peer::GetID()
 {
 	return My_ID;
@@ -53,7 +51,11 @@ int Peer::Get_Is_Invariant_State()
 	}
 	else
 	{
+#ifdef CHECK_KMAX_DELTA_PRODUCT
+
+#else
 		if(Curr_K < (Kmax-1))
+#endif
 			Ik_Invariant = true;
 		else
 			Ik_Invariant = false;
@@ -109,7 +111,7 @@ void Peer::Msg_Received(int _MsgID)
    else->   Delete_Msg_Deadline() ,  if ack's message already missed its deadline
    else->	Deadline_Met()
 */
-void Peer::Msg_Ack_Received(int _MsgID, int _ECN)
+void Peer::Msg_Ack_Received(int _MsgID, int _ECN, int _Perror)
 {
 	// practically 'Relative_Deadline' should never be '0'
 	if(Deadline_Data_Map.at(_MsgID)->Relative_Deadline != 0)
@@ -119,8 +121,15 @@ void Peer::Msg_Ack_Received(int _MsgID, int _ECN)
 #ifdef ENABLE_ECN
 		// '11' because ECN bits are 11 if cogestion is detected
 		if(_ECN >= 11 )
+		{
 			Detected_ECN_CE();
+			ECN=true;
+		}
+		else
+			ECN=false;
 #endif
+
+		set_Perror(_Perror);
 
 		Actual_RTT= Tick->Get_Current_Tick()-Deadline_Data_Map.at(_MsgID)->Time_Sent;
 
@@ -235,9 +244,13 @@ void Peer::Check_Deadline_Miss()
 		cout << "\nMS_Peer : Info: Counter:"<<Max_Better_Obs_RTT_Count_ECN;
 //#endif
 	}
+
+	// dump statistics
+	pfile<<Tick->Get_Current_Tick()<<";"<<Curr_Period<<";"<<Curr_K<<";"<<Actual_RTT<<";"<<Perror<<";"<<ECN<<"\n";
+#else
+	pfile<<Tick->Get_Current_Tick()<<";"<<Curr_Period<<";"<<Curr_K<<";"<<Actual_RTT<<";"<<Perror<<"\n";
 #endif
 
-	pfile<<Tick->Get_Current_Tick()<<";"<<Curr_Period<<";"<<Curr_K<<";"<<Actual_RTT<<"\n";
 	pfile.flush();
 }
 
@@ -414,6 +427,8 @@ void Peer::Ack_Recv_Is_Better()
 
 }
 
+#ifdef ENABLE_ECN
+
 void Peer::Detected_ECN_CE()
 {
 	static MS_Tick_Type Time_To_Activate_ECN = 0;
@@ -428,7 +443,7 @@ void Peer::Detected_ECN_CE()
 
 		Max_Better_Obs_RTT_Count_ECN = Calculate_ECN_Counter();
 
-		Curr_RTT = Curr_RTT + RESPONSE_TIME_MARGIN*Curr_K*2;
+		Curr_RTT = Curr_RTT + 2*Curr_K*RESPONSE_TIME_MARGIN;
 		Curr_Relative_Deadline = Curr_RTT + RESPONSE_TIME_MARGIN;
 
 		Update_Period();
@@ -465,10 +480,16 @@ MS_Tick_Type Peer::Calculate_ECN_Activate_Time()
 	return Tick->Get_Current_Tick()+Curr_RTT;
 }
 
+#endif
 
 void Peer::Update_Period()
 {
 	Curr_Period = Curr_Relative_Deadline/(Kmax-Curr_K);
+}
+
+void Peer::set_Perror(int _Perror)
+{
+	Perror = _Perror;
 }
 
 // need to set ID for Peer upon creation
@@ -501,15 +522,22 @@ Peer::Peer(int _PeerID, MS_Tick_Type _Phase_Time, MS_Tick_Type _Curr_RTT=800)
 #ifdef ENABLE_ECN
 	Max_Better_Obs_RTT_Count_ECN=MAX_BETTER_OBS_RTT_COUNT;
 	Max_Better_Obs_RTT_Count_ECN_Fallback_Time=0;
+	ECN=false;
 #endif
+
+	Perror=0;
 
 	Tick = MS_Tick::Get_Instance();
 
 //#ifdef DUMP_PERIOD
-    pfile.open("/home/ashish/workspace/Graph/LiveGraph.1.14.Application.bin/MsgSchedOutput.lgdat");
+    pfile.open("/home/ashish/workspace/Graph/LiveGraph.1.14.Application.bin/MSMOutput.lgdat");
     pfile << "##;##\n";
     pfile << "@LiveGraph test file.\n";
-    pfile << "Tick;Period;Curr_K;Actual_RTT\n";
+#ifdef ENABLE_ECN
+    pfile << "Tick;Period;Curr_K;Actual_RTT;Perror;ECN\n";
+#else
+    pfile << "Tick;Period;Curr_K;Actual_RTT;Perror\n";
+#endif
     pfile.flush();
 //#endif
 }

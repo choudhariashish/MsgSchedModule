@@ -22,6 +22,7 @@ bool PT_Done = false;
 int peerID=8;
 int TPT=20000, PT=0, PA=0;
 int PCsize = 10;
+int PCmin=10, PCmax=30;
 
 int parseValue(char buff[], int hashPos)
 {
@@ -33,7 +34,6 @@ int parseValue(char buff[], int hashPos)
 void receiverFunc()
 {
     char indata[100];
-    int msgID=0, ECN=0;
     int it=0;
     int i=0;
     string ch;
@@ -58,9 +58,9 @@ void receiverFunc()
     			ch = client.receive(1);
     		}
     		cout<<"\n"<<indata<<"\n";
-
-    		ms_Agent->Event_Msg_Ack_Received(peerID, parseValue(indata,1), parseValue(indata,3));
     		PA = parseValue(indata,2);
+    		ms_Agent->Event_Msg_Ack_Received(peerID, parseValue(indata,1), parseValue(indata,3), PT-PA);
+
     	}
     	// flush buffers
     	for(int k=0;k<100;k++)
@@ -85,7 +85,7 @@ void receiverFunc()
 
 int main()
 {
-	MS_Tick_Type PhaseTime=100000, Obs_RTT=400;
+	MS_Tick_Type PhaseTime=14000, Obs_RTT=400;
     char data[100];
     int msgID=1;
     int MyKmax=20;
@@ -94,6 +94,7 @@ int main()
     client.conn( "localhost" , 4242 );
 
     ms_Agent->Set_My_Kmax_And_Phase_Time(MyKmax, PhaseTime);
+    ms_Agent->Set_PCmin_PC_max(PCmin, PCmax);
     ms_Agent->Add_Peer(peerID, Obs_RTT);
 
     boost::thread *receiverThread;

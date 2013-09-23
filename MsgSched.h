@@ -88,7 +88,7 @@ public:
 	   else->	Deadline_Met()
 	*/
 	// need to call when 'sent message' receives its 'acknowledgment'
-	void Msg_Ack_Received(int _MsgID, int _ECN);
+	void Msg_Ack_Received(int _MsgID, int _ECN, int _Perror);
 	// call when new message is sent
 	void Msg_Sent(int _MsgID);
 	// call when message is lost
@@ -170,6 +170,7 @@ private:
 	// is good MAX_BETTER_OBSERVED_RTT number of times
 	void Ack_Recv_Is_Better();
 
+#ifdef ENABLE_ECN
 	// used if 'ENABLE_ECN' is defined
 	// this function will increase the 'MAX_BETTER_OBS_RTT_COUNT'
 	// limit and make it more tough for
@@ -178,6 +179,11 @@ private:
 	MS_Tick_Type Calculate_ECN_Activate_Time();
 	int Max_Better_Obs_RTT_Count_ECN;
 	MS_Tick_Type Max_Better_Obs_RTT_Count_ECN_Fallback_Time;
+	bool ECN;
+#endif
+
+	int Perror;
+	void set_Perror(int _Perror);
 
 #ifdef DEBUG_PEER
 	void Display_All_Stored_Deadlines()
@@ -217,6 +223,10 @@ private:
 	static MS_Agent *MS_Agent_Singleton;
 	MS_Agent();
 
+#ifdef ALLOW_DELTA_VARY
+	int PCmin, PCmax;
+#endif
+
 public:
 	///////////////////////////////////////////////////////////////
 	// SETTING KMAX LOCAL
@@ -226,6 +236,10 @@ public:
 	// My_Kmax_Local value has to be set/recalculated after every SC(state collection)
 	///////////////////////////////////////////////////////////////
 	void Set_My_Kmax_And_Phase_Time(int _MS_Agent_My_KmaxLocal, MS_Tick_Type _Phase_Time);
+
+#ifdef ALLOW_DELTA_VARY
+	void Set_PCmin_PC_max(int _PCmin, int _PCmax);
+#endif
 
 	///////////////////////////////////////////////////////////////
 	// FOR TICK INCREMENT
@@ -251,7 +265,7 @@ public:
 	// 	   	 explicitly tell this module whether message is "Acknowledgment" OR "Receive Power"
 	///////////////////////////////////////////////////////////////
 	void Event_Msg_Received(int _PeerID, int _MsgID);
-	void Event_Msg_Ack_Received(int _PeerID, int _MsgID, int _ECN);
+	void Event_Msg_Ack_Received(int _PeerID, int _MsgID, int _ECN, int _Perror);
 	void Event_Msg_Sent(int _PeerID, int _MsgID);
 	void Event_Msg_Lost(int _PeerID, int _MsgID);
 

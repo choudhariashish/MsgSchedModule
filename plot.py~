@@ -12,7 +12,6 @@ for i in range(0, total):
 	print sys.argv[i]
 
 data = open(sys.argv[0]).read().split('\n')
-data = data[:3]
 data = data[:-1]
 
 x_time = [row.split(';')[0] for row in data]
