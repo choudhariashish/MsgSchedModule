@@ -32,6 +32,9 @@ void MS_Agent::Distribute_KmaxLocal()
 
 		for(map<int, Peer*>::iterator it = All_Peer_Map.begin(); it != All_Peer_Map.end(); it++)
 		{
+#ifdef ALLOW_DELTA_VARY
+			(*it).second->Set_DeltaMin_DeltaMax(DeltaMin, DeltaMax);
+#endif
 			(*it).second->Set_Kmax(Kmax_for_each_Peer);
 			(*it).second->Update_Period();
 		}
@@ -52,12 +55,24 @@ void MS_Agent::Set_My_Kmax_And_Phase_Time(int _My_KmaxLocal, MS_Tick_Type _Phase
 }
 
 #ifdef ALLOW_DELTA_VARY
-void MS_Agent::Set_PCmin_PC_max(int _PCmin, int _PCmax)
+void MS_Agent::Set_DeltaMin_DeltaMax(int _DeltaMin, int _DeltaMax)
 {
-	PCmin = _PCmin;
-	PCmax = _PCmax;
+	DeltaMin = _DeltaMin;
+	DeltaMax = _DeltaMax;
+}
+
+int MS_Agent::Get_Curr_Delta(int _PeerID)
+{
+	if(All_Peer_Map.find(_PeerID) == All_Peer_Map.end())
+		cerr << "\nMS_Agent: Error: invalid peer ID for Event msg sent\n";
+	else
+		return All_Peer_Map.at(_PeerID)->Get_Curr_Delta();
+	return -1;
 }
 #endif
+
+
+
 
 void MS_Agent::Tick_Changed()
 {
@@ -167,9 +182,10 @@ bool MS_Agent::Invariant_WU_True(int _PeerID)
 
 
 // add a new peer to the map, needs ID
-void MS_Agent::Add_Peer(int _PeerID, MS_Tick_Type _Obs_RTT)
+void MS_Agent::Add_Peer(int _PeerID, MS_Tick_Type _Obs_RTT, int _TPT)
 {
 	Peer *new_Peer = new Peer(_PeerID, Phase_Time, _Obs_RTT);
+	new_Peer->Set_TPT(_TPT);
 
 	if(!new_Peer)
 		cerr << "\nMS_Agent: Error: cannot allocate memory for new Peer\n";
@@ -231,10 +247,12 @@ int MS_Agent::Get_Number_Of_Peers()
 
 MS_Agent::MS_Agent():
 My_KmaxLocal(0),
-Phase_Time(0),
-PCmin(10),
-PCmax(10)
+Phase_Time(0)
 {
+#ifdef ALLOW_DELTA_VARY
+	DeltaMin=10;
+	DeltaMax=10;
+#endif
 	Tick = MS_Tick::Get_Instance();
 	Tick->Start();
 }

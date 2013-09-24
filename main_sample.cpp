@@ -21,8 +21,8 @@ bool threadbreak = false;
 bool PT_Done = false;
 int peerID=8;
 int TPT=20000, PT=0, PA=0;
-int PCsize = 10;
-int PCmin=10, PCmax=30;
+int Curr_Delta = 10;
+int DeltaMin=10, DeltaMax=30;
 
 int parseValue(char buff[], int hashPos)
 {
@@ -59,7 +59,7 @@ void receiverFunc()
     		}
     		cout<<"\n"<<indata<<"\n";
     		PA = parseValue(indata,2);
-    		ms_Agent->Event_Msg_Ack_Received(peerID, parseValue(indata,1), parseValue(indata,3), PT-PA);
+    		ms_Agent->Event_Msg_Ack_Received(peerID, parseValue(indata,1), parseValue(indata,3), PA);
 
     	}
     	// flush buffers
@@ -76,6 +76,7 @@ void receiverFunc()
     	}
     	if(PA == TPT)
     	{
+    		cout << "\n\nAll Power Transfered\n\n";
     		PT_Done = true;
     		break;
     	}
@@ -85,7 +86,7 @@ void receiverFunc()
 
 int main()
 {
-	MS_Tick_Type PhaseTime=14000, Obs_RTT=400;
+	MS_Tick_Type PhaseTime=20000, Obs_RTT=400;
     char data[100];
     int msgID=1;
     int MyKmax=20;
@@ -94,8 +95,8 @@ int main()
     client.conn( "localhost" , 4242 );
 
     ms_Agent->Set_My_Kmax_And_Phase_Time(MyKmax, PhaseTime);
-    ms_Agent->Set_PCmin_PC_max(PCmin, PCmax);
-    ms_Agent->Add_Peer(peerID, Obs_RTT);
+    ms_Agent->Set_DeltaMin_DeltaMax(DeltaMin, DeltaMax);
+    ms_Agent->Add_Peer(peerID, Obs_RTT, TPT);
 
     boost::thread *receiverThread;
     receiverThread = new boost::thread(boost::ref(receiverFunc));
@@ -106,16 +107,20 @@ int main()
     	{
     		if(PT < TPT)
     		{
-    			sprintf(data, "*%d#%d#%d#%d#", peerID, msgID, PCsize, ECN_TRANSPORT);
+    			Curr_Delta = ms_Agent->Get_Curr_Delta(peerID);
+
+    			cout << "\n**********"<<Curr_Delta<<"\n";
+
+    			sprintf(data, "*%d#%d#%d#%d#", peerID, msgID, Curr_Delta, ECN_TRANSPORT);
 
     			client.send_data(data);
 
     			ms_Agent->Event_Msg_Sent(peerID, msgID);
 
     			msgID++;
-    			PT += PCsize;
+    			PT += Curr_Delta;
     		}
-        	if(ms_Agent->Get_Current_Tick() == PhaseTime)
+        	if(ms_Agent->Get_Current_Tick() >= PhaseTime)
         	{
         		cout << "\n\nPhaseTime Over\n\n";
         		threadbreak = true;

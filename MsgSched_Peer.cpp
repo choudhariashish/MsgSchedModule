@@ -51,11 +51,11 @@ int Peer::Get_Is_Invariant_State()
 	}
 	else
 	{
-#ifdef CHECK_KMAX_DELTA_PRODUCT
+//#ifdef ALLOW_DELTA_VARY
 
-#else
+//#else
 		if(Curr_K < (Kmax-1))
-#endif
+//#endif
 			Ik_Invariant = true;
 		else
 			Ik_Invariant = false;
@@ -111,7 +111,7 @@ void Peer::Msg_Received(int _MsgID)
    else->   Delete_Msg_Deadline() ,  if ack's message already missed its deadline
    else->	Deadline_Met()
 */
-void Peer::Msg_Ack_Received(int _MsgID, int _ECN, int _Perror)
+void Peer::Msg_Ack_Received(int _MsgID, int _ECN, int _PA)
 {
 	// practically 'Relative_Deadline' should never be '0'
 	if(Deadline_Data_Map.at(_MsgID)->Relative_Deadline != 0)
@@ -129,7 +129,7 @@ void Peer::Msg_Ack_Received(int _MsgID, int _ECN, int _Perror)
 			ECN=false;
 #endif
 
-		set_Perror(_Perror);
+		Set_PA(_PA);
 
 		Actual_RTT= Tick->Get_Current_Tick()-Deadline_Data_Map.at(_MsgID)->Time_Sent;
 
@@ -161,14 +161,10 @@ void Peer::Msg_Ack_Received(int _MsgID, int _ECN, int _Perror)
 				/*
 				 * #################################################################
 				 */
-				Curr_Period = Curr_Relative_Deadline/(Kmax-Curr_K);
+				Update_Period();
 				/*
 				 * #################################################################
 				 */
-
-				if(Curr_Period==0)
-					Curr_Period = 1;
-
 
 #ifdef DEBUG_PEER
 	cout << "\nMS_Peer : Info: PeerID:"<<My_ID \
@@ -239,16 +235,16 @@ void Peer::Check_Deadline_Miss()
 	{
 		ECN_Status = true;
 		Max_Better_Obs_RTT_Count_ECN=MAX_BETTER_OBS_RTT_COUNT;
-//#ifdef DEBUG_PEER
+#ifdef DEBUG_PEER
 		cout << "\n\nMS_Peer : Info: EVENT: COUNTER FALLBACK";
 		cout << "\nMS_Peer : Info: Counter:"<<Max_Better_Obs_RTT_Count_ECN;
-//#endif
+#endif
 	}
 
 	// dump statistics
-	pfile<<Tick->Get_Current_Tick()<<";"<<Curr_Period<<";"<<Curr_K<<";"<<Actual_RTT<<";"<<Perror<<";"<<ECN<<"\n";
+	pfile<<Tick->Get_Current_Tick()<<";"<<Curr_Period<<";"<<Curr_K<<";"<<Actual_RTT<<";"<<PA<<";"<<ECN<<"\n";
 #else
-	pfile<<Tick->Get_Current_Tick()<<";"<<Curr_Period<<";"<<Curr_K<<";"<<Actual_RTT<<";"<<Perror<<"\n";
+	pfile<<Tick->Get_Current_Tick()<<";"<<Curr_Period<<";"<<Curr_K<<";"<<Actual_RTT<<";"<<PA<<"\n";
 #endif
 
 	pfile.flush();
@@ -297,34 +293,19 @@ void Peer::Deadline_Met(int _MsgID)
 	// check for Better RTT
 	MS_Tick_Type temp_MsgRTT = Tick->Get_Current_Tick()-Deadline_Data_Map.at(_MsgID)->Time_Sent;
 
-	cout << "\ntemp_MsgRTT: "<<temp_MsgRTT<<" Curr_RTT: "<<Curr_RTT<<"\n";
+//	cout << "\ntemp_MsgRTT: "<<temp_MsgRTT<<" Curr_RTT: "<<Curr_RTT<<"\n";
 
 	if( temp_MsgRTT < Curr_RTT )
 	{
 		if( (Curr_RTT - temp_MsgRTT) > RESPONSE_TIME_MARGIN )
 		{
-			cout << "\n(Curr_RTT-temp_MsgRTT): "<<(Curr_RTT - temp_MsgRTT);
-
+//			cout << "\n(Curr_RTT-temp_MsgRTT): "<<(Curr_RTT - temp_MsgRTT);
 
 			Better_RTT_Obs_Counter++;
 
 			if(Obs_Avg_RTT <=1)
 				Obs_Avg_RTT = temp_MsgRTT;
 
-
-//#ifdef ENABLE_ECN
-//
-//			Obs_Avg_RTT = (temp_MsgRTT + Obs_Avg_RTT) / 2;
-//
-//			cout <<"\nAvg. count: "<<count<<" Obs_Avg_RTT: "<<Obs_Avg_RTT<<" Curr_RTT: " \
-//						<<Curr_RTT<<"\n";
-//
-//			if(Better_RTT_Obs_Counter == Max_Better_Obs_RTT_Count_ECN)
-//			{
-//				Ack_Recv_Is_Better();
-//			}
-
-//#else
 			Obs_Avg_RTT = (temp_MsgRTT + Obs_Avg_RTT) / 2;
 
 			if(Better_RTT_Obs_Counter == MAX_BETTER_OBS_RTT_COUNT)
@@ -334,12 +315,7 @@ void Peer::Deadline_Met(int _MsgID)
 				// MAX_BETTER_OBS_RTT_COUNT averages
 				Obs_Avg_RTT = 0;
 				Better_RTT_Obs_Counter = 0;
-
 			}
-
-//#endif
-
-
 		}
 		else
 		{
@@ -361,16 +337,10 @@ void Peer::Deadline_Miss()
 	/*
 	 * #################################################################
 	 */
-	if(Kmax == Curr_K)
-		Curr_Period = Curr_RTT;
-	else
-		Curr_Period = Curr_Relative_Deadline/(Kmax-Curr_K);
+	Update_Period();
 	/*
 	 * #################################################################
 	 */
-
-	if(Curr_Period==0)
-		Curr_Period = 1;
 
 #ifdef DEBUG_PEER
 	cout << "\nMS_Peer : Info: PeerID:"<<My_ID \
@@ -410,7 +380,7 @@ void Peer::Ack_Recv_Is_Better()
 	/*
 	 * #################################################################
 	 */
-	Curr_Period = Curr_Relative_Deadline/(Kmax-Curr_K);
+	Update_Period();
 	/*
 	 * #################################################################
 	 */
@@ -450,7 +420,7 @@ void Peer::Detected_ECN_CE()
 
 		ECN_Status = false;
 
-//#ifdef DEBUG_PEER
+#ifdef DEBUG_PEER
 	cout << "\n\nMS_Peer : Info: EVENT: ECN_CE DETECTED" \
 			"\nDisabling adaptation due to better RTT's";
 	cout << "\nMS_Peer : Info: PeerID:"<<My_ID \
@@ -458,15 +428,15 @@ void Peer::Detected_ECN_CE()
 			<<Curr_RTT<<" Rl_Dln:" \
 			<<Curr_Relative_Deadline \
 			<<" Counter:"<<Max_Better_Obs_RTT_Count_ECN<<"\n";
-//#endif
+#endif
 
 	}
 	else
 	{
-//#ifdef DEBUG_PEER
+#ifdef DEBUG_PEER
 		cout << "\n\nMS_Peer : Info: EVENT: ECN_CE DETECTED" \
 				"\nUpdate due to ECN_CE deactivated\n";
-//#endif
+#endif
 	}
 }
 
@@ -484,17 +454,56 @@ MS_Tick_Type Peer::Calculate_ECN_Activate_Time()
 
 void Peer::Update_Period()
 {
-	Curr_Period = Curr_Relative_Deadline/(Kmax-Curr_K);
+#ifdef ALLOW_DELTA_VARY
+	int temp_Curr_Delta=0;
+#endif
+
+	if(Curr_K == Kmax)
+		Curr_Period = Curr_RTT;
+	else
+		Curr_Period = Curr_Relative_Deadline/(Kmax-Curr_K);
+
+// calculate new delta
+#ifdef ALLOW_DELTA_VARY
+	temp_Curr_Delta = Power->Calculate_Delta(Curr_Period, Curr_RTT, Tick->Get_Current_Tick(), PA);
+
+	if(temp_Curr_Delta >= DeltaMax)
+		Curr_Delta = DeltaMax;
+	else if(temp_Curr_Delta <= DeltaMin)
+		Curr_Delta = DeltaMin;
+	else
+		Curr_Delta = temp_Curr_Delta;
+#endif
 }
 
-void Peer::set_Perror(int _Perror)
+void Peer::Set_PA(int _PA)
 {
-	Perror = _Perror;
+	PA = _PA;
+}
+
+#ifdef ALLOW_DELTA_VARY
+void Peer::Set_DeltaMin_DeltaMax(int _deltaMin, int _deltaMax)
+{
+	DeltaMin = _deltaMin;
+	DeltaMax = _deltaMax;
+}
+int Peer::Get_Curr_Delta()
+{
+	return Curr_Delta;
+}
+#endif
+
+void Peer::Set_TPT(int _TPT)
+{
+	TPT = _TPT;
+#ifdef ALLOW_DELTA_VARY
+	Power = new MS_Power(Phase_Time, TPT);
+#endif
 }
 
 // need to set ID for Peer upon creation
 // (ID assigned by Cyber-Algo)
-Peer::Peer(int _PeerID, MS_Tick_Type _Phase_Time, MS_Tick_Type _Curr_RTT=800)
+Peer::Peer(int _PeerID, MS_Tick_Type _Phase_Time, MS_Tick_Type _Curr_RTT=800 )
 {
 	My_ID = _PeerID;
 	Kmax = 0;
@@ -525,7 +534,15 @@ Peer::Peer(int _PeerID, MS_Tick_Type _Phase_Time, MS_Tick_Type _Curr_RTT=800)
 	ECN=false;
 #endif
 
-	Perror=0;
+	// power specific
+	PA=0;
+#ifdef ALLOW_DELTA_VARY
+	DeltaMin = 10;
+	Curr_Delta = DeltaMin;
+	DeltaMax = DeltaMin;
+	// TPT is set by MS_Agent::Add_Peer just after creating a new peer
+	TPT = 0;
+#endif
 
 	Tick = MS_Tick::Get_Instance();
 
@@ -534,9 +551,9 @@ Peer::Peer(int _PeerID, MS_Tick_Type _Phase_Time, MS_Tick_Type _Curr_RTT=800)
     pfile << "##;##\n";
     pfile << "@LiveGraph test file.\n";
 #ifdef ENABLE_ECN
-    pfile << "Tick;Period;Curr_K;Actual_RTT;Perror;ECN\n";
+    pfile << "Tick;Period;Curr_K;Actual_RTT;PA;ECN\n";
 #else
-    pfile << "Tick;Period;Curr_K;Actual_RTT;Perror\n";
+    pfile << "Tick;Period;Curr_K;Actual_RTT;PA\n";
 #endif
     pfile.flush();
 //#endif
@@ -553,6 +570,9 @@ Peer::~Peer()
 		it->second->~Deadline_Data();
 	}
 	Deadline_Data_Map.clear();
+#ifdef ALLOW_DELTA_VARY
+	Power->~MS_Power();
+#endif
 //#ifdef DUMP_PERIOD
 	pfile.close();
 //#endif

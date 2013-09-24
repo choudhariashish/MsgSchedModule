@@ -6,6 +6,7 @@
 CPP_SRCS += \
 ../MsgSched_Agent.cpp \
 ../MsgSched_Peer.cpp \
+../MsgSched_Power.cpp \
 ../MsgSched_Tick.cpp \
 ../Tcp_Client.cpp \
 ../main_sample.cpp 
@@ -13,6 +14,7 @@ CPP_SRCS += \
 OBJS += \
 ./MsgSched_Agent.o \
 ./MsgSched_Peer.o \
+./MsgSched_Power.o \
 ./MsgSched_Tick.o \
 ./Tcp_Client.o \
 ./main_sample.o 
@@ -20,6 +22,7 @@ OBJS += \
 CPP_DEPS += \
 ./MsgSched_Agent.d \
 ./MsgSched_Peer.d \
+./MsgSched_Power.d \
 ./MsgSched_Tick.d \
 ./Tcp_Client.d \
 ./main_sample.d 

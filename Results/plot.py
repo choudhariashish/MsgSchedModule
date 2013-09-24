@@ -39,7 +39,7 @@ ax1.set_ylabel('RTT,Curr_K,Period,Perror,ECN')
 ax1.plot(x_time,y_period, c='r', label='Period')
 ax1.plot(x_time,y_currk, c='b', label='Curr_K')
 ax1.plot(x_time,y_rtt, c='g', label='RTT')
-ax1.plot(x_time,y_perror, c='b', label='Perror')
+#ax1.plot(x_time,y_perror, c='b', label='Perror')
 ax1.plot(x_time,y_ecn, c='g', label='ECN')
 
 leg = ax1.legend()

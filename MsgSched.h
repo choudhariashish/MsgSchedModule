@@ -27,6 +27,7 @@
 //	MODULE INCLUDES
 ///////////////////////////////////////////////////////////////
 #include "MsgSched_Defines.h"
+#include "MsgSched_Power.h"
 
 using namespace std;
 
@@ -74,6 +75,8 @@ public:
 	// need to set this value before Node can send message
 	void Set_Kmax(int _Kmax);
 
+	void Set_TPT(int _TPT);
+
 	/* following needs to be called from 'MS_Agent' when event occurs
 
 	   1) Message received event
@@ -100,6 +103,12 @@ public:
 	void Check_Deadline_Miss();
 	void Update_Period();
 
+#ifdef ALLOW_DELTA_VARY
+	// power specific
+	void Set_DeltaMin_DeltaMax(int _deltamin, int _deltamax);
+	int Get_Curr_Delta();
+#endif
+
 private:
 	// need not have to call(useful for debugging)
 	int Get_Curr_K();
@@ -115,6 +124,8 @@ private:
 	MS_Tick* Tick;
 	int My_ID;
 	int Kmax;
+	// total power to be transfered in this Phase_Time
+	int TPT;
 	int Curr_K;
 	MS_Tick_Type Phase_Time;
 	// Main Invariant 'Is' is calculated for this Peer on function call 'Get_Is_Invariant_State()'
@@ -182,8 +193,13 @@ private:
 	bool ECN;
 #endif
 
-	int Perror;
-	void set_Perror(int _Perror);
+	// power specific
+	int PA;
+	void Set_PA(int _Perror);
+#ifdef ALLOW_DELTA_VARY
+	int DeltaMin, DeltaMax, Curr_Delta;
+	MS_Power *Power;
+#endif
 
 #ifdef DEBUG_PEER
 	void Display_All_Stored_Deadlines()
@@ -224,7 +240,7 @@ private:
 	MS_Agent();
 
 #ifdef ALLOW_DELTA_VARY
-	int PCmin, PCmax;
+	int DeltaMin, DeltaMax;
 #endif
 
 public:
@@ -238,7 +254,8 @@ public:
 	void Set_My_Kmax_And_Phase_Time(int _MS_Agent_My_KmaxLocal, MS_Tick_Type _Phase_Time);
 
 #ifdef ALLOW_DELTA_VARY
-	void Set_PCmin_PC_max(int _PCmin, int _PCmax);
+	void Set_DeltaMin_DeltaMax(int _DeltaMin, int _DeltaMax);
+	int Get_Curr_Delta(int _PeerID);
 #endif
 
 	///////////////////////////////////////////////////////////////
@@ -290,7 +307,7 @@ public:
 	///////////////////////////////////////////////////////////////
 	// adds new peer with Cyber-Algo assigned ID, UUID should work! (if 'int')
 	// Obs_RTT is the round trip time observed in the state collection phase (SC)
-	void Add_Peer(int _PeerID, MS_Tick_Type _Obs_RTT);
+	void Add_Peer(int _PeerID, MS_Tick_Type _Obs_RTT, int _TPT);
 	// delete peer from the map, needs ID
 	void Delete_Peer(int _PeerID);
 	// returns total number of peers available communicate
