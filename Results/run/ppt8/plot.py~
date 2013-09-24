@@ -9,11 +9,15 @@ sys.argv
 
 total = len(sys.argv)
 
+print total
+
 for i in range(0, total):
 	print sys.argv[i]
 
-#data = open(str(sys.argv[0])).read().split('\n')
-data = open('MSMOutput.lgdat').read().split('\n')
+filename = open(sys.argv[1], 'r')
+
+data = filename.read().split('\n')
+#data = open('MSMOutput_ECN1_DELTANV10.lgdat').read().split('\n')
 data = data[3:-1]
 
 x_time = [row.split(';')[0] for row in data]
@@ -32,7 +36,7 @@ fig = plt.figure()
 fig, ((ax1), (ax2)) = plt.subplots(nrows=2, ncols=1)
 
 #ax1 = fig.add_subplot(111)
-ax1.set_title("Time Vs. RTT,Curr_K,Period,ECN")    
+ax1.set_title("With ECN and With Traffic \n Time Vs. RTT,Curr_K,Period,ECN")    
 ax1.set_xlabel('Time')
 ax1.set_ylabel('RTT,Curr_K,Period,ECN')
 ax1.plot(x_time,y_period, c='r', label='Period')
@@ -42,7 +46,7 @@ ax1.plot(x_time,y_ecn, c='g', label='ECN')
 leg = ax1.legend()
 
 #ax2 = fig.add_subplot(223)
-ax2.set_title("Time Vs. PA (No Delta Vary)")    
+ax2.set_title("Time Vs. PA (Delta 10)")    
 ax2.set_xlabel('Time')
 ax2.set_ylabel('Power Acknowledged')
 ax2.plot(x_time,y_pa, c='b', label='PA')

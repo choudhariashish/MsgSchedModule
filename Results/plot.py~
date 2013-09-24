@@ -29,7 +29,7 @@ for i in range(0, len(y_currk)):
 
 fig = plt.figure()
 
-fig, ((ax1), (ax2)) = plt.subplots(nrows=2, ncols=1)
+fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(nrows=2, ncols=2)
 
 #ax1 = fig.add_subplot(111)
 ax1.set_title("Time Vs. RTT,Curr_K,Period,ECN")    

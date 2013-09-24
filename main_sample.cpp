@@ -21,8 +21,8 @@ bool threadbreak = false;
 bool PT_Done = false;
 int peerID=8;
 int TPT=20000, PT=0, PA=0;
-int Curr_Delta = 10;
 int DeltaMin=10, DeltaMax=30;
+int Curr_Delta = DeltaMin;
 
 int parseValue(char buff[], int hashPos)
 {
@@ -95,7 +95,9 @@ int main()
     client.conn( "localhost" , 4242 );
 
     ms_Agent->Set_My_Kmax_And_Phase_Time(MyKmax, PhaseTime);
+#ifdef ALLOW_DELTA_VARY
     ms_Agent->Set_DeltaMin_DeltaMax(DeltaMin, DeltaMax);
+#endif
     ms_Agent->Add_Peer(peerID, Obs_RTT, TPT);
 
     boost::thread *receiverThread;
@@ -107,8 +109,9 @@ int main()
     	{
     		if(PT < TPT)
     		{
+#ifdef ALLOW_DELTA_VARY
     			Curr_Delta = ms_Agent->Get_Curr_Delta(peerID);
-
+#endif
     			cout << "\n**********"<<Curr_Delta<<"\n";
 
     			sprintf(data, "*%d#%d#%d#%d#", peerID, msgID, Curr_Delta, ECN_TRANSPORT);
