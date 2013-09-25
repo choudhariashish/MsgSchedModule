@@ -32,11 +32,13 @@ void MS_Agent::Distribute_KmaxLocal()
 
 		for(map<int, Peer*>::iterator it = All_Peer_Map.begin(); it != All_Peer_Map.end(); it++)
 		{
-#ifdef ALLOW_DELTA_VARY
+
 			(*it).second->Set_DeltaMin_DeltaMax(DeltaMin, DeltaMax);
-#endif
 			(*it).second->Set_Kmax(Kmax_for_each_Peer);
 			(*it).second->Update_Period();
+#ifdef DUMP_LOG
+			(*it).second->Create_LogFile();
+#endif
 		}
 	}
 }
@@ -54,13 +56,14 @@ void MS_Agent::Set_My_Kmax_And_Phase_Time(int _My_KmaxLocal, MS_Tick_Type _Phase
 #endif
 }
 
-#ifdef ALLOW_DELTA_VARY
+
 void MS_Agent::Set_DeltaMin_DeltaMax(int _DeltaMin, int _DeltaMax)
 {
 	DeltaMin = _DeltaMin;
 	DeltaMax = _DeltaMax;
 }
 
+#ifdef ALLOW_DELTA_VARY
 int MS_Agent::Get_Curr_Delta(int _PeerID)
 {
 	if(All_Peer_Map.find(_PeerID) == All_Peer_Map.end())

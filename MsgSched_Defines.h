@@ -19,7 +19,7 @@ typedef	unsigned long int	MS_Tick_Type;
 //#define DEBUG_PEER
 
 // dump Period of adaptation to file
-#define DUMP_PERIOD
+#define DUMP_LOG
 
 //	tick precision measurement, comment the line below to disable
 //#define MEASURE_TICK_PRECISION
@@ -40,7 +40,7 @@ typedef	unsigned long int	MS_Tick_Type;
 // MAX_BETTER_OBS_RTT_COUNT to
 #define ENABLE_ECN
 
-#define ALLOW_DELTA_VARY
+//#define ALLOW_DELTA_VARY
 
 
 #endif /* MSGSCHED_DEFINES_H_ */

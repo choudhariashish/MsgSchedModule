@@ -68,6 +68,7 @@ public:
 	// need to set ID for Peer upon creation
 	// (ID assigned by Cyber-Algo)
 	Peer(int _PeerID, MS_Tick_Type _Phase_Time, MS_Tick_Type _Curr_RTT);
+	void Create_LogFile();
 	~Peer();
 
 	// can send message only if this function returns true
@@ -103,9 +104,10 @@ public:
 	void Check_Deadline_Miss();
 	void Update_Period();
 
+	// DeltaMin=DeltaMax in case of no varying Delta
+	void Set_DeltaMin_DeltaMax(int _deltamin, int _deltamax);
 #ifdef ALLOW_DELTA_VARY
 	// power specific
-	void Set_DeltaMin_DeltaMax(int _deltamin, int _deltamax);
 	int Get_Curr_Delta();
 #endif
 
@@ -195,9 +197,9 @@ private:
 
 	// power specific
 	int PA;
-	void Set_PA(int _Perror);
-#ifdef ALLOW_DELTA_VARY
+	void Set_PA(int _PA);
 	int DeltaMin, DeltaMax, Curr_Delta;
+#ifdef ALLOW_DELTA_VARY
 	MS_Power *Power;
 #endif
 
@@ -239,9 +241,7 @@ private:
 	static MS_Agent *MS_Agent_Singleton;
 	MS_Agent();
 
-#ifdef ALLOW_DELTA_VARY
 	int DeltaMin, DeltaMax;
-#endif
 
 public:
 	///////////////////////////////////////////////////////////////
@@ -253,8 +253,8 @@ public:
 	///////////////////////////////////////////////////////////////
 	void Set_My_Kmax_And_Phase_Time(int _MS_Agent_My_KmaxLocal, MS_Tick_Type _Phase_Time);
 
-#ifdef ALLOW_DELTA_VARY
 	void Set_DeltaMin_DeltaMax(int _DeltaMin, int _DeltaMax);
+#ifdef ALLOW_DELTA_VARY
 	int Get_Curr_Delta(int _PeerID);
 #endif
 

@@ -481,17 +481,19 @@ void Peer::Set_PA(int _PA)
 	PA = _PA;
 }
 
-#ifdef ALLOW_DELTA_VARY
 void Peer::Set_DeltaMin_DeltaMax(int _deltaMin, int _deltaMax)
 {
 	DeltaMin = _deltaMin;
 	DeltaMax = _deltaMax;
 }
+
+#ifdef ALLOW_DELTA_VARY
 int Peer::Get_Curr_Delta()
 {
 	return Curr_Delta;
 }
 #endif
+
 
 void Peer::Set_TPT(int _TPT)
 {
@@ -505,6 +507,10 @@ void Peer::Set_TPT(int _TPT)
 // (ID assigned by Cyber-Algo)
 Peer::Peer(int _PeerID, MS_Tick_Type _Phase_Time, MS_Tick_Type _Curr_RTT=800 )
 {
+	// MS_Power object is not created in constructor
+	// it is created in Peer::Set_TPT(int _TPT) only if
+	// ALLOW_DELTA_VARY is defined
+
 	My_ID = _PeerID;
 	Kmax = 0;
 	Curr_K = 0;
@@ -545,19 +551,47 @@ Peer::Peer(int _PeerID, MS_Tick_Type _Phase_Time, MS_Tick_Type _Curr_RTT=800 )
 #endif
 
 	Tick = MS_Tick::Get_Instance();
-
-//#ifdef DUMP_PERIOD
-    pfile.open("/home/ashish/workspace/Graph/LiveGraph.1.14.Application.bin/MSMOutput.lgdat");
-    pfile << "##;##\n";
-    pfile << "@LiveGraph test file.\n";
-#ifdef ENABLE_ECN
-    pfile << "Tick;Period;Curr_K;Actual_RTT;PA;ECN\n";
-#else
-    pfile << "Tick;Period;Curr_K;Actual_RTT;PA\n";
-#endif
-    pfile.flush();
-//#endif
 }
+
+#ifdef DUMP_LOG
+void Peer::Create_LogFile()
+{
+
+	    pfile.open("/home/ashish/workspace/Graph/LiveGraph.1.14.Application.bin/MSMOutput.lgdat");
+	    pfile << "##;##\n";
+
+	    /* START: dump configuration in which we are running*/
+	    pfile << "#TICK_Reso: "<<MS_Tick_Resolution<<"\n";
+	    pfile << "#RTM: "<<RESPONSE_TIME_MARGIN<<"\n";
+	    pfile << "#RTT_Ctr: "<<MAX_BETTER_OBS_RTT_COUNT<<"\n";
+	    pfile << "#Kmax: "<<Kmax<<"\n";
+    #ifdef ENABLE_ECN
+	    pfile << "#ECN: "<<1<<"\n";
+	#else
+	    pfile << "#ECN: "<<0<<"\n";
+	#endif
+	#ifdef ALLOW_DELTA_VARY
+	    pfile << "#DELTA_vary: "<<1<<"\n";
+	    pfile << "#DELTA_MIN: "<<DeltaMin<<"\n";
+	    pfile << "#DELTA_MAX: "<<DeltaMax<<"\n";
+	#else
+	    pfile << "#DELTA_vary: "<<0<<"\n";
+	    pfile << "#DELTA_MIN: "<<DeltaMin<<"\n";
+	    pfile << "#DELTA_MAX: "<<DeltaMax<<"\n";
+	#endif
+	    pfile << "#Total_PT: "<<TPT<<"\n";
+	    /* STOP: dump configuration in which we are running*/
+
+	    // LiveGraph specific
+	    pfile << "@LiveGraph test file.\n";
+	#ifdef ENABLE_ECN
+	    pfile << "Tick;Period;Curr_K;Actual_RTT;PA;ECN\n";
+	#else
+	    pfile << "Tick;Period;Curr_K;Actual_RTT;PA\n";
+	#endif
+	    pfile.flush();
+}
+#endif
 
 Peer::~Peer()
 {
