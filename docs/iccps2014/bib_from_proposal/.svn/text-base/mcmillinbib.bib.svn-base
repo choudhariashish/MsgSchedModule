@@ -1,0 +1,2796 @@
+
+@inproceedings{Zhu:2010:MEE:1795194.1795196,
+ author = {Zhu, Yun and Westbrook, Edwin and Inoue, Jun and Chapoutot, Alexandre and Salama, Cherif and Peralta, Marisa and Martin, Travis and Taha, Walid and O'Malley, Marcia and Cartwright, Robert and Ames, Aaron and Bhattacharya, Raktim},
+ title = {Mathematical equations as executable models of mechanical systems},
+ booktitle = {Proceedings of the 1st ACM/IEEE International Conference on Cyber-Physical Systems},
+ series = {ICCPS '10},
+ year = {2010},
+ isbn = {978-1-4503-0066-7},
+ location = {Stockholm, Sweden},
+ pages = {1--11},
+ numpages = {11},
+ url = {http://doi.acm.org/10.1145/1795194.1795196},
+ doi = {http://doi.acm.org/10.1145/1795194.1795196},
+ acmid = {1795196},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+}
+
+@inproceedings{Fallah:2010:DCV:1795194.1795217,
+ author = {Fallah, Yaser P. and Huang, ChingLing and Sengupta, Raja and Krishnan, Hariharan},
+ title = {Design of cooperative vehicle safety systems based on tight coupling of communication, computing and physical vehicle dynamics},
+ booktitle = {Proceedings of the 1st ACM/IEEE International Conference on Cyber-Physical Systems},
+ series = {ICCPS '10},
+ year = {2010},
+ isbn = {978-1-4503-0066-7},
+ location = {Stockholm, Sweden},
+ pages = {159--167},
+ numpages = {9},
+ url = {http://doi.acm.org/10.1145/1795194.1795217},
+ doi = {http://doi.acm.org/10.1145/1795194.1795217},
+ acmid = {1795217},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {DSRC, cooperative vehicle safety, cyber physical systems, estimation, vehicular adhoc network},
+}
+
+@inproceedings{DBLP:SitzoffG93,
+  author    = {Michel Sintzoff and
+               Fr{\'e}d{\'e}ric Geurts},
+  title     = {Analysis of Dynamical Systems Using Predicate Transformers
+               - Attraction and Composition},
+  booktitle = {Analysis of Dynamical and Cognitive Systems},
+  year      = {1993},
+  pages     = {227-260},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+
+
+@ARTICLE{OwickiGries1976,
+  AUTHOR =       {S. Owicki and D. Gries},
+  TITLE =        {An axiomatic proof technique for parallel programs},
+  JOURNAL =      {Acta Informatica},
+  YEAR =         {1976},
+  volume =       {6},
+  pages =        {319--340},
+}
+
+@CONFERENCE{PowerPositionPaperMIT,
+  author =       {Mardavij Roozbehani and Munther Dahleh and Sanjoy Mitter},
+  title =        {Robust and Distributed Decisions for Future Cyber-Physical Energy
+Networks},
+  booktitle =    {New Research Directions for Future Cyber-Physical Energy Systems
+},
+  year =         {2009},
+
+  address =      {http://www.ece.cmu.edu/~nsf-cps/file.php?id=87, accessed 02/25/2011},
+  month =        {June},
+}
+
+
+
+@InProceedings{agm05,
+ author    = "A. Armbruster and M. Gosnell and B. McMillin and M. Crow",
+ title     = {{Power Transmission Control Using Distributed Max-Flow}},
+ booktitle = {Proceedings of the 29th Annual IEEE International Computer Software and Applications Conference (COMPSAC)},
+ year      = {2005},
+ isbn      = {},
+ pages     = {},
+ location  = {Edinburgh, Scotland},
+ doi       = {},
+ publisher = {}
+}
+@BOOK{Lyapunov,
+  AUTHOR =       {Chi-Tsong Chen},
+  TITLE =        {{Linear System Theory and Design}},
+  PUBLISHER =    {{Holt, Rinehart and Winston}},
+  YEAR =         {1984},
+  pages =       {414},
+  address =      {{New York}}
+}
+
+
+@Article{bl73,
+ author    = {D. E. Bell  and L. J. LaPadula},
+ title     = {Secure Computer Systems: Mathematical Foundations},
+ journal   = {},
+ volume    = {},
+ number    = {},
+ year      = {1973},
+ pages     = {},
+ doi       = {},
+ publisher = {MITRE Corporation}
+}
+
+@inproceedings{Broy06,
+ author = {Broy, Manfred},
+ title = {Challenges in automotive software engineering},
+ booktitle = {ICSE '06: Proceedings of the 28th international conference on Software engineering},
+ year = {2006},
+ isbn = {1-59593-375-1},
+ pages = {33--42},
+ location = {Shanghai, China},
+ doi = {http://doi.acm.org/10.1145/1134285.1134292},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ }
+
+
+@InProceedings{cma05,
+ author    = {M. Crow and B. McMillin and S. Atcitty},
+ title     =
+	{{An Approach to Improving the Physical and Cyber Security of a Bulk Power System with FACTS}},
+ booktitle = {{Electrical Energy Storage Applications and Technologies Conferences (EESAT)}},
+ year      = {2005},
+ isbn      = {},
+ pages     = {},
+ location  = {},
+ doi       = {},
+ publisher = {}
+}
+
+@Article{cops,
+ author    = {},
+ title     = {CoPS },
+ journal   = {http://www.dsi.unive.it/~mefisto/CoPS/index.php},
+ volume    = {},
+ number    = {},
+ year      = {accessed October 30, 2007},
+ pages     = {},
+ doi       = {},
+ publisher = {}
+}
+
+@Book{dd99,
+author	= {D. Denning},
+title		= {Information Warfare and Security},
+year		= {1999},
+publisher	= {Addison-Wesley}
+}
+
+
+
+
+
+@Book{csp,
+author	= {C. A. R. Hoare},
+title		= {Communicating Sequential Processes},
+year		= {1985},
+publisher	= {Prentice Hall }
+}
+
+@InProceedings{hr06,
+ author    = {J. Huang and A. W. Roscoe},
+ title     = {Extending noninterference properties to the timed world},
+ booktitle = {Proceedings of the 2006 ACM Symposium on Applied Computing},
+ year      = {April 23 - 27, 2006},
+ isbn      = {},
+ pages     = {},
+ location  = {Dijon, France},
+ doi       = {},
+ publisher = {ACM Press,}
+}
+
+@Article{ieee,
+ author    = {},
+ title     = {{IEEE Power Engineering Society FACTS Application Task Force, FACTS Applications}},
+ journal   = {},
+ volume    = {},
+ number    = {},
+ year      = {1996},
+ pages     = {},
+ doi       = {},
+ publisher = {IEEE Publication}
+}
+
+@Book{tla,
+author	= {L. Lamport},
+title		= {Specifying Systems -- The TLA+ Language and Tools for Hardware and Software Engineers},
+year		= {},
+publisher	= {Microsoft Research}
+}
+
+@InProceedings{cps,
+ author    = {E. A. Lee},
+ title     = {{Position Paper: Cyber-Physical Systems - Are Computing Foundations Adequate?}},
+ booktitle = {NSF Workshop On Cyber-Physical Systems: Research Motivation, Techniques and Roadmap},
+ year      = {October 16 - 17, 2006},
+ isbn      = {},
+ pages     = {},
+ location  = {Austin, TX},
+ doi       = {},
+ publisher = {}
+}
+
+@InProceedings{lm07,
+ author	    = {A. Lininger and B. McMillin and M. Crow and B. Chowdhury},
+ title	    = {{Use of Max-Flow on FACTS devices}},
+ booktitle  = {39th North American Power Symposium (NAPS 2007)},
+ location   = {Las Cruces, NM},
+ pages      = {288--294},
+ year       = {September 30 - October 2, 2007}
+}
+
+@InProceedings{mantel,
+ author    = {H. Mantel},
+ title     = {The framework of selective interleaving functions and the modular assembly kit},
+ booktitle = {Proceedings of the 2005 ACM Workshop on Formal Methods in Security Engineering},
+ year      = {October 16 - 17, 2006},
+ isbn      = {},
+ pages     = {53-62},
+ location  = {Fairfax, VA, USA},
+ doi       = {},
+ publisher = {ACM Press}
+}
+
+
+@article{mcc90,
+  author    = {Daryl McCullough},
+  title     = {A Hookup Theorem for Multilevel Security},
+  journal   = {IEEE Trans. Software Eng.},
+  volume    = {16},
+  number    = {6},
+  year      = {1990},
+  pages     = {563-568},
+  ee        = {http://www.computer.org/tse/ts1990/e0563abs.htm},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+
+@InProceedings{mcl90,
+ author    = {J. McLean},
+ title     = {Security Models and Information Flow},
+ booktitle = {Proceedings of the 1990 IEEE Computer Society Press},
+ year      = {1990},
+ isbn      = {},
+ pages     = {},
+ location  = {},
+ doi       = {},
+ publisher = {IEEE  Computer Society Press}
+}
+
+@Book{mcl94,
+author	= {J. McLean},
+title		= {Encyclopedia of Software Engineering - Security Models},
+year		= {1994},
+publisher	= {}
+}
+
+@Article{mcl96,
+ author    = {J. McLean},
+ title     = {A general theory of composition for a class of 'possibilistic' security properties},
+ journal   = {IEEE Transactions on Software Engineering},
+ volume    = {22},
+ number    = {1},
+ year      = {Jan. 1996},
+ pages     = {53--67},
+ doi       = {},
+ publisher = {}
+}
+
+@Article{ncs,
+ author    = {S.F. Midkiff},
+ title     = {Network-centric systems},
+ journal   = {Pervasive Computing, IEEE},
+ volume    = {1},
+ number    = {2},
+ year      = {Apr-Jun. 2002},
+ pages     = {94-97},
+ doi       = {},
+ publisher = {}
+}
+
+@Book{mil89,
+author	= {R. Milner},
+title		= {Communication and Concurrency},
+year		= {1989},
+publisher	= {Prentice Hall}
+}
+
+@Article{oh90,
+ author    = {C. O'Halloran},
+ title     = {A calculus of information flow},
+ journal   = {Proc. European Symp. Research in Computer Security},
+ volume    = {},
+ number    = {},
+ year      = {1990},
+ pages     = {},
+ doi       = {},
+ publisher = {}
+}
+
+@Book{sandia05,
+author	= {L. R. Phillips and M. Baca and J. Hills and  J. Margulies and B. Tejani and B. Richardson and L. Weiland},
+title		= {Analysis of Operations and Cyber Security Policies for a System of Cooperating Flexible Alternating Current Transmission System (FACTS) Devices},
+year		= {2005},
+publisher	= {Sandia National Laboratory, SAND-2005-7301}
+}
+
+@Book{ros04,
+author	= {A.W. Roscoe},
+title		= {The Theory and Practice of Concurrency},
+year		= {Apr. 2004},
+publisher	= {Prentice-Hall (Pearson)}
+}
+
+@Book{rtspin,
+author	= {},
+title		= {RT-SPIN homepage http://www-verimag.imag.fr/~tripakis/rtspin.html},
+year		= {},
+publisher	= {}
+}
+
+@Article{rm05,
+ author    = {M. Ryan and S. Markose and X. F.  Liu and B. McMillin and Y. Cheng},
+ title     = {{Structured Object-Oriented Co-Analysis/Co-Design of Hardware/Software for the FACTS Power System}},
+ journal   = {Proceedings of the 29th Annual IEEE International Computer Software and Applications Conference (COMPSAC)},
+ volume    = {},
+ number    = {},
+ year      = {2005},
+ pages     = {},
+ doi       = {},
+ publisher = {}
+}
+
+@Article{schneider,
+ author    = {F. B. Schneider},
+ title     = {Enforceable security policies},
+ journal   = {ACM Trans. Inf. Syst. Secur},
+ volume    = {3},
+ number    = {1},
+ year      = {Feb. 2000},
+ pages     = {30--50},
+ doi       = {},
+ publisher = {}
+}
+
+@article{AlpernSchneider85,
+  author    = {Bowen Alpern and
+               Fred B. Schneider},
+  title     = {Defining Liveness},
+  journal   = {Inf. Process. Lett.},
+  volume    = {21},
+  number    = {4},
+  year      = {1985},
+  pages     = {181-185},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+
+@Book{spinhomepage,
+author	= {},
+title		= {SPIN homepage http://spinroot.com/spin/whatispin.html},
+year		= {},
+publisher	= {}
+}
+
+
+@InProceedings{slm06,
+ author    = {Y. Sun and X. F. Liu and B. McMillin},
+ title     = {A Methodology for Structured Object-Oriented Elicitation and Analysis of Temporal Constraints in Hardware/Software Co-analysis and Co-design of Real-Time Systems},
+ booktitle = {Proceedings of the 30th Annual IEEE International Conference on Computer Software and Applications (COMPSAC)},
+ year      = {Sept. 2006},
+ isbn      = {},
+ pages     = {},
+ location  = {Chicago},
+ doi       = {},
+ publisher = {}
+}
+@MASTERSTHESIS{tang-thesis,
+  AUTHOR =       {Han Tang},
+  TITLE =        {{Security Analysis of a Cyber-Physical System}},
+  SCHOOL =       {University of Missouri-Rolla},
+  YEAR =         {2007},
+  month =        {August},
+  abstract =     {Cyber-Physical Systems (CPSs) are an integration of computing and physical processes. Information flow is an inherent property of CPSs and is of particular interest at their cyber-physical boundaries. This thesis focuses on discovering information flow properties and proposes a process to model the information flow in CPSs. A Cooperating FACTS Power System serves as a tangible example to illustrate modeling information flow using the proposed process. The proposed process can be used to model the information flow security, help analyze current information flow security requirements, and aid in the design of further security policies in a CPS.},
+}
+
+@InProceedings{tm07,
+ author    = {H. Tang and B. McMillin},
+ title     = {{Analysis of the security of information flow in the Advanced Electric Power Grid using Flexible Alternating Current Transmission System (FACTS)}},
+ booktitle = {Critical Infrastructure Protection},
+ year      = {2008},
+ isbn      = {978-0-387-75461-1},
+ pages     = {43--56},
+ location  = {Hanover, New Hampshire, USA},
+ doi       = {},
+ publisher = {Springer}
+}
+
+@inproceedings{gm09a,
+  author    = {Thoshitha T. Gamage and
+               Bruce M. McMillin},
+  title     = {EM Enforcing Information Flow Properties using Compensating
+               Events},
+  booktitle = {HICSS},
+  year      = {2009},
+  pages     = {1-7},
+  ee        = {http://dx.doi.org/10.1109/HICSS.2009.181},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@InProceedings{gm09b,
+ author    = {T. Gamage and B. McMillin},
+ title     = {{Observing for Changes: Nondeducibility Based Analysis of
+Cyber-Physical Systems}},
+ booktitle = {Critical Infrastructure Protection},
+ year      = {2009},
+ location  = {Hanover, New Hampshire, USA, to appear},
+ publisher = {Springer}
+}
+
+@INPROCEEDINGS{WCCM09,
+  AUTHOR =       {Keyou Wang and M. L. Crow and  Ying Cheng and Bruce M. McMillin},
+  TITLE =        {A  Hardware-in-loop FACTS control system design for real-time power system simulation},
+  BOOKTITLE =    {Proceedings of the 2009 Power Engineering Society General Meeting},
+  YEAR =         {2009}
+}
+
+@article{UnMC08,
+author = {Ryan C. Underwood and Bruce M. McMillin and M. L. Crow},
+title = {An Open Framework for Highly Concurrent Real-Time Hardware-in-the-Loop Simulation},
+journal ={Computer Software and Applications Conference, Annual International},
+volume = {0},
+year = {2008},
+issn = {0730-3157},
+pages = {44-51},
+doi = {http://doi.ieeecomputersociety.org/10.1109/COMPSAC.2008.165},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+}
+
+
+
+@InProceedings{tm08,
+ author    = {H. Tang and B. McMillin},
+ title     = {{Security Property Violation in CPS through Timing}},
+ booktitle = {Proceedings of the 1st Workshop on Cyber-Physical Systems (part of ICDCS)},
+ year      = {2008},
+ location  = {Beijing, CHINA},
+ publisher = {IEEE Computer Society Press}
+}
+
+@InProceedings{zl97,
+ author    = {A. Zakinthinos and E.S. Lee},
+ title     = {A General Theory of Security Properties},
+ booktitle = {Proceedings of the 18th IEEE Computer Society Symposium on Research in Security and Privacy},
+ year      = {1997},
+ isbn      = {},
+ pages     = {},
+ location  = {},
+ doi       = {},
+ publisher = {}
+}
+
+@Book{filpower,
+author	= {},
+title		= {{Missouri S\&T FACTS Interaction Laboratory: http://filpower.mst.edu/}},
+year		= {accessed March 1, 2011},
+publisher	= {}
+}
+
+@Book{csfil,
+author	= {},
+title		= {Power group repository: https://svn.umr.edu/research/csfil/},
+year		= {},
+publisher	= {}
+}
+
+@ARTICLE{Nyquist,
+  AUTHOR =       {H. Nyquist},
+  TITLE =        {{Certain Topics in Telegraph Transmission theory}},
+  JOURNAL =      {{Proceedings of the IEEE}},
+  YEAR =         {2002},
+  volume =       {90},
+  number =       {2},
+  pages =        {280--305},
+  month =        {February},
+  note =         {reprint of AIEE 1928}
+}
+
+@INPROCEEDINGS{AMS08,
+  AUTHOR =       {Ravi Akella and Bruce McMillin and Travis Service},
+  TITLE =        {Teaching of Security in Cyber-Physical Systems},
+  BOOKTITLE =    {Proceedings of the 12th Colloquium for Information Systems Security Education},
+  YEAR =         {2008},
+  address =      {University of Texas, Dallas, Dallas, TX},
+  month =        {June 2-4}
+}
+@TECHREPORT{AMS08a,
+  AUTHOR =       {Ravi Akella and Bruce McMillin},
+  TITLE =        {Formal Security Applied to Cyber-Physical Infrastructures},
+  INSTITUTION =  {Missouri University of Science and Technology},
+  YEAR =         {2008},
+  address =      {Rolla, MO USA},
+  month =        {April 15}
+}
+
+@techreport{DOE04,
+author= {U.S. and Canada Power System Outage Task Force},
+title= {Final Report on the August 14th Blackout in the United States and Canada},
+year= 2004,
+institution= {Department of Energy}
+}
+
+@inproceedings{Carerras01,
+author= {B. A. Carreras and et. al},
+title= {Modeling Blackout Dynamics in Power Transmission Networks with Simple Structure},
+booktitle= {Hawaii International Conference on System Sciences},
+publisher= {IEEE},
+month= jan,
+year= 2001,
+pages= {719--727}
+}
+
+@ARTICLE{CrowZarghami07,
+  AUTHOR =       {M. Zarghami and M. L. Crow},
+  TITLE =        {{The existence of multiple equilibria in the UPFC power injection model}},
+  JOURNAL =      {IEEE Transactions on Power Systems},
+  YEAR =         {2007},
+  volume =       {22},
+  number =       {2},
+  month =        {November},
+  abstract =     {This papers shows the existence of multiple equilibria that arise from the use of the state model of the UPFC.  These multiple equilibria can arise from a common power injection model for the same terminal conditions of shunt bus voltage and series active and reactive power injections.   The multiple equilibria result in two or more sets of eigenvalues, some of which may indicate an unstable operating condition.  Therefore, the use of the UPFC power injection model must be used with caution to ensure stable operation of the UPFC.}
+}
+@ARTICLE{KalyaniCrowTauritz07,
+  AUTHOR =       {R. Kalyani and M. L. Crow and D. Tauritz},
+  TITLE =        {{A Nonlinear Optimization Approach for UPFC Power Flow Control and Voltage Security:  Sufficient System Constraints for Optimality}},
+  JOURNAL =      {},
+  note =         {},
+  year=          {2007},
+  abstract =     {This paper derives the power system operating constraints under which the nonlinear sequential quadratic programming optimization algorithm is guaranteed to find the optimal long term control setting of one or more UPFCs. The algorithm is developed for a small 3 bus illustrative test system and then further applied on the IEEE 118 bus test power system}
+}
+@INPROCEEDINGS{ChaloupekTauritzMcMillin05,
+  AUTHOR =       {J. Chaloupek and D. Tauritz and B. McMillin and M. L. Crow},
+  TITLE =        {{Evolutionary Optimization of Flexible AC Transmission Systems Device Placement for Increasing Power Grid Reliability}},
+  BOOKTITLE =    {6th International Workshop on Frontiers in Evolutionary Algorithms},
+  YEAR =         {2005},
+  pages =        {516--519},
+  address =      {Salt Lake City, Utah},
+  month =        {July}
+}
+
+@INPROCEEDINGS{EHS-34,
+  AUTHOR =       {Matthew Ryan and  Sule Simsek and  Xiaoqing (Frank) Liu and  Bruce McMillin},
+  TITLE =        {An Instance-based Structured Object Oriented Method for Co-analysis/Co-design of Concurrent Embedded Systems},
+  BOOKTITLE =    {Proc. of the 30th Annual IEEE COMPSAC, Chicago},
+  YEAR =         {2006},
+  pages =        {273--280},
+  month =        {September}
+}
+@INPROCEEDINGS{EHS-33,
+  AUTHOR =       {Yan Sun and Xiaoqing Liu and Bruce McMillin},
+  TITLE =        {A Methodology for Structured Object-Oriented Elicitation and Analysis of Temporal Constraints in Hardware/Software Co-analysis and Co-design of Real-Time Systems},
+  BOOKTITLE =    {Proc. of the 30th Annual IEEE COMPSAC, Chicago},
+  YEAR =         {2006},
+  pages =        {281-288},
+  month =        {September}
+}
+
+
+@INPROCEEDINGS{EHS-22,
+  AUTHOR =       {M.L. Crow and C. Gill and F. Liu and B. McMillin and D. Niehaus and D. Tauritz},
+  TITLE =        {Engineering the Advanced Power Grid: Research Challenges and Tasks},
+  BOOKTITLE =    {TAS 2006 Workshop on  Research Directions for Security and Networking in Critical Real-Time and Embedded Systems (CRTES '06)},
+  YEAR =         {2006},
+  address =      {San Jose, CA, USA},
+  month =        {April 4},
+}
+
+@article{ApplicationFaultTolerance,
+ author = {Florio,, Vincenzo De and Blondia,, Chris},
+ title = {A survey of linguistic structures for application-level fault tolerance},
+ journal = {ACM Comput. Surv.},
+ volume = {40},
+ number = {2},
+ year = {2008},
+ issn = {0360-0300},
+ pages = {1--37},
+ doi = {http://doi.acm.org/10.1145/1348246.1348249},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ }
+
+@article{ArMc95,
+  author= {E. Arrowsmith and B. McMillin},
+  title={{CCSP - A Formal System for Distributed Program Debugging}},
+  journal = {Programming and Computer Software},
+ Publisher = {Plenum Publishers},
+ volume= {21},
+ number={1},
+ year={1995},
+ pages = {45--50}
+}
+
+
+@inproceedings{Armbruster-Ryan-Liu-McMillin04,
+ author = {Austin Armbruster and Matt Ryan and Frank Liu and Ying Cheng and Bruce McMillin},
+ title = {Hardware/software co-design for power system test development},
+ booktitle = {WISER '04: Proceedings of the 2004 ACM workshop on Interdisciplinary software engineering research},
+ year = {2004},
+ isbn = {1-58113-988-8},
+ pages = {83--88},
+ location = {Newport Beach, CA, USA},
+ doi = {http://doi.acm.org/10.1145/1029997.1030014},
+ publisher = {ACM Press},
+ address = {New York, NY, USA},
+ }
+@inproceedings{ armbruster-maxflow,
+ author = {Austin Armbruster and Michael Gosnell and Bruce McMillin and Mariesa Crow},
+ title = {The Maximum Flow Algorithm Applied to the Placement and Distributed Steady-State Control of {FACTS} Devices},
+ booktitle = {Proceedings of the 37th Annual North American Power Symposium (NAPS)},
+ location = {Ames, IA},
+ month = {October},
+ pages = {77--83},
+ year = {2005},
+ url = {citeseer.ist.psu.edu/armbruster05maximum.html} }
+
+@INPROCEEDINGS{Gosnell-McMillin-Crow-Armbruster07,
+  AUTHOR =       {Austin Armbruster and Michael Gosnell and Bruce McMillin and Mariesa Louise Crow},
+  TITLE =        {Power Transmission Control Using Distributed Max-Flow},
+  BOOKTITLE =    {Proc. of the 29th International Computers, Software, and Applications Conference (COMPSAC)},
+  YEAR =         {2005},
+  pages =        {256--263},
+  address =      {Edinburgh, Scotland},
+  month =        {July}
+}
+
+@Article{bl73,
+ author    = {D. E. Bell  and L. J. LaPadula},
+ title     = {Secure Computer Systems: Mathematical Foundations},
+ journal   = {},
+ volume    = {},
+ number    = {},
+ year      = {1973},
+ pages     = {},
+ doi       = {},
+ publisher = {MITRE Corporation}
+}
+
+
+@Article{cops,
+ author    = {},
+ title     = {CoPS },
+ journal   = {http://www.dsi.unive.it/~mefisto/CoPS/index.php},
+ volume    = {},
+ number    = {},
+ year      = {},
+ pages     = {},
+ doi       = {},
+ publisher = {}
+}
+
+@Book{dd99,
+author	= {D. Denning},
+title		= {Information Warfare and Security},
+year		= {1999},
+publisher	= {Addison-Wesley}
+}
+
+@Article{fg97,
+ author    = {R. Focardi et al.},
+ title     = {The Compositional Security Checker: A Tool for the Verification of Information Flow Security Properties},
+ journal   = {IEEE Transaction on Software Engineering},
+ volume    = {23},
+ number    = {9},
+ year      = {Sept. 1997},
+ pages     = {550--571},
+ doi       = {},
+ publisher = {}
+}
+
+@Article{fg03,
+ author    = {R. Focardi, R. Gorrieri, and F. Martinelli},
+ title     = {Real-Time Information Flow Analysis},
+ journal   = {IEEE Journal on Selected Areas in Communications},
+ volume    = {21},
+ number    = {1},
+ year      = {Jan. 2003},
+ pages     = {},
+ doi       = {},
+ publisher = {}
+}
+
+@InProceedings{fg00,
+ author    = {R. Focardi, R. Gorrieri, and F. Martinelli},
+ title     = {Information Flow Analysis in a Discrete-Time Process Algebra},
+ booktitle = { Proceedings of the 13th IEEE Computer Security Foundations Workshop (Csfw'00)},
+ year      = {2000},
+ isbn      = {},
+ pages     = {},
+ location  = {Washington DC},
+ doi       = {},
+ publisher = {}
+}
+
+@Article{fg95,
+ author    = {R. Focardi and R. Gorrieri},
+ title     = {A Classification of Security Properties for Process Algebras},
+ journal   = {Computer Security},
+ volume    = {3},
+ number    = {1},
+ year      = {1994/1995},
+ pages     = {5-33},
+ doi       = {},
+ publisher = {}
+}
+
+@InProceedings{gm02,
+ author    = {J. A. Goguen and J. Meseguer},
+ title     = {Security Policies and Security Models},
+ booktitle = {Proc. of the IEEE Symposium on Security and Privacy (SSP'82)},
+ year      = {2002},
+ isbn      = {11-20},
+ pages     = {195-204},
+ location  = {},
+ doi       = {},
+ publisher = {IEEE Computer Society Press}
+}
+
+@InProceedings{ga00,
+ author    = {Guttorm Sindre and Andreas L. Opdahl},
+ title     = {Eliciting Security Requirements by Misuse Cases},
+ booktitle = {Proceedings of the 37th International Conference on Technology of Object oriented languages and systems},
+ year      = {Nov 2000},
+ isbn      = {},
+ pages     = {120-131},
+ location  = {Sydney},
+ doi       = {},
+ publisher = {}
+}
+
+@InProceedings{ga01,
+ author    = {Guttorm Sindre and Andreas L. Opdahl},
+ title     = {Capturing Security Requirements through Misuse Cases},
+ booktitle = {Proceedings of the 14th annual Norwegian informatics conference},
+ year      = {2001},
+ isbn      = {},
+ pages     = {},
+ location  = {Norway},
+ doi       = {},
+ publisher = {}
+}
+
+@InProceedings{ga02,
+ author    = {Guttorm Sindre and Andreas L. Opdahl},
+ title     = {Templates for Misuse Case Descriptions},
+ booktitle = {Proceedings of the 7th international workshop on requirements engineering: Foundation for software quality},
+ year      = {June 2002},
+ isbn      = {},
+ pages     = {},
+ location  = {Switzerland},
+ doi       = {},
+ publisher = {}
+}
+
+@Book{csp,
+author	= {C. A. R. Hoare},
+title		= {Communicating Sequential Processes},
+year		= {1985},
+publisher	= {Prentice Hall }
+}
+
+@InProceedings{hr06,
+ author    = {J. Huang and A. W. Roscoe},
+ title     = {Extending noninterference properties to the timed world},
+ booktitle = {Proceedings of the 2006 ACM Symposium on Applied Computing},
+ year      = {April 23 - 27, 2006},
+ isbn      = {},
+ pages     = {},
+ location  = {Dijon, France},
+ doi       = {},
+ publisher = {ACM Press,}
+}
+
+@Article{ieee,
+ author    = {},
+ title     = {{IEEE Power Engineering Society FACTS Application Task Force, FACTS Applications}},
+ journal   = {},
+ volume    = {},
+ number    = {},
+ year      = {1996},
+ pages     = {},
+ doi       = {},
+ publisher = {IEEE Publication}
+}
+
+@Book{tla,
+author	= {L. Lamport},
+title		= {Specifying Systems -- The TLA+ Language and Tools for Hardware and Software Engineers},
+year		= {},
+publisher	= {Microsoft Research}
+}
+
+@article{McNi92,
+ author = {McMillin,, B. M. and Ni,, L. M.},
+ title = {Reliable Distributed Sorting Through the Application-Oriented Fault Tolerance Paradigm},
+ journal = {IEEE Trans. Parallel Distrib. Syst.},
+ volume = {3},
+ number = {4},
+ year = {1992},
+ issn = {1045-9219},
+ pages = {411--420},
+ doi = {http://dx.doi.org/10.1109/71.149960},
+ publisher = {IEEE Press},
+ address = {Piscataway, NJ, USA},
+ }
+
+
+
+@Article{ncs,
+ author    = {S.F. Midkiff},
+ title     = {Network-centric systems},
+ journal   = {Pervasive Computing, IEEE},
+ volume    = {1},
+ number    = {2},
+ year      = {Apr-Jun. 2002},
+ pages     = {94-97},
+ doi       = {},
+ publisher = {}
+}
+
+@Book{mil89,
+author	= {R. Milner},
+title		= {Communication and Concurrency},
+year		= {1989},
+publisher	= {Prentice Hall}
+}
+
+@Article{oh90,
+ author    = {C. O'Halloran},
+ title     = {A calculus of information flow},
+ journal   = {Proc. European Symp. Research in Computer Security},
+ volume    = {},
+ number    = {},
+ year      = {1990},
+ pages     = {},
+ doi       = {},
+ publisher = {}
+}
+
+
+@Book{ros04,
+author	= {A.W. Roscoe},
+title		= {The Theory and Practice of Concurrency},
+year		= {Apr. 2004},
+publisher	= {Prentice-Hall (Pearson)}
+}
+
+@Book{rtspin,
+author	= {},
+title		= {RT-SPIN homepage http://www-verimag.imag.fr/~tripakis/rtspin.html},
+year		= {},
+publisher	= {}
+}
+
+@ARTICLE{Massoulie07,
+  AUTHOR =       {Laurent Massoulié},
+  TITLE =        {Structural properties of proportional fairness: Stability and insensitivity},
+  JOURNAL =      {Ann. Appl. Probab.},
+  YEAR =         {2007},
+  volume =       {17},
+  number =       {3},
+  pages =        {809-839}
+}
+
+
+@Book{spinhomepage,
+author	= {},
+title		= {SPIN homepage http://spinroot.com/spin/whatispin.html},
+year		= {},
+publisher	= {}
+}
+
+@Book{cip,
+author	= {NERC},
+title		= {Standard CIP-002-1 through Standard CIP-009-1, ftp://www.nerc.com/pub/sys/all\_updl/standards/sar/\\
+Cyber\_Security\_Standards\_Board\_Approval\_02May06.pdf},
+year		= {},
+publisher	= {}
+}
+
+
+@Book{filpower,
+author	= {},
+title		= {Power group: http://filpower.umr.edu/},
+year		= {},
+publisher	= {}
+}
+
+@Book{csfil,
+author	= {},
+title		= {Power group repositary: https://svn.umr.edu/research/csfil/},
+year		= {},
+publisher	= {}
+}
+
+@INPROCEEDINGS{sun-verifying,
+  author = {Yan Sun and Bruce McMillin and Xiaoqing (Frank) Liu and David Cape},
+  title = {{Verifying Noninterference in a Cyber-Physical System: The Advanced
+	Electric Power Grid}},
+  booktitle = {Proceedings of the Seventh International Conference on Quality Software
+	(QSIC)},
+  year = {2007},
+  address = {Portland, OR},
+  month = {October},
+  institution = {Proceedings of the Seventh International Conference on Quality Software
+	(QSIC)},
+  owner = {ryanu},
+  timestamp = {2007.07.30}
+}
+
+@inproceedings{Faza-Sedigh-McMillin07,
+   AUTHOR    =   "A. Faza and S. Sedigh Sarvestani and B. McMillin",
+   TITLE     =   "Reliability Modeling for the Advanced Electric Power Grid",
+   BOOKTITLE =   "the 26th International Conference on Computer Safety, Reliability and Security (SAFECOMP '07)",
+   PAGES     =   "370-383",
+   MONTH     =   "Sept.",
+   YEAR      =   "2007",
+   ADDRESS   =   "Nuremberg, Germany"
+}
+
+@Article{kn:tambey,
+   AUTHOR   =   "N. Tambey and M. L. Kothari",
+   TITLE    =   "Damping of power system oscillations with unified power flow controller (UPFC)",
+   BOOKTITLE =  "IEE Proc.-Gener. Transm. Distrib.",
+   VOLUME    =   "150",
+   NUMBER    =   "2",
+   PAGES     =   "129--140",
+   YEAR      =   "2003"
+}
+@ARTICLE{kn:wang,
+  AUTHOR =       {H. Wang},
+  TITLE =        {{A Unified model for the analysis of FACTS devices in damping power system oscillations - part III:  Unified power flow controller}},
+  JOURNAL =      {IEEE Trans. on Power Delivery},
+  YEAR =         {2000},
+  volume =       {15},
+  number =       {3},
+  pages =        {978--983},
+  month =        {July}
+}
+
+@ARTICLE{kn:gholi,
+  AUTHOR =       {E. Gholipour and S. Saadate},
+  TITLE =        {Improving of transient stability of power systems using UPFC},
+  JOURNAL =      {IEEE Trans. on Power Delivery},
+  YEAR =         {2005},
+  volume =       {20},
+  number =       {2},
+  pages =        {1677--1682},
+  month =        {April}
+}
+
+@ARTICLE{kn:farsangi,
+  AUTHOR =       {M. M. Farsangi, Y. H. Song, and K. Y. Lee},
+  TITLE =        {{Choice of FACTS device control inputs for damping interarea oscillations}},
+  JOURNAL =      {IEEE Trans. on Power Systems},
+  YEAR =         {2004},
+  volume =       {19},
+  number =       {2},
+  pages =        {135--1143},
+  month =        {May}
+}
+
+@ARTICLE{MicrogridReference,
+  AUTHOR =       {A. Dimeas and N. Hatziargyriou},
+  TITLE =        {Operation of a Multiagent System for Microgrid Control},
+  JOURNAL =      {IEEE Trans. on Power Systems},
+  YEAR =         {2005},
+  volume =       {20},
+  number =       {3},
+  pages =        {1447--1455},
+  month =        {Aug}
+}
+
+@Misc{118BUS,
+ author = {Christie, Rich},
+ title  = {Power Systems Test Case Archive: 118 Bus Power Flow Test Case},
+ month  = {May},
+ year   = {1993},
+ optURL = {http://www.ee.washington.edu/research/pstca/pf118/pg\_tca118bus.htm}
+}
+
+@ARTICLE{CNN-Prius2005,
+  AUTHOR =       {Cable News Network},
+  TITLE =        {{Officials eye Toyota Prius stalling}},
+  JOURNAL =      {http://money.cnn.com/ 2005/06/01/Autos/toyota\_prius/index.htm, Accessed January 30, 2009},
+  YEAR =         {2005},
+  month =        {June},
+  source =       {http://money.cnn.com/2005/06/01/Autos/toyota\_prius/index.htm},
+}
+@ARTICLE{Toyota-Prius2005,
+  AUTHOR =       {Toyota},
+  TITLE =        {{Officials eye Toyota Prius stalling}},
+  JOURNAL =      {http://www.greencarcongress.com/2005/10/ toyota\_recalls\_.html, Accessed January 30, 2009},
+  YEAR =         {2005},
+  month =        {October},
+  source =       {http://www.greencarcongress.com/2005/10/toyota\_recalls\_.html},
+}
+
+
+@Article{branicky98,
+ author    = {Michael S. Branicky},
+ title     = {Multiple Lyapunov functions and other analysis tools for switched and hybrid systems},
+ journal   = {IEEE Transactions on Automatic Control},
+ volume    = {43},
+ number    = {4},
+ year      = {1998},
+ pages     = {475-482}
+}
+
+@Article{ye98,
+ author    = {Hui Ye and Anthony N. Michel and Ling Hou},
+ title     = {Stability analysis of systems with impulse effects},
+ journal   = {IEEE Transactions on Automatic Control},
+ volume    = {43},
+ number    = {12},
+ year      = {1998},
+ pages     = {1719-1723}
+}
+
+@Book{liberzon,
+author	= {Daniel Liberzon},
+title		= {Switching in Systems and Control},
+year		= {2003},
+publisher	= {Birkha{\"u}ser},
+address = {Boston}
+}
+
+@article{Bry86,
+author = "R. Bryant",
+title = "Graph-based algorithms for Boolean function manipulation",
+journal = "IEEE Transactions on Computers",
+volume = 35,
+number = 8,
+pages = "677-691",
+year = 1986
+}
+
+@article{Bu92,
+author = "Burch, J. and Clarke, E. and McMillan, K. and Dill, D. and Hwang, L.",
+title = "Symbolic model checking: 10\^{}20 states and beyond",
+journal = "Information and Computation",
+volume = 98,
+number = 2,
+pages = "142-170",
+year = 1992
+}
+
+@inproceedings{CE81,
+author = "E. Clarke and E. Emerson",
+title = "Synthesis of synchronization skeletons for branching time temporal logic",
+booktitle = "The Workshop on Logic of Programs",
+series = "Lecture Notes in Computer Science",
+volume = 131,
+pages = "128-143",
+publisher = "Springer",
+year = 1981
+}
+
+@article{EH85,
+author = "E. Emerson and J. Halpern",
+title = "Decision procedures and expressiveness in the temporal logic of branching time",
+journal = "Journal of Computer and System Science",
+volume = 30,
+number = 1,
+pages = "1-24",
+year = 1985
+}
+
+@incollection{Eme91,
+author = "E. Emerson",
+title = "Temporal and modal logic",
+editor = "J. van Leeuwen",
+booktitle = "Handbook of Theoretical Computer Science",
+pages = "997-1072",
+publisher = "MIT Press",
+year = 1991
+}
+
+@inproceedings{FL77,
+author = "M.J. Fisher and R. E. Ladner",
+title = "Propositional modal logic of programs",
+booktitle = "Proceedings 9th ACM Ann. Symposium on Theory of Computing",
+pages = "286-294",
+year = 1977
+}
+
+@inproceedings{Lam83,
+author = "L. Lamport",
+title = "What good is temporal logic?",
+editor = "R.Mason",
+booktitle = "Information Processing-83: Proc. 9th IFIP Word Computer Congress",
+pages = "657-668",
+publisher = "Elsevier",
+year = 1983
+}
+
+@incollection{Let05,
+author = "A. Letichevsky",
+title = "Algebra of behavior transformations and its applications",
+editor = "V.B. Kudryavtsev and I.G. Rosenberg",
+booktitle = "Structural theory of Automata, Semigroups, and Universal Algebra, NATO Science Series II. Mathematics, Physics and Chemistry - Vol. 207",
+pages = "241-272",
+publisher = "Springer",
+year = 2005
+}
+
+@book{MP92,
+author = "Z. Manna and A. Pnueli",
+title = "The Temporal Logic of Reactive and Concurent Systems",
+publisher = "Springer",
+year = 1992
+}
+
+@misc{Nice01,
+author = "K. Nice",
+title = "How Car Computers Work",
+year = "11 April 2001",
+howpublished = "HowStuffWorks.com. <http://auto.howstuffworks.com/car-computer.htm>, accessed 27 January 2009"
+}
+
+@book{Milner83,
+author = "R. Milner",
+title = "Communication and Concurrency",
+publisher = "Prentice Hall",
+year = 1989
+}
+
+@book{Hoare85,
+author = "C.A.R. Hoare",
+title =  "Communicating Sequential Processes",
+publisher = "Prentice Hall",
+year = 1985
+}
+
+@ARTICLE{Hoare1969,
+  AUTHOR =       {C. A. R. Hoare},
+  TITLE =        {{An axiomatic basis for computer programming}},
+  JOURNAL =      {Communications of the ACM},
+  YEAR =         {1969},
+  volume =       {12},
+  number =       {10},
+  pages =        {576--585},
+  month =        {October},
+  keywords =     {doi:10.1145/363235.363259}
+}
+
+
+@Book{gas1,
+author	= {Aleksandar Kovacevic},
+title		= {{The impact of the Russia-Ukraine gas crisis in south-eastern Europe}},
+year		= {March 2009},
+isbn      = {978-1-901795-86-8},
+publisher	= {Oxford Institute for Energy Studies}
+}
+
+@INPROCEEDINGS{1510028,
+author={Armbruster, A. and Gosnell, M. and McMillin, B. and Crow, M.L.},
+journal={Computer Software and Applications Conference, 2005. COMPSAC 2005. 29th Annual International}, title={Power transmission control using distributed max-flow},
+year={2005},
+month={july},
+volume={1},
+number={},
+pages={256 -263 Vol. 2},
+keywords={FT algorithms;FT communication;distributed algorithm;distributed max-flow;electrical flow maximization;error detection;fault injection;graph vertex;maximum flow algorithm;power grid model;power network;power outage;power system;power transmission control;distributed algorithms;graph theory;optimisation;power transmission control;},
+doi={10.1109/COMPSAC.2005.121},
+ISSN={0730-3157},}
+
+
+@TECHREPORT{IEEE96,
+  AUTHOR =       {{IEEE}},
+  TITLE =        {{IEEE Power Engineering Society FACTS Application Task Force, FACTS Applications}},
+  INSTITUTION =  {{IEEE Publication 96TP116-0}},
+  YEAR =         {1996}
+}
+
+@INPROCEEDINGS{SmartMeter,
+  AUTHOR =       {C. Gunter and et. al.},
+  TITLE =        {Trustworthy Cyber-Infrastructure for Power},
+  BOOKTITLE =    {TAS 2006 Workshop on  Research Directions for Security and Networking in Critical Real-Time and Embedded Systems (CRTES '06)},
+  YEAR =         {2006},
+  address =      {San Jose, CA, USA},
+  month =        {April 4},
+}
+
+@INPROCEEDINGS{4201358,
+author={Davis, C.M. and Tate, J.E. and Okhravi, H. and Grier, C. and Overbye, T.J. and Nicol, D.},
+journal={Power Symposium, 2006. NAPS 2006. 38th North American}, title={{SCADA Cyber Security Testbed Development}},
+year={2006},
+month={September},
+volume={},
+number={},
+pages={483 -488},
+keywords={SCADA cyber security testbed;power system;public networks;public utilities;supervisory control and data acquisition;vulnerability assessment;SCADA systems;power engineering computing;power system control;power system security;public utilities;},
+doi={10.1109/NAPS.2006.359615},
+ISSN={},}
+
+@INPROCEEDINGS{5357008,
+author={Dong-Joo Kang and Jong-Joo Lee and Seog-Joo Kim and Jong-Hyuk Park},
+journal={Transmission Distribution Conference Exposition: Asia and Pacific, 2009}, title={{Analysis on cyber threats to SCADA systems}},
+year={2009},
+month={October},
+volume={},
+number={},
+pages={1 -4},
+keywords={Internet;SCADA systems;cyber security problem;cyber security risks;cyber threats;independent control system;multidirectional approach;supervisory control and data acquisition;Internet;SCADA systems;power system security;security of data;},
+doi={10.1109/TD-ASIA.2009.5357008},
+ISSN={},}
+
+@ARTICLE{Zetter10,
+  AUTHOR =       {Kim Zetter},
+  TITLE =        {Security Pros Question Deployment of Smart Meters},
+  source =       {http://www.wired.com/threatlevel/2010/03/smart-grids-done-smartly/, accessed March 5, 2010},
+}
+
+@TECHREPORT{Stamp03,
+  AUTHOR =       {Jason Stamp and John Dillinger and William Young and Jennifer DePoy },
+  TITLE =        {Common Vulnerabilities in Critical Infrastructure Control Systems},
+  INSTITUTION =  {Sandia National Laboratories},
+  YEAR =         {2003},
+  source =       {http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.132.3264&rep=rep1&type=pdf, accessed March 6, 2010},
+}
+
+@TECHREPORT{McIntyre07,
+  AUTHOR =       {Annie McIntyre and Blair Becker and Ron Halbgewachs },
+  TITLE =        {Security Metrics for Process Control Systems},
+  INSTITUTION =  {Sandia National Laboratories},
+  YEAR =         {2007},
+  number =       {SAND2008-2070P},
+  source =       {http://www.oe.energy.gov/DocumentsandMedia/18-Security_Metrics_for_CS.pdf accessed March 6, 2010},
+}
+
+@INPROCEEDINGS{4840120,
+author={Chen-Ching Liu and Chee-Wooi Ten and Govindarasu, M.},
+journal={Power Systems Conference and Exposition, 2009. PSCE '09. IEEE/PES}, title={{Cybersecurity of SCADA Systems: Vulnerability assessment and mitigation}},
+year={2009},
+month={March},
+volume={},
+number={},
+pages={1 -3},
+keywords={Supervisory Control and Data Acquisition Systems;cyber-power system;cybersecurity vulnerability assessment;integrated SCADA model;power grids;probabilistic cybersecurity index;steady state power flow program;SCADA systems;load flow;power grids;power system security;probability;risk management;},
+doi={10.1109/PSCE.2009.4840120},
+ISSN={},}
+
+@INPROCEEDINGS{4275642,
+author={Chee-Wooi Ten and Chen-Ching Liu and Govindarasu, M.},
+journal={Power Engineering Society General Meeting, 2007. IEEE}, title={{Vulnerability Assessment of Cybersecurity for SCADA Systems Using Attack Trees}},
+year={2007},
+month={June},
+volume={},
+number={},
+pages={1 -8},
+keywords={SCADA systems;attack trees;cybersecurity vulnerability;power system security;security investment analysis;vulnerability index;SCADA systems;power engineering computing;power system security;security of data;},
+doi={10.1109/PES.2007.385876},
+ISSN={1932-5517},}
+
+@INPROCEEDINGS{5255793,
+author={Johansson, Erik and Sommestad, Teodor and Ekstedt, Mathias},
+journal={Electricity Distribution, 2009 20th International Conference and Exhibition on}, title={{Issues of cyber security in SCADA-systems - On the importance of awareness}},
+year={2009},
+month={June},
+volume={},
+number={},
+pages={1 -4},
+keywords={},
+doi={},
+ISSN={0537-9989},}
+
+@INPROCEEDINGS{5275511,
+title={{Renewable energy system research and education at the NSF FREEDM systems center}},
+author={Huang, A.Q.},
+booktitle={Power \& Energy Society General Meeting, 2009. PES '09. IEEE},
+year={2009},
+month={July},
+volume={},
+number={},
+pages={1-6},
+abstract={The Future Renewable Electric Energy Delivery and Management (FREEDM) Systems Center is a new
+National Science Foundation (NSF) Generation-III Engineering Research Center (ERC) established in 2008 with
+the mission to develop the fundamental and enabling technologies necessary for a new and paradigm shifting
+power grid infrastructure, the FREEDM System. The center involves more than fifty professors and one hundred
+fifty graduate and undergraduate students from five US universities and two international universities, as
+well as more than sixty companies and national laboratories in 28 states and 9 countries. This paper will
+highlight center version, mission and research and education.},
+keywords={engineering education, power electronics, power engineering, renewable energy sourcesengineering
+education, power electronics, power engineering, renewable energy system research},
+doi={10.1109/PES.2009.5275511},
+ISSN={1944-9925}, }
+
+
+@INPROCEEDINGS{ABBSmartGrid,
+  AUTHOR =       {Khosrow Moslehi and Ranjit Kumar},
+  TITLE =        {Smart Grid - A Reliability Perspective},
+  BOOKTITLE =    {{IEEE PES Conference on Smart Grid Technologies}},
+  YEAR =         {2010},
+  month =        {January}
+}
+
+@ARTICLE{Kroger08,
+  AUTHOR =       {Wolfgang Kroger},
+  TITLE =        {Critical infrastructures at risk: A need for a new conceptual approach and extended
+  analytical tools},
+  JOURNAL =      {Reliability Engineering & System Safety
+},
+  YEAR =         {2008},
+  volume =       {93},
+  number =       {12},
+  pages =        {1781-1787},
+  month =        {December},
+}
+
+@INPROCEEDINGS{FaS09,
+  AUTHOR =       "A. Faza and S. Sedigh and B. McMillin",
+  TITLE =        "{R}eliability {A}nalysis for the {A}dvanced {E}lectric {P}ower {G}rid: {F}rom {C}yber {C}ontrol and {C}ommunication to {P}hysical {M}anifestations of {F}ailure",
+  BOOKTITLE =    "Proc. of the Int'l Conf. on Computer Safety, Reliability and Security (SAFECOMP'09)",
+  YEAR =         "2009",
+  editor =       "",
+  volume =       "",
+  number =       "",
+  series =       "",
+  pages =        "257-269",
+  address =      "",
+  month =        "September",
+  organization = "",
+  publisher =    "",
+  annote =       "",
+  abstract =     "",
+  keywords =     "",
+  url  =         ""
+}
+
+@ARTICLE{1507024,
+title={Toward a smart grid: power delivery for the 21st century},
+author={Massoud Amin, S. and Wollenberg, B.F.},
+journal={Power and Energy Magazine, IEEE},
+year={2005},
+month={Sept.-Oct.},
+volume={3},
+number={5},
+pages={ 34-41},
+keywords={ parameter estimation, power system interconnection, power system reliability, power system
+security large-scale power delivery infrastructure, online parameter estimation, real-time adaptive control,
+reconfigurable aircraft control system, smart grid},
+doi={10.1109/MPAE.2005.1507024},
+ISSN={1540-7977}
+}
+
+
+
+@INPROCEEDINGS{Zimmer10,
+  AUTHOR =       {Christopher Zimmer and Frank Mueller},
+  TITLE =        {Time-Based Intrusion Detection in Cyber-Physical Systems},
+  BOOKTITLE =    {International Conference on Cyber-Physical Systems},
+  YEAR =         {2010},
+  month =        {April},
+
+}
+
+@inproceedings{1409663,
+ author = {Srinivasan, Vijay and Stankovic, John and Whitehouse, Kamin},
+ title = {Protecting your daily in-home activity information from a wireless snooping attack},
+ booktitle = {UbiComp '08: Proceedings of the 10th international conference on Ubiquitous computing},
+ year = {2008},
+ isbn = {978-1-60558-136-1},
+ pages = {202--211},
+ location = {Seoul, Korea},
+ doi = {http://doi.acm.org/10.1145/1409635.1409663},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ }
+
+ @article{Ditch09,
+ author = {Derek P. Ditch and Bruce M. McMillin},
+ title = {The Security Implication of Multiple Observers in a Distributed System},
+ journal ={Computer Software and Applications Conference, Annual International},
+ volume = {2},
+ issn = {0730-3157},
+ year = {2009},
+ pages = {341-346},
+ doi = {http://doi.ieeecomputersociety.org/10.1109/COMPSAC.2009.157},
+ publisher = {IEEE Computer Society},address = {Los Alamitos, CA, USA}
+
+
+ }
+
+
+@article{Ni1985,
+author = {Ni, Lionel M and Xu, Chong-Wei and Gendreau, Thomas B},
+file = {:Users/dcode/Dropbox/Papers/Ni, Xu, Gendreau - 1985 - A Distributed Drafting Algorithm for Load Balancing.pdf:pdf},
+journal = {IEEE Transactions on Software Engineering},
+pages = {1153--1161},
+title = {{A Distributed Drafting Algorithm for Load Balancing}},
+volume = {11},
+year = {1985}
+}
+
+@article{IEEE1547,
+author={{IEEE}},
+title = {{IEEE Standard 1547.4, Guide for Design, Operation and Integration of Distributed Resource Island Systems with Electric Power Systems}}
+}
+
+
+
+@inproceedings{BaL10,
+   AUTHOR    =   "B. Banks and D. Lecko and Z. Bourque and S. Sedigh and F. Bastianini",
+   TITLE     =   "The Smartbrick wireless sensor node for high-resolution structural health monitoring",
+   BOOKTITLE =   "Proceedings of the 17th International SPIE Symposium on Smart Structures and Materials and Nondestructive Evaluation and Health Monitoring",
+   ADDRESS   =   "San Diego, USA",
+   PAGES     =   "",
+   MONTH     =   "Mar.",
+   YEAR      =   "2010, to appear"
+}
+
+@inproceedings{BaS09,
+   AUTHOR    =   "F. Bastianini and T. Harms and S. Sedigh",
+   TITLE     =   "Autonomous structural health monitoring with the {SmartBrick} platform",
+   BOOKTITLE =   "Proceedings of the 12th International IEEE Conference on Intelligent Transportation Systems (ITSC '09)",
+   PAGES     =   "",
+   ADDRESS   =   "St. Louis, MO",
+   MONTH     =   "Oct.",
+   YEAR      =   "2009"
+}
+
+@article{abs-0801-3102,
+  author    = {Mark Wenstrom and
+               Eloisa Bentivegna and
+               Ali R. Hurson},
+  title     = {Balancing transparency, efficiency and security in pervasive
+               systems},
+  journal   = {CoRR},
+  volume    = {abs/0801.3102},
+  year      = {2008},
+  ee        = {http://arxiv.org/abs/0801.3102},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+@BOOK{Wenger1999,
+  AUTHOR =       {E. Wenger},
+  TITLE =        {Communities of Practice  Learning, Meaning, and Identity},
+  PUBLISHER =    {Cambridge University Press},
+  YEAR =         {1999},
+  address =      {New York}
+}
+
+
+@inproceedings{HaB09b,
+   AUTHOR    =   "T. Harms and P. Shah and S. Sedigh and Z. Bourque and F. Bastianini",
+   TITLE     =   "Zigbee-Enabled Structural Health Monitoring with the {SmartBrick} Network",
+   BOOKTITLE =   "Proceedings of the 7th International Workshop on Structural Health Monitoring (IWSHM '09)",
+   PAGES     =   "",
+   ADDRESS   =   "Stanford, USA",
+   MONTH     =   "Sept.",
+   YEAR      =   "2009"
+}
+
+@inproceedings{LiS09,
+   AUTHOR    =   "J. Lin and S. Sedigh and A. Miller",
+   TITLE     =   "Towards integrated simulation of cyber-physical systems: a case study on intelligent water distribution",
+   BOOKTITLE =   "Proceedings of the 8th IEEE International Conference on Pervasive Intelligence and Computing (PICom '09)",
+   PAGES     =   "",
+   ADDRESS   =   "Chengdu, China",
+   MONTH     =   "Dec.",
+   YEAR      =   "2009"
+}
+
+@InProceedings{SZTI07,
+ author    = {Sztipanovits, J.},
+ title     = {{Composition of Cyber-Physical Systems}},
+ booktitle = {Procs of the 14th Annual IEEE International Conference and Workshops on the Engineering of Computer-Based Systems},
+ year      = {2007},
+ month     = {March},
+ isbn      = {},
+ pages     = {3-6},
+ location  = {Washington, {DC}},
+ doi       = {},
+ publisher = {}
+}
+
+@Article{bl73,
+ author    = {D. E. Bell  and L. J. LaPadula},
+ title     = {Secure Computer Systems: Mathematical Foundations},
+ journal   = {},
+ volume    = {},
+ number    = {},
+ year      = {1973},
+ pages     = {},
+ doi       = {},
+ publisher = {MITRE Corporation}
+}
+
+@InProceedings{cma05,
+ author    = {M. Crow and B. McMillin and S. Atcitty},
+ title     =
+	{{An Approach to Improving the Physical and Cyber Security of a Bulk Power System with FACTS}},
+ booktitle = {{Electrical Energy Storage Applications and Technologies Conferences (EESAT)}},
+ year      = {2005},
+ isbn      = {},
+ pages     = {},
+ location  = {},
+ doi       = {},
+ publisher = {}
+}
+
+@Article{cops,
+ author    = {},
+ title     = {CoPS },
+ journal   = {http://www.dsi.unive.it/~mefisto/CoPS/index.php},
+ volume    = {},
+ number    = {},
+ year      = {accessed October 30, 2007},
+ pages     = {},
+ doi       = {},
+ publisher = {}
+}
+
+@Book{dd99,
+author	= {D. Denning},
+title		= {Information Warfare and Security},
+year		= {1999},
+publisher	= {Addison-Wesley}
+}
+
+@Article{fg97,
+ author    = {R. Focardi and et al.},
+ title     = {The Compositional Security Checker: A Tool for the Verification of Information Flow Security Properties},
+ journal   = {IEEE Transaction on Software Engineering},
+ volume    = {23},
+ number    = {9},
+ year      = {Sept. 1997},
+ pages     = {},
+ doi       = {},
+ publisher = {}
+}
+
+@Article{fg03,
+ author    = {R. Focardi and R. Gorrieri and and F. Martinelli},
+ title     = {Real-Time Information Flow Analysis},
+ journal   = {IEEE Journal on Selected Areas in Communications},
+ volume    = {21},
+ number    = {1},
+ year      = {Jan. 2003},
+ pages     = {},
+ doi       = {},
+ publisher = {}
+}
+
+@InProceedings{fg00,
+ author    = {R. Focardi and R. Gorrieri and and F. Martinelli},
+ title     = {Information Flow Analysis in a Discrete-Time Process Algebra},
+ booktitle = { Proceedings of the 13th IEEE Computer Security Foundations Workshop (Csfw'00)},
+ year      = {2000},
+ isbn      = {},
+ pages     = {},
+ location  = {Washington DC},
+ doi       = {},
+ publisher = {}
+}
+
+@Article{fg95,
+ author    = {R. Focardi and R. Gorrieri},
+ title     = {A Classification of Security Properties for Process Algebras},
+ journal   = {Computer Security},
+ volume    = {3},
+ number    = {1},
+ year      = {1994/1995},
+ pages     = {5-33},
+ doi       = {},
+ publisher = {}
+}
+
+@InProceedings{gm02,
+ author    = {J. A. Goguen and J. Meseguer},
+ title     = {{Security Policies and Security Models}},
+ booktitle = {{Proc. of the IEEE Symposium on Security and Privacy (SSP'82)}},
+ year      = {2002},
+ isbn      = {11-20},
+ pages     = {195-204},
+ location  = {},
+ doi       = {},
+ publisher = {IEEE Computer Society Press}
+}
+
+@InProceedings{ga00,
+ author    = {Guttorm Sindre and Andreas L. Opdahl},
+ title     = {Eliciting Security Requirements by Misuse Cases},
+ booktitle = {Proceedings of the 37th International Conference on Technology of Object oriented languages and systems},
+ year      = {Nov 2000},
+ isbn      = {},
+ pages     = {120-131},
+ location  = {Sydney},
+ doi       = {},
+ publisher = {}
+}
+
+@InProceedings{ga01,
+ author    = {Guttorm Sindre and Andreas L. Opdahl},
+ title     = {Capturing Security Requirements through Misuse Cases},
+ booktitle = {Proceedings of the 14th annual Norwegian informatics conference},
+ year      = {2001},
+ isbn      = {},
+ pages     = {},
+ location  = {Norway},
+ doi       = {},
+ publisher = {}
+}
+
+@InProceedings{ga02,
+ author    = {Guttorm Sindre and Andreas L. Opdahl},
+ title     = {Templates for Misuse Case Descriptions},
+ booktitle = {Proceedings of the 7th international workshop on requirements engineering: Foundation for software quality},
+ year      = {June 2002},
+ isbn      = {},
+ pages     = {},
+ location  = {Switzerland},
+ doi       = {},
+ publisher = {}
+}
+
+@Book{csp,
+author	= {C. A. R. Hoare},
+title		= {Communicating Sequential Processes},
+year		= {1985},
+publisher	= {Prentice Hall }
+}
+
+@InProceedings{hr06,
+ author    = {J. Huang and A. W. Roscoe},
+ title     = {Extending noninterference properties to the timed world},
+ booktitle = {Proceedings of the 2006 ACM Symposium on Applied Computing},
+ year      = {April 23 - 27, 2006},
+ isbn      = {},
+ pages     = {},
+ location  = {Dijon, France},
+ doi       = {},
+ publisher = {ACM Press,}
+}
+
+@Article{ieee,
+ author    = {},
+ title     = {{IEEE Power Engineering Society FACTS Application Task Force, FACTS Applications}},
+ journal   = {},
+ volume    = {},
+ number    = {},
+ year      = {1996},
+ pages     = {},
+ doi       = {},
+ publisher = {IEEE Publication}
+}
+
+@Book{tla,
+author	= {L. Lamport},
+title		= {Specifying Systems -- The TLA+ Language and Tools for Hardware and Software Engineers},
+year		= {},
+publisher	= {Microsoft Research}
+}
+
+@InProceedings{cps,
+ author    = {E. A. Lee},
+ title     = {{Position Paper: Cyber-Physical Systems - Are Computing Foundations Adequate?}},
+ booktitle = {NSF Workshop On Cyber-Physical Systems: Research Motivation, Techniques and Roadmap},
+ year      = {October 16 - 17, 2006},
+ isbn      = {},
+ pages     = {},
+ location  = {Austin, TX},
+ doi       = {},
+ publisher = {}
+}
+
+@InProceedings{lm07,
+ author	    = {A. Lininger and B. McMillin and M. Crow and B. Chowdhury},
+ title	    = {{Use of Max-Flow on FACTS devices}},
+ booktitle  = {39th North American Power Symposium (NAPS 2007)},
+ location   = {Las Cruces, NM},
+ pages      = {288--294},
+ year       = {September 30 - October 2, 2007}
+}
+
+@INPROCEEDINGS{ChB06,
+  AUTHOR =       "Badrul H. Chowdhury and Sushant Baravc",
+  TITLE =        "Creating Cascading Failure Scenarios in Interconnected Power Systems",
+  BOOKTITLE =    "IEEE Power Engineering Society General Meeting",
+  YEAR =         "2006",
+  month =        "June",
+  annote =       "A summary of Cascading faults scenarios using the IEEE118 system bus",
+}
+
+@InProceedings{mantel,
+ author    = {H. Mantel},
+ title     = {The framework of selective interleaving functions and the modular assembly kit},
+ booktitle = {Proceedings of the 2005 ACM Workshop on Formal Methods in Security Engineering},
+ year      = {October 16 - 17, 2006},
+ isbn      = {},
+ pages     = {53-62},
+ location  = {Fairfax, VA, USA},
+ doi       = {},
+ publisher = {ACM Press}
+}
+
+
+@article{mcc90,
+  author    = {Daryl McCullough},
+  title     = {A Hookup Theorem for Multilevel Security},
+  journal   = {IEEE Trans. Software Eng.},
+  volume    = {16},
+  number    = {6},
+  year      = {1990},
+  pages     = {563-568},
+  ee        = {http://www.computer.org/tse/ts1990/e0563abs.htm},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+
+@InProceedings{mcl90,
+ author    = {J. McLean},
+ title     = {Security Models and Information Flow},
+ booktitle = {Procs. of the 1990 IEEE Computer Society Press},
+ year      = {1990},
+ isbn      = {},
+ pages     = {},
+ location  = {},
+ doi       = {},
+ publisher = {IEEE  Computer Society Press}
+}
+
+@Book{mcl94,
+author	= {J. McLean},
+title		= {Encyclopedia of Software Engineering - Security Models},
+year		= {1994},
+publisher	= {}
+}
+
+@Article{mcl96,
+ author    = {J. McLean},
+ title     = {A general theory of composition for a class of `possibilistic' security properties},
+ journal   = {IEEE Transactions on Software Engineering},
+ volume    = {22},
+ number    = {1},
+ year      = {Jan. 1996},
+ pages     = {53--67},
+ doi       = {},
+ publisher = {}
+}
+
+@Article{ncs,
+ author    = {S.F. Midkiff},
+ title     = {Network-centric systems},
+ journal   = {Pervasive Computing, IEEE},
+ volume    = {1},
+ number    = {2},
+ year      = {Apr-Jun. 2002},
+ pages     = {94-97},
+ doi       = {},
+ publisher = {}
+}
+
+@Book{mil89,
+author	= {R. Milner},
+title		= {Communication and Concurrency},
+year		= {1989},
+publisher	= {Prentice Hall}
+}
+
+@Article{oh90,
+ author    = {C. O'Halloran},
+ title     = {A calculus of information flow},
+ journal   = {Proc. European Symp. Research in Computer Security},
+ volume    = {},
+ number    = {},
+ year      = {1990},
+ pages     = {},
+ doi       = {},
+ publisher = {}
+}
+
+@Book{sandia05,
+author	= {L. R. Phillips and M. Baca and J. Hills and  J. Margulies and B. Tejani and B. Richardson and L. Weiland},
+title		= {Analysis of Operations and Cyber Security Policies for a System of Cooperating Flexible Alternating Current Transmission System (FACTS) Devices},
+year		= {2005},
+publisher	= {Sandia National Laboratory, SAND-2005-7301}
+}
+
+@Book{ros04,
+author	= {A.W. Roscoe},
+title		= {The Theory and Practice of Concurrency},
+year		= {Apr. 2004},
+publisher	= {Prentice-Hall (Pearson)}
+}
+
+@Book{rtspin,
+author	= {},
+title		= {RT-SPIN homepage http://www-verimag.imag.fr/~tripakis/rtspin.html},
+year		= {},
+publisher	= {}
+}
+
+@Article{rm05,
+ author    = {M. Ryan and S. Markose and X. F.  Liu and B. McMillin and Y. Cheng},
+ title     = {{Structured Object-Oriented Co-Analysis/Co-Design of Hardware/Software for the FACTS Power System}},
+ journal   = {Procs. of the 29th Annual IEEE International Computer Software and Applications Conference (COMPSAC)},
+ volume    = {},
+ number    = {},
+ year      = {2005},
+ pages     = {},
+ doi       = {},
+ publisher = {}
+}
+
+@Article{schneider,
+ author    = {F. B. Schneider},
+ title     = {Enforceable security policies},
+ journal   = {ACM Trans. Inf. Syst. Secur},
+ volume    = {3},
+ number    = {1},
+ year      = {Feb. 2000},
+ pages     = {30--50},
+ doi       = {},
+ publisher = {}
+}
+
+@Book{spin,
+author	= {},
+title		= {SPIN homepage http://spinroot.com/spin/whatispin.html},
+year		= {},
+publisher	= {}
+}
+
+
+@InProceedings{slm06,
+ author    = {Y. Sun and X. F. Liu and B. McMillin},
+ title     = {A Methodology for Structured Object-Oriented Elicitation and Analysis of Temporal Constraints in Hardware/Software Co-analysis and Co-design of Real-Time Systems},
+ booktitle = {Procs. of the 30th Annual IEEE International Conference on Computer Software and Applications (COMPSAC)},
+ year      = {Sept. 2006},
+ isbn      = {},
+ pages     = {281--290},
+ location  = {Chicago},
+ doi       = {},
+ publisher = {}
+}
+@MASTERSTHESIS{tang-thesis,
+  AUTHOR =       {Han Tang},
+  TITLE =        {{Security Analysis of a Cyber-Physical System}},
+  SCHOOL =       {University of Missouri-Rolla},
+  YEAR =         {2007},
+  month =        {August},
+  abstract =     {Cyber-Physical Systems (CPSs) are an integration of computing and physical processes. Information flow is an inherent property of CPSs and is of particular interest at their cyber-physical boundaries. This thesis focuses on discovering information flow properties and proposes a process to model the information flow in CPSs. A Cooperating FACTS Power System serves as a tangible example to illustrate modeling information flow using the proposed process. The proposed process can be used to model the information flow security, help analyze current information flow security requirements, and aid in the design of further security policies in a CPS.},
+}
+
+@InProceedings{tm07,
+ author    = {H. Tang and B. McMillin},
+ title     = {{Analysis of the security of information flow in the Advanced Electric Power Grid using Flexible Alternating Current Transmission System (FACTS)}},
+ booktitle = {Critical Infrastructure Protection},
+ year      = {2008},
+ isbn      = {978-0-387-75461-1},
+ pages     = {43--56},
+ location  = {Hanover, New Hampshire, USA},
+ doi       = {},
+ publisher = {Springer}
+}
+
+@InProceedings{tm08,
+ author    = {H. Tang and B. McMillin},
+ title     = {{Security Property Violation in CPS through Timing}},
+ booktitle = {Proceedings of the 1st Workshop on Cyber-Physical Systems (part of ICDCS)},
+ year      = {2008},
+ pages     = {519--524},
+ location  = {Beijing, CHINA},
+ publisher = {IEEE Computer Society Press}
+}
+
+@InProceedings{zl97,
+ author    = {A. Zakinthinos and E.S. Lee},
+ title     = {A General Theory of Security Properties},
+ booktitle = {Procs. of the 18th IEEE Computer Society Symposium on Research in Security and Privacy},
+ year      = {1997},
+ isbn      = {},
+ pages     = {},
+ location  = {},
+ doi       = {},
+ publisher = {}
+}
+
+@misc{filpower,
+organization	= {Missouri University of Science and Technology},
+title		= {{Missouri S\&T FACTS Interaction Laboratory}},
+year		= {2008},
+month = {retrieved Dec.},
+url	= {http://filpower.mst.edu}
+}
+
+@Book{csfil,
+author	= {},
+title		= {Power group repository: https://svn.umr.edu/research/csfil/},
+year		= {},
+publisher	= {}
+}
+
+@ARTICLE{Nyquist,
+  AUTHOR =       {H. Nyquist},
+  TITLE =        {{Certain Topics in Telegraph Transmission theory}},
+  JOURNAL =      {{Proceedings of the IEEE}},
+  YEAR =         {2002},
+  volume =       {90},
+  number =       {2},
+  pages =        {280--305},
+  month =        {February},
+  note =         {reprint of AIEE 1928}
+}
+
+@ARTICLE{AkellaTangMcMillin,
+  AUTHOR =       {Ravi Akella and Han Tang and Bruce McMillin},
+  TITLE =        {ANALYSIS OF INFORMATION FLOW SECURITY IN CYBER-PHYSICAL
+SYSTEMS},
+  JOURNAL =      {International Journal of Critical Infrastructure Protection},
+  YEAR =         {2010},
+  VOLUME =      {3-4},
+  PAGES =       {157-173},
+  month =       {December}
+}
+
+@INPROCEEDINGS{5254049,
+title={The Security Implication of Multiple Observers in a Distributed System},
+author={Ditch, D.P. and McMillin, B.M.},
+booktitle={Computer Software and Applications Conference, 2009. COMPSAC '09. 33rd Annual IEEE International},
+year={2009},
+month={July},
+volume={2},
+number={},
+pages={341-346},
+keywords={distributed processing, graph theory, security of data, statistical analysisconfidential information, confidentiality, crippling attack, distributed system, electrical physics, gas pipeline, graph theory, information dissemination, large scale computer network, multiple observer, oil pipeline, partially deducible system, power transmission system, resistance network, security analysis, security implication, statistics, traffic system},
+doi={10.1109/COMPSAC.2009.157},
+ISSN={0730-3157}, }
+
+@INPROCEEDINGS{5254191,
+title={Model-Checking {BNDC} Properties in Cyber-Physical Systems},
+author={Akella, R. and McMillin, B.M.},
+booktitle={Computer Software and Applications Conference, 2009. COMPSAC '09. 33rd Annual IEEE International},
+year={2009},
+month={July},
+volume={1},
+number={},
+pages={660-663},
+keywords={bisimulation equivalence, control engineering computing, discrete event systems, natural gas technology, pipelines, process algebra, security of dataModel checking BNDC properties, bisimulation based non deducibility on compositions, cyber-physical systems, discrete event system, security process algebra},
+doi={10.1109/COMPSAC.2009.101},
+ISSN={0730-3157}, }
+
+
+@InProceedings{gm09b,
+ author    = {T. Gamage and B. McMillin},
+ title     = {{Observing for Changes: Nondeducibility Based Analysis of
+Cyber-Physical Systems}},
+ booktitle = {Critical Infrastructure Protection},
+ year      = {2009},
+ location  = {Hanover, New Hampshire, USA},
+ publisher = {Springer},
+ pages     = {169--183}
+
+}
+
+@INPROCEEDINGS{AMS08,
+  AUTHOR =       {Ravi Akella and Bruce McMillin and Travis Service},
+  TITLE =        {Teaching of Security in Cyber-Physical Systems},
+  BOOKTITLE =    {Proceedings of the 12th Colloquium for Information Systems Security Education},
+  YEAR =         {2008},
+  address =      {University of Texas, Dallas, Dallas, TX},
+  month =        {June 2-4}
+}
+@TECHREPORT{AMS08a,
+  AUTHOR =       {Ravi Akella and Bruce McMillin},
+  TITLE =        {Formal Security Applied to Cyber-Physical Infrastructures},
+  INSTITUTION =  {Missouri University of Science and Technology},
+  YEAR =         {2008},
+  address =      {Rolla, MO USA},
+  month =        {April 15}
+}
+
+@techreport{DOE04,
+author= {U.S. and Canada Power System Outage Task Force},
+title= {Final Report on the August 14th Blackout in the United States and Canada},
+year= 2004,
+institution= {Department of Energy}
+}
+
+@inproceedings{Carerras01,
+author= {B. A. Carreras and et. al},
+title= {Modeling Blackout Dynamics in Power Transmission Networks with Simple Structure},
+booktitle= {Hawaii International Conference on System Sciences},
+publisher= {IEEE},
+month= jan,
+year= 2001,
+pages= {719--727}
+}
+
+@ARTICLE{CrowZarghami07,
+  AUTHOR =       {M. Zarghami and M. L. Crow},
+  TITLE =        {{The existence of multiple equilibria in the UPFC power injection model}},
+  JOURNAL =      {IEEE Transactions on Power Systems},
+  YEAR =         {2007},
+  volume =       {22},
+  number =       {2},
+  month =        {November},
+  abstract =     {This papers shows the existence of multiple equilibria that arise from the use of the state model of the UPFC.  These multiple equilibria can arise from a common power injection model for the same terminal conditions of shunt bus voltage and series active and reactive power injections.   The multiple equilibria result in two or more sets of eigenvalues, some of which may indicate an unstable operating condition.  Therefore, the use of the UPFC power injection model must be used with caution to ensure stable operation of the UPFC.}
+}
+@ARTICLE{KalyaniCrowTauritz07,
+  AUTHOR =       {R. Kalyani and M. L. Crow and D. Tauritz},
+  TITLE =        {{A Nonlinear Optimization Approach for UPFC Power Flow Control and Voltage Security:  Sufficient System Constraints for Optimality}},
+  JOURNAL =      {IEEE Transactions on Power Systems},
+  note =         {in review},
+  year=          {2007},
+  abstract =     {This paper derives the power system operating constraints under which the nonlinear sequential quadratic programming optimization algorithm is guaranteed to find the optimal long term control setting of one or more UPFCs. The algorithm is developed for a small 3 bus illustrative test system and then further applied on the IEEE 118 bus test power system}
+}
+@INPROCEEDINGS{ChaloupekTauritzMcMillin05,
+  AUTHOR =       {J. Chaloupek and D. Tauritz and B. McMillin and M. L. Crow},
+  TITLE =        {{Evolutionary Optimization of Flexible AC Transmission Systems Device Placement for Increasing Power Grid Reliability}},
+  BOOKTITLE =    {6th International Workshop on Frontiers in Evolutionary Algorithms},
+  YEAR =         {2005},
+  address =      {Salt Lake City, Utah},
+  month =        {July}
+}
+
+@INPROCEEDINGS{EHS-34,
+  AUTHOR =       {Matthew Ryan and  Sule Simsek and  Xiaoqing (Frank) Liu and  Bruce McMillin},
+  TITLE =        {An Instance-based Structured Object Oriented Method for Co-analysis/Co-design of Concurrent Embedded Systems},
+  BOOKTITLE =    {Proc. of the 30th Annual IEEE COMPSAC, Chicago},
+  YEAR =         {2006},
+  pages =        {273--280},
+  month =        {September}
+}
+@INPROCEEDINGS{EHS-33,
+  AUTHOR =       {Yan Sun and Xiaoqing Liu and Bruce McMillin},
+  TITLE =        {A Methodology for Structured Object-Oriented Elicitation and Analysis of Temporal Constraints in Hardware/Software Co-analysis and Co-design of Real-Time Systems},
+  BOOKTITLE =    {Proc. of the 30th Annual IEEE COMPSAC, Chicago},
+  YEAR =         {2006},
+  pages =        {281-288},
+  month =        {September}
+}
+
+
+@INPROCEEDINGS{EHS-22,
+  AUTHOR =       {M.L. Crow and C. Gill and F. Liu and B. McMillin and D. Niehaus and D. Tauritz},
+  TITLE =        {Engineering the Advanced Power Grid: Research Challenges and Tasks},
+  BOOKTITLE =    {TAS 2006 Workshop on  Research Directions for Security and Networking in Critical Real-Time and Embedded Systems (CRTES '06)},
+  YEAR =         {2006},
+  address =      {San Jose, CA, USA},
+  month =        {April 4},
+}
+
+@inproceedings{Armbruster-Ryan-Liu-McMillin04,
+ author = {Austin Armbruster and Matt Ryan and Frank Liu and Ying Cheng and Bruce McMillin},
+ title = {Hardware/software co-design for power system test development},
+ booktitle = {WISER '04: Proceedings of the 2004 ACM workshop on Interdisciplinary software engineering research},
+ year = {2004},
+ isbn = {1-58113-988-8},
+ pages = {83--88},
+ location = {Newport Beach, CA, USA},
+ doi = {http://doi.acm.org/10.1145/1029997.1030014},
+ publisher = {ACM Press},
+ address = {New York, NY, USA},
+ }
+@inproceedings{ armbruster-maxflow,
+ author = {Austin Armbruster and Michael Gosnell and Bruce McMillin and Mariesa Crow},
+ title = {The Maximum Flow Algorithm Applied to the Placement and Distributed Steady-State Control of {FACTS} Devices},
+ booktitle = {Proceedings of the 37th Annual North American Power Symposium (NAPS)},
+ location = {Ames, IA},
+ month = {October},
+ pages = {77--83},
+ year = {2005},
+}
+
+@INPROCEEDINGS{Gosnell-McMillin-Crow-Armbruster05,
+  AUTHOR =       {Austin Armbruster and Michael Gosnell and Bruce McMillin and Mariesa Louise Crow},
+  TITLE =        {Power Transmission Control Using Distributed Max-Flow},
+  BOOKTITLE =    {Proc. of the 29th International Computers, Software, and Applications Conference (COMPSAC)},
+  YEAR =         {2005},
+  pages =        {256--263},
+  address =      {Edinburgh, Scotland},
+  month =        {July}
+}
+
+@Article{bl73,
+ author    = {D. E. Bell  and L. J. LaPadula},
+ title     = {Secure Computer Systems: Mathematical Foundations},
+ journal   = {},
+ volume    = {},
+ number    = {},
+ year      = {1973},
+ pages     = {},
+ doi       = {},
+ publisher = {MITRE Corporation}
+}
+
+
+@Article{cops,
+ author    = {},
+ title     = {CoPS },
+ journal   = {http://www.dsi.unive.it/~mefisto/CoPS/index.php},
+ volume    = {},
+ number    = {},
+ year      = {},
+ pages     = {},
+ doi       = {},
+ publisher = {}
+}
+
+@Book{dd99,
+author	= {D. Denning},
+title		= {Information Warfare and Security},
+year		= {1999},
+publisher	= {Addison-Wesley}
+}
+
+@Article{fg97,
+ author    = {R. Focardi et al.},
+ title     = {The Compositional Security Checker: A Tool for the Verification of Information Flow Security Properties},
+ journal   = {IEEE Transaction on Software Engineering},
+ volume    = {23},
+ number    = {9},
+ year      = {Sept. 1997},
+ pages     = {550--571},
+ doi       = {},
+ publisher = {}
+}
+
+@Article{fg03,
+ author    = {R. Focardi, R. Gorrieri, and F. Martinelli},
+ title     = {Real-Time Information Flow Analysis},
+ journal   = {IEEE Journal on Selected Areas in Communications},
+ volume    = {21},
+ number    = {1},
+ year      = {Jan. 2003},
+ pages     = {},
+ doi       = {},
+ publisher = {}
+}
+
+@InProceedings{fg00,
+ author    = {R. Focardi, R. Gorrieri, and F. Martinelli},
+ title     = {Information Flow Analysis in a Discrete-Time Process Algebra},
+ booktitle = { Proceedings of the 13th IEEE Computer Security Foundations Workshop (Csfw'00)},
+ year      = {2000},
+ isbn      = {},
+ pages     = {},
+ location  = {Washington DC},
+ doi       = {},
+ publisher = {}
+}
+
+@Article{fg95,
+ author    = {R. Focardi and R. Gorrieri},
+ title     = {A Classification of Security Properties for Process Algebras},
+ journal   = {Computer Security},
+ volume    = {3},
+ number    = {1},
+ year      = {1994/1995},
+ pages     = {5-33},
+ doi       = {},
+ publisher = {}
+}
+
+@InProceedings{gm02,
+ author    = {J. A. Goguen and J. Meseguer},
+ title     = {Security Policies and Security Models},
+ booktitle = {Proc. of the IEEE Symposium on Security and Privacy (SSP'82)},
+ year      = {2002},
+ isbn      = {11-20},
+ pages     = {195-204},
+ location  = {},
+ doi       = {},
+ publisher = {IEEE Computer Society Press}
+}
+
+@InProceedings{ga00,
+ author    = {Guttorm Sindre and Andreas L. Opdahl},
+ title     = {Eliciting Security Requirements by Misuse Cases},
+ booktitle = {Proceedings of the 37th International Conference on Technology of Object oriented languages and systems},
+ year      = {Nov 2000},
+ isbn      = {},
+ pages     = {120-131},
+ location  = {Sydney},
+ doi       = {},
+ publisher = {}
+}
+
+@InProceedings{ga01,
+ author    = {Guttorm Sindre and Andreas L. Opdahl},
+ title     = {Capturing Security Requirements through Misuse Cases},
+ booktitle = {Proceedings of the 14th annual Norwegian informatics conference},
+ year      = {2001},
+ isbn      = {},
+ pages     = {},
+ location  = {Norway},
+ doi       = {},
+ publisher = {}
+}
+
+@InProceedings{ga02,
+ author    = {Guttorm Sindre and Andreas L. Opdahl},
+ title     = {Templates for Misuse Case Descriptions},
+ booktitle = {Proceedings of the 7th international workshop on requirements engineering: Foundation for software quality},
+ year      = {June 2002},
+ isbn      = {},
+ pages     = {},
+ location  = {Switzerland},
+ doi       = {},
+ publisher = {}
+}
+
+@Book{csp,
+author	= {C. A. R. Hoare},
+title		= {Communicating Sequential Processes},
+year		= {1985},
+publisher	= {Prentice Hall }
+}
+
+@InProceedings{hr06,
+ author    = {J. Huang and A. W. Roscoe},
+ title     = {Extending noninterference properties to the timed world},
+ booktitle = {Proceedings of the 2006 ACM Symposium on Applied Computing},
+ year      = {April 23 - 27, 2006},
+ isbn      = {},
+ pages     = {},
+ location  = {Dijon, France},
+ doi       = {},
+ publisher = {ACM Press,}
+}
+
+@Article{ieee,
+ author    = {},
+ title     = {{IEEE Power Engineering Society FACTS Application Task Force, FACTS Applications}},
+ journal   = {},
+ volume    = {},
+ number    = {},
+ year      = {1996},
+ pages     = {},
+ doi       = {},
+ publisher = {IEEE Publication}
+}
+
+@Book{tla,
+author	= {L. Lamport},
+title		= {Specifying Systems -- The TLA+ Language and Tools for Hardware and Software Engineers},
+year		= {},
+publisher	= {Microsoft Research}
+}
+
+
+@Article{ncs,
+ author    = {S.F. Midkiff},
+ title     = {Network-centric systems},
+ journal   = {Pervasive Computing, IEEE},
+ volume    = {1},
+ number    = {2},
+ year      = {Apr-Jun. 2002},
+ pages     = {94-97},
+ doi       = {},
+ publisher = {}
+}
+
+@Book{mil89,
+author	= {R. Milner},
+title		= {Communication and Concurrency},
+year		= {1989},
+publisher	= {Prentice Hall}
+}
+
+@Article{oh90,
+ author    = {C. O'Halloran},
+ title     = {A calculus of information flow},
+ journal   = {Proc. European Symp. Research in Computer Security},
+ volume    = {},
+ number    = {},
+ year      = {1990},
+ pages     = {},
+ doi       = {},
+ publisher = {}
+}
+
+
+@Book{ros04,
+author	= {A.W. Roscoe},
+title		= {The Theory and Practice of Concurrency},
+year		= {Apr. 2004},
+publisher	= {Prentice-Hall (Pearson)}
+}
+
+@Book{rtspin,
+author	= {},
+title		= {RT-SPIN homepage http://www-verimag.imag.fr/~tripakis/rtspin.html},
+year		= {},
+publisher	= {}
+}
+
+@Article{schneider,
+ author    = {F. B. Schneider},
+ title     = {Enforceable security policies},
+ journal   = {ACM Trans. Inf. Syst. Secur},
+ volume    = {3},
+ number    = {1},
+ year      = {Feb. 2000},
+ pages     = {30-50},
+ doi       = {},
+ publisher = {}
+}
+
+@Book{spin,
+author	= {},
+title		= {SPIN homepage http://spinroot.com/spin/whatispin.html},
+year		= {},
+publisher	= {}
+}
+
+@MISC{cip,
+author	= {NERC},
+title = {Standard {CIP-002-1 through Standard CIP-009-1}},
+url = {http://www.nerc.com/page.php?cid=2|20}
+}
+
+
+@INPROCEEDINGS{sun-verifying,
+  author = {Yan Sun and Bruce McMillin and Xiaoqing (Frank) Liu and David Cape},
+  title = {{Verifying Noninterference in a Cyber-Physical System: The Advanced
+	Electric Power Grid}},
+  booktitle = {Proceedings of the Seventh International Conference on Quality Software
+	(QSIC)},
+  year = {2007},
+  pages = {363-369},
+  address = {Portland, OR},
+  month = {October},
+  institution = {Proceedings of the Seventh International Conference on Quality Software
+	(QSIC)},
+  owner = {ryanu},
+  timestamp = {2007.07.30}
+}
+
+@inproceedings{FaS09a,
+   AUTHOR    =   "A. Faza and S. Sedigh and B. McMillin",
+   TITLE     =   "Reliability analysis for the advanced electric power grid: from cyber control and communication to physical manifestations of failure",
+   BOOKTITLE =   "Proceedings of the 28th International Conference on Computer Safety, Reliability and Security (SAFECOMP '09)",
+   PAGES     =   "",
+   ADDRESS   =   "Hamburg, Germany",
+   MONTH     =   "Sept.",
+   YEAR      =   "2009, recipient of best paper award"
+}
+
+@inproceedings{Faza-Sedigh-McMillin07,
+   AUTHOR    =   "A. Faza and S. Sedigh Sarvestani and B. McMillin",
+   TITLE     =   "Reliability Modeling for the Advanced Electric Power Grid",
+   BOOKTITLE =   "the 26th International Conference on Computer Safety, Reliability and Security (SAFECOMP '07)",
+   PAGES     =   "370-383",
+   MONTH     =   "Sept.",
+   YEAR      =   "2007",
+   ADDRESS   =   "Nuremberg, Germany"
+}
+
+@Article{kn:tambey,
+   AUTHOR   =   "N. Tambey and M. L. Kothari",
+   TITLE    =   "Damping of power system oscillations with unified power flow controller (UPFC)",
+   BOOKTITLE =  "IEE Proc.-Gener. Transm. Distrib.",
+   VOLUME    =   "150",
+   NUMBER    =   "2",
+   PAGES     =   "129--140",
+   YEAR      =   "2003"
+}
+@ARTICLE{kn:wang,
+  AUTHOR =       {H. Wang},
+  TITLE =        {{A Unified model for the analysis of FACTS devices in damping power system oscillations - part III:  Unified power flow controller}},
+  JOURNAL =      {IEEE Trans. on Power Delivery},
+  YEAR =         {2000},
+  volume =       {15},
+  number =       {3},
+  pages =        {978--983},
+  month =        {July}
+}
+
+@ARTICLE{kn:gholi,
+  AUTHOR =       {E. Gholipour and S. Saadate},
+  TITLE =        {Improving of transient stability of power systems using UPFC},
+  JOURNAL =      {IEEE Trans. on Power Delivery},
+  YEAR =         {2005},
+  volume =       {20},
+  number =       {2},
+  pages =        {1677--1682},
+  month =        {April}
+}
+
+@ARTICLE{kn:farsangi,
+  AUTHOR =       {M. M. Farsangi, Y. H. Song, and K. Y. Lee},
+  TITLE =        {{Choice of FACTS device control inputs for damping interarea oscillations}},
+  JOURNAL =      {IEEE Trans. on Power Systems},
+  YEAR =         {2004},
+  volume =       {19},
+  number =       {2},
+  pages =        {135--1143},
+  month =        {May}
+}
+
+@ARTICLE{MicrogridReference,
+  AUTHOR =       {A. Dimeas and N. Hatziargyriou},
+  TITLE =        {Operation of a Multiagent System for Microgrid Control},
+  JOURNAL =      {IEEE Trans. on Power Systems},
+  YEAR =         {2005},
+  volume =       {20},
+  number =       {3},
+  pages =        {1447--1455},
+  month =        {Aug}
+}
+@Article{GoldbergTarjan,
+ author     = {Goldberg, A. and Tarjan, R.},
+ title      = {A New Approach to the Maximum-Flow Problem},
+ journal    = {Journal of the ACM},
+ year       = {1988},
+ volume     = {35},
+ number     = {4},
+ issn       = {0004-5411},
+ pages      = {921--940},
+ doi        = {\url{http://doi.acm.org/10.1145/48014.61051}},
+ publisher  = {ACM Press},
+ address    = {New York, NY, USA},
+}
+
+@Misc{118BUS,
+ author = {Christie, Rich},
+ title  = {Power Systems Test Case Archive: 118 Bus Power Flow Test Case},
+ month  = {May},
+ year   = {1993},
+ optURL = {http://www.ee.washington.edu/research/pstca/pf118/pg\_tca118bus.htm}
+}
+
+@MISC{UGRC,
+  title =        {{Missouri S\&T Undergraduate Research Conference}},
+  organization = {Missouri University of Science and Technology},
+  year =         {2008},
+  month =        {retrieved Dec.},
+  url = {http://ugs.mst.edu/ugrc.html}
+}
+
+@MISC{EPICS,
+  title =        {{National Engineering Projects in Community Service (EPICS) Program}},
+  organization = {EPICS},
+  year =         {2008},
+  month =        {retrieved Dec.},
+  url = {https://engineering.purdue.edu/EPICSNational/Home/National}
+}
+
+@INPROCEEDINGS{GamageMcMillin09,
+  AUTHOR =       {Thoshitha Gamage and Bruce McMillin},
+  TITLE =        {EM Enforcing Information Flow Properties using Compensating Events},
+  BOOKTITLE =    {Proceedings of the 42nd Hawaii Conference on System Sciences},
+  YEAR =         {2009},
+  volume =       {to appear},
+  month =        {January}
+}
+
+@INPROCEEDINGS{RaM05,
+  AUTHOR =       {A. Ramalingam and A. Miller and K. T. Erickson},
+  TITLE =        {{SCADA} System Vulnerability Analysis},
+  BOOKTITLE =    {Proceedings of the Working Together: R\&D Partnerships in Homeland Security Conference},
+  YEAR =         {2005},
+  month =        {April}
+}
+
+@ARTICLE{BeM08,
+  AUTHOR =       {Steve Beland and Ann Miller},
+  TITLE =        {Assuring a Safety-Critical System of Systems},
+  JOURNAL =    {Transactions of the SAE},
+  YEAR =         {2008},
+  month =        {March}
+}
+
+@INPROCEEDINGS{BlM06,
+  AUTHOR =       {Robin Bloomfield and Ann Miller},
+  TITLE =        {Assurance Cases for Dependability and Security},
+  BOOKTITLE =    {Proceedings of the Joint EU-US Workshop on Large ICT-Based Infrastructures and Interdependencies: Control. Safety, Security, and Dependability},
+  YEAR =         {2006},
+  month =        {March}
+}
+
+@INPROCEEDINGS{Mil06,
+  AUTHOR =       {Ann Miller},
+  TITLE =        {Assurance Case for Process Control System Security},
+  BOOKTITLE =    {Proceedings of the Workshop on Assurance Cases for Security: Communicating Risks in Infrastructures},
+  YEAR =         {2006},
+  month =        {March}
+}
+
+@INPROCEEDINGS{SiD08,
+  AUTHOR =       {J. Simpson and C. Dagli and A. Miller},
+  TITLE =        {Implementing an Architectural Framework to Define and Deliver Net-Centric Capability to Legacy Military Air Assets Operating within a System of Systems},
+  BOOKTITLE =    {Proceedings of the IEEE International Systems Conference (SYSCON '08)},
+  YEAR =         {April},
+  month =        {2008}
+}
+
+@inproceedings{HaB09,
+   AUTHOR    =   "T. Harms and B. Banks and F. Bastianini and S. Sedigh",
+   TITLE     =   "Design and Field Testing of a Low-Power Wireless Sensor Network for Structural Health Monitoring of Bridges",
+   BOOKTITLE =   "Proceedings of the 16th International SPIE Symposium on Smart Structures and Materials and Nondestructive Evaluation and Health Monitoring",
+   ADDRESS   =   "San Diego, CA",
+   PAGES     =   "",
+   MONTH     =   "March",
+   YEAR      =   "2009"
+}
+
+@inproceedings{BaH09,
+   AUTHOR    =   "B. Banks and T. Harms and  F. Bastianini and S. Sedigh",
+   TITLE     =   "A low-cost wireless system for autonomous generation of road safety alerts",
+   BOOKTITLE =   "Proceedings of the 16th International SPIE Symposium on Smart Structures and Materials and Nondestructive Evaluation and Health Monitoring",
+   ADDRESS   =   "San Diego, CA",
+   PAGES     =   "",
+   MONTH     =   "March",
+   YEAR      =   "2009, submitted"
+}
+
+@inproceedings{HaB08b,
+   AUTHOR    =   "T. Harms and B. Banks and F. Bastianini and S. Sedigh",
+   TITLE     =   "Enhancement of autonomous real-time Structural Health Monitoring with short-range wireless communication",
+   BOOKTITLE =   "Proceedings of the 4th European Workshop on Structural Health Monitoring (EWSHM 2008)",
+   ADDRESS   =   "Cracow, Poland",
+   PAGES     =   "",
+   MONTH     =   "July",
+   YEAR      =   "2008"
+}
+
+@inproceedings{PlB07c,
+   AUTHOR    =   "F. Bastianini and V. Plessi and S. Sedigh and N. Galati and A. Nanni",
+   TITLE     =   "A Low-Cost Wireless System for Real-Time Structural Health Monitoring",
+   BOOKTITLE =   "Proceedings of the 6th International Workshop on Structural Health Monitoring (IWSHM '07)",
+   PAGES     =   "",
+   ADDRESS   =   "Stanford, USA",
+   MONTH     =   "Sept.",
+   YEAR      =   "2007"
+}
+
+@ARTICLE{CoJ05,
+  AUTHOR =       {Edward J. Coyle and Leah H. Jamieson and William C. Oakes},
+  TITLE =        {{EPICS}: Engineering Projects in Community Service},
+  JOURNAL =      {International Journal of Engineering Education},
+  YEAR =         {2005},
+  volume =       {21},
+  number =       {1},
+  pages =        {139--150},
+  month =        {Feb.}
+}
+
+@inproceedings{CaM06,
+   AUTHOR    =   "David A. Cape and Bruce M. McMillin and and James K. Townsend",
+   TITLE     =   "Model Checking Control Communication of a {FACTS} Device",
+   BOOKTITLE =   "Proceedings of the 3rd International Workshop on Embedded Computing (EC-06)",
+   PAGES     =   "391-396",
+   ADDRESS   =   "Columbus, OH",
+   MONTH     =   "Aug.",
+   YEAR      =   "2006"
+}
+
+@inproceedings{KoS07,
+   AUTHOR    =   "J. Koch and S. Sedigh and E. Atekwana",
+   TITLE     =   "Subsurface Hydrological Monitoring of a Watershed with Hybrid Sensor Networks (poster)",
+   BOOKTITLE =   "Proceedings of the 2007 Joint Assembly of the American Geophysical Union",
+   PAGES     =   " ",
+   ADDRESS   =   "Acapulco, Mexico",
+   MONTH     =   "May",
+   YEAR      =   "2007"
+}
+
+@BOOK{Bishop,
+  AUTHOR =       {Matt Bishop},
+  TITLE =        {Computer Security: Art and Science},
+  PUBLISHER =    {Addison-Wesley Longman Publishing Co., Inc.},
+  YEAR =         {2002},
+  address =      {Boston, MA}
+}
+
+
+
+
+
+@ARTICLE{5439896,
+author={Keyou Wang and Crow, M.L. and McMillin, B. and Atcitty, S.},
+journal={Power Systems, IEEE Transactions on}, title={A Novel Real-Time Approach to Unified Power Flow Controller Validation},
+year={2010},
+month={Nov.} ,
+volume={25},
+number={4},
+pages={1892 -1901},
+keywords={UPFC;hardware-in-the-loop;synchronous machine;unified power flow controller;flexible AC transmission systems;power control;},
+doi={10.1109/TPWRS.2010.2045664},
+ISSN={0885-8950}
+}
+
+@INPROCEEDINGS{stuxnet,
+  AUTHOR =       {Kim Zetter},
+  TITLE =        {IRAN: Computer Malware Sabotaged Uranium Centrifuges},
+  BOOKTITLE =    {Wired Magazine},
+  MONTH =        {November},
+  YEAR =         {2010}
+}
+
+@INPROCEEDINGS{stuxnet2,
+  AUTHOR =       {Gregg Keizer},
+  TITLE =        {Stuxnet researchers cautions about {Iran's} admission of centrifuge issues},
+  BOOKTITLE =    {Computerworld},
+  MONTH =        {November},
+  YEAR =         {2010}
+}
+
+@CONFERENCE{IFIP11.10,
+    TITLE =     {{IFIP WG 11.10 on Critical Infrastructure Protection}},
+    URL =       {http://www.ifip1110.org/Mission/,accessed 12/14/2010}
+    }
+
+@CONFERENCE{DHS,
+    TITLE =     {{Department of Homeland Security Critical Infrastructure Program}},
+    URL =       {http://www.dhs.gov/files/programs/gc_1189168948944.shtm, accessed 12/14/2010}
+    }
+
+@INPROCEEDINGS{5622003,
+author={Akella, R. and Fanjun Meng and Ditch, D. and McMillin, B. and Crow, M.},
+booktitle={Smart Grid Communications (SmartGridComm), 2010 First IEEE International Conference on}, title={Distributed Power Balancing for the FREEDM System},
+year={2010},
+month={October},
+volume={},
+number={},
+pages={7 -12},
+keywords={FREEDM microgrid system;IEM nodes;distribuated power balancing scheme;distributed algorithms;distributed grid intelligence;energy sources storage;functional SST model;intelligent energy management;power generation economics;renewable energy;smart grid;distributed algorithms;distributed power generation;energy management systems;power generation economics;smart power grids;},
+doi={10.1109/SMARTGRID.2010.5622003},
+ISSN={}}
+
+@article{DBLP:LevinG81,
+  author    = {Gary Levin and
+               David Gries},
+  title     = {A Proof Technique for Communicating Sequential Processes},
+  journal   = {Acta Inf.},
+  volume    = {15},
+  year      = {1981},
+  pages     = {281-302},
+  ee        = {http://dx.doi.org/10.1007/BF00289266},
+  bibsource = {DBLP, http://dblp.uni-trier.de}
+}
+
+
+
+@INPROCEEDINGS{FaS10,
+  AUTHOR =       "A. Faza and S. Sedigh and B. McMillin",
+  TITLE =        {Integrated Cyber-Physical Fault Injection for Reliability Analysis of the Smart Grid},
+  BOOKTITLE =    "Proc. of the Int'l Conf. on Computer Safety, Reliability and Security (SAFECOMP'10)",
+  YEAR =         "2010",
+  editor =       "",
+  volume =       "",
+  number =       "",
+  series =       "",
+  pages =        "277-290",
+  address =      "",
+  month =        "September",
+  organization = "",
+  publisher =    {Springer-Verlag, Berlin, Heidelberg},
+  annote =       "",
+  abstract =     "",
+  keywords =     "",
+  url  =         ""
+}
+
+@INPROCEEDINGS{AkMc10,
+  AUTHOR =       "Ravi Akella and Bruce McMillin",
+  TITLE =        {Information Flow Analysis of Energy Management in a Smart Grid},
+  BOOKTITLE =    "Proc. of the Int'l Conf. on Computer Safety, Reliability and Security (SAFECOMP'10)",
+  YEAR =         "2010",
+  editor =       "",
+  volume =       "",
+  number =       "",
+  series =       "",
+  pages =        "263-276",
+  address =      "",
+  month =        "September",
+  organization = "",
+  publisher =    {Springer-Verlag, Berlin, Heidelberg},
+  annote =       "",
+  abstract =     "",
+  keywords =     "",
+  url  =         ""
+}
+
+@INPROCEEDINGS{5615775,
+author={Gamage, T.T. and McMillin, B.M. and Roth, T.P.},
+booktitle={Computer Software and Applications Conference Workshops (COMPSACW), 2010 IEEE 34th Annual}, title={Enforcing Information Flow Security Properties in Cyber-Physical Systems: A Generalized Framework Based on Compensation},
+year={2010},
+month={July},
+volume={},
+number={},
+pages={158 -163},
+keywords={access control;compensation;cyber-physical system;enforcement mechanism;information flow security;authorisation;},
+doi={10.1109/COMPSACW.2010.36},
+ISSN={},}
+
+@INPROCEEDINGS{5615779,
+author={Madden, J. and McMillin, B. and Sinha, A.},
+booktitle={Computer Software and Applications Conference Workshops (COMPSACW), 2010 IEEE 34th Annual}, title={Environmental Obfuscation of a Cyber Physical System - Vehicle Example},
+year={2010},
+month={July},
+volume={},
+number={},
+pages={176 -181},
+keywords={automated engine management system;cyber physical system;embedded infrastructure;embedded vehicle computer system;environmental obfuscation;information flow;road vehicle;smart cruise control;system security policy;embedded systems;internal combustion engines;road vehicles;security of data;traffic information systems;},
+doi={10.1109/COMPSACW.2010.39},
+ISSN={},}
+
+@article{Siever:2008:SRH:1405533.1405535,
+ author = {Siever, William M. and Tauritz, Daniel R. and Miller, Ann and Crow, Mariesa and Mcmillin, Bruce M. and Atcitty, Stanley},
+ title = {Symbolic Reduction for High-Speed Power System Simulation},
+ journal = {Simulation},
+ volume = {84},
+ issue = {6},
+ month = {June},
+ year = {2008},
+ issn = {0037-5497},
+ pages = {297--309},
+ numpages = {13},
+ acmid = {1405535},
+ publisher = {Society for Computer Simulation International},
+ address = {San Diego, CA, USA},
+ keywords = {Code generation, power system simulation, real-time systems, sparse systems, symbolic and algebraic manipulation},
+}
+
+@INPROCEEDINGS{gamc09,
+  AUTHOR =       {Thoshitha T. Gamage and Bruce M. McMillin},
+  TITLE =        {{EM Enforcing Information Flow Properties using Compensating Events}},
+  BOOKTITLE =    {Proceedings of the 42nd Hawaii International Conference on Systems Science {(HICSS-42 2009)}},
+  YEAR =         {2009},
+  pages =        {1-7},
+  month =        {January},
+  publisher =    {IEEE Computer Society},
+}
+
+@INPROCEEDINGS{gamc09a,
+  AUTHOR =       {Thoshitha T. Gamage and Bruce M. McMillin},
+  TITLE =        {{Observing for Changes: Nondeducibility Based Analysis of Cyber-Physical Systems}},
+  BOOKTITLE =    {Proceedings of the 3rd International Federation for Information Processing Conference {(IFIP WG 11.10)}},
+  YEAR =         {2009},
+  address =      {Hanover, NH},
+  month =        {April},
+  pages =        {169-183},
+  publisher =    {Springer Boston},
+}
+
+@book{cormen_introduction_2001,
+  address = {Cambridge, {MA}},
+  author = {Thomas H Cormen and Charles E Leiserson and Ronald L Rivest and Clifford Stein},
+  edition = {Second},
+  interhash = {dcdeb0ec50a6798abf1724056982b543},
+  intrahash = {927fd7b7fc6155069e95f1f623549a1d},
+  publisher = {{MIT} Press},
+  title = {Introduction to Algorithms},
+  year = 2001,
+  keywords = {algorithms imported},
+  added-at = {2009-10-12T12:20:34.000+0200},
+  isbn = {0-262-03293-7},
+  biburl = {http://www.bibsonomy.org/bibtex/2927fd7b7fc6155069e95f1f623549a1d/cgray}
+}
+
+@INPROCEEDINGS{Mcmillin00faulttolerance,
+    author = {B. Mcmillin and M. L. Crow},
+    title = {Fault Tolerance and Security for Power Transmission System Configuration with FACTS Devices},
+    booktitle = {Proceedings of the 32rd Annual North American Power Symposium},
+    year = {2000}
+}
+
+@techreport { TR-2010-fixed-point,
+title = { Incremental Invariant Generation for Compositional Design},
+authors = { Saddek Bensalem, Axel Legay, Thanh-Hung Nguyen, Joseph Sifakis, Rongjie
+Yan },
+institution = { Verimag Research Report },
+number = {TR-2010-6},
+year = { 2010},
+}
+
+@INPROCEEDINGS{5587717,
+author={Bensalem, S. and Legay, A. and Nguyen, T.-H. and Sifakis, J. and Rongjie Yan},
+booktitle={Theoretical Aspects of Software Engineering (TASE), 2010 4th IEEE International Symposium on},
+title={Incremental Invariant Generation for Compositional Design},
+year={2010},
+month={aug.},
+volume={},
+number={},
+pages={157 -167},
+keywords={BIP language;D-Finder toolset;component invariants;component-based systems;compositional design;deadlock-freedom;fixed point characterization;incremental invariant generation;interaction invariants;multiparty interactions;over-approximations;verification process;checkpointing;object-oriented programming;program verification;programming languages;},
+doi={10.1109/TASE.2010.23},
+ISSN={},}

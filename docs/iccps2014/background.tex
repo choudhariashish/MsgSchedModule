@@ -1,0 +1,67 @@
+\section{Background and Related Work}
+\label{sec:related_work}
+
+CPSs, with few exceptions, are switched dynamic systems. A switched system is a
+fundamentally continuous-time system with changes that occur at discrete
+times~\cite{liberzon03}. Analysis and design of CPSs is a challenge as any
+process must simultaneously take into account cyber, physical, and network
+aspects. Some work is breaking through this barrier.
+Acumen~\cite{Zhu:2010:MEE:1795194.1795196} bridges the gap between analytic
+models and simulation codes. Interface automata~\cite{Alfaro} checks for
+compatibility of components in composition by showing that they do not
+\emph{interfere} with each other. Recent work~\cite{DAC_2012_CPS_verification}
+proposes a performance verification technique for CPS. This work assumes the use
+of a communication network such as CAN, FlexRay, etc. and use the relatively
+structured properties of the networking infrastructure to tightly bound network
+delays and, hence, control performance. Invariants and predicate transformers on
+the state of CPS was explored for dynamical systems in~\cite{DBLP:SitzoffG93}
+and more recently as a formalism for invariant interaction and incremental
+invariant composition~\cite{5587717} and run-time assurance of operational
+modes~\cite{Bak2010}. The interaction of invariants for purely cyber processes
+has its origins in~\cite{OwickiGries1976} which affords composition of
+sequential proofs governed by the property of noninterference.
+Recently, there have been several attempts to create comprehensive models for
+design and analysis of CPSs (such
+as~\cite{DerlerLeeSangiovanniVincentelli12_ModelingCyberPhysicalSystems,
+GarlanKrogh2010,cyphy}) that use domain-specific ontologies and hybrid systems
+techniques.
+
+Correct scheduling of actions affecting one or more sub-components is key in
+such a CPS in order to maintain overall system stability. However, stability and
+scheduling are not {\em a-priori}, but must be adaptive based on events in the
+CPS. Mode-based real-time scheduling allows different modes of operation where
+different modes may have variation in their task set and/or task timing
+characteristics~\cite{sha_rts_1989, real_crespo_rts_2004, henia_ernst_rtss_2007,
+stoimenov_date_2009}, thereby allowing a degree of adaptation. However, existing
+approaches assume that mode parameters and mode change triggers are statically
+well-defined, allowing static analysis of individual modes and mode transitions,
+thus making them inapplicable in a CPS.
+Recent work proposes a technique for online reconfiguration of resource
+reservations using Constant Bandwidth
+Servers~\cite{ReconfigurationCBSECRTST2012}. Elastic scheduling
+strategies~\cite{Buttazzo_IEEE_Jornl_2002} and feedback
+schedulers~\cite{FeedbackScheduling07} allow for more dynamic adaptation, but
+adaptation is still typically performed at sporadic intervals, in contrast to
+the continuous adaptation needed in a CPS. Adaptive scheduling as
+in~\cite{AdaptiveScheduling_DASC_1999} dynamically changes the rates of task
+execution in response to system behavior, but would require complete abstraction
+of physical and network parameters, making its application to a CPS very
+challenging. Scheduling of power demands for optimal energy management in a
+smart grid has been proposed~\cite{SmartGridLoadScheduling}. However, this work
+only considers instantaneous power in the physical system and does not consider
+network behavior. Considering all continuous and discrete dynamics along with
+dynamic behavior simultaneously results in state explosion. While verification
+is possible, it is extremely challenging.
+
+[******add citations]
+Although protocols such as TCP are well known for reliability, TCP relies on packet 
+drops caused due to overflow of queues at routers as an indication of network congestion. 
+In smart grid context, every message is responsible for a small amount of power in
+grid therefore message loss is directly associated to the grid stability. TCP by controlling 
+its transmission rate can effectively reduce packet drops if transport is capable of ECN.
+But, congestion information obtained from network is completely hidden from the application
+running over TCP. In order to know ECN in application, UDP protocol is a perfect choice.
+It is then application's responsibility to adapt according to network conditions and take 
+necessary actions upon detection of congestion in network.
+[******end citations]
+

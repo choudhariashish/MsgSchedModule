@@ -1,0 +1,3003 @@
+% Papers written by Jonathan Kimball
+@inproceedings{baggu10apec,
+	Author = {Baggu, Murali Mohan and Watson, Luke D. and Kimball, Jonathan W. and Chowdhury, Badrul},
+	Title = {Direct power control of doubly-fed generator based wind turbine converters to improve low voltage ride-through during system imbalance},
+	BookTitle = {Proceedings of the IEEE Applied Power Electronics Conference},
+	Pages = {2121-2125},
+	Year = {2010}}
+	
+@article{balog05,
+   Author = {Balog, Robert S. and Sorchini, Zakdy and Kimball, Jonathan W. and Chapman, Patrick L. and Krein, Philip T.},
+   Title = {Modern laboratory based education for power electronics and electric machines},
+   Journal = {IEEE Transactions on Power Systems},
+   Volume = {20},
+   Pages = {538-547},
+      Year = {2005},
+      Month = {May} }
+
+@inproceedings{balog05pes,
+	Author = {Balog, Robert S. and Sorchini, Zakdy and Kimball, Jonathan W. and Chapman, Patrick L. and Krein, Philip T. and Sauer, Peter W.},
+	Title = {Blue-box approach to power electronics and machines educational laboratories},
+	BookTitle = {Proceedings of the Power Engineering Society General Meeting},
+	Pages = {962-970},
+	Year = {2005}}
+	
+
+@inproceedings{bazzi09,
+	Author = {Bazzi, Ali M. and Kimball, Jonathan W. and Kepley, Kevin and Krein, Philip T.},
+	Title = {{TILAS}: A simple analysis tool for estimating power losses in an IGBT-diode pair under hysteresis control in three-phase inverters},
+	BookTitle = {Proceedings of the IEEE Applied Power Electronics Conference},
+	Pages = {637-641},
+	Year = {2009}}
+
+@inproceedings{chen06,
+   Author = {Chen, Yongxiang and Kimball, Jonathan W. and Krein, Philip T.},
+   Title = {Non-unity active {PFC} methods for filter size optimization},
+   BookTitle = {Proceedings of the IEEE Applied Power Electronics Conference},
+   Pages = {268-272},
+      Year = {2006} }
+
+@article{esram06,
+   Author = {Esram, Trishan and Kimball, Jonathan W. and Krein, Philip T. and Chapman, Patrick L. and Midya, Pallab},
+   Title = {Dynamic maximum power point tracking of photovoltaic arrays using ripple correlation control},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {21},
+   Number = {5},
+   Pages = {1282-1291},
+   Month = {September},
+      Year = {2006} }
+
+@article{
+henry11,
+   Author = {Henry, Jordan and Kimball, Jonathan W.},
+   Title = {Practical Performance Analysis of Complex Switched-Capacitor Converters},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {26},
+   Number = {1},
+   Pages = {127-136},
+   Month = {Jan.},
+      Year = {2011} }
+      
+@article{
+henry12,
+	Author = {Henry, Jordan and Kimball, Jonathan W.},
+	Title = {Switched-capacitor converter state model generator},
+	Journal = {IEEE Transactions on Power Electronics},
+	Volume = {27},
+	Number = {},
+	Pages = {},
+	Month = {in press},
+	Year = {2012} }
+
+@phdthesis{kimball07phd,
+	Author = {Kimball, Jonathan W.},
+	Title = {Digital control techniques for switching power converters},
+	School = {University of Illinois at Urbana-Champaign},
+  Type = {Ph.D. dissertation},
+      Year = {2007} }
+
+	
+@article{kimball04,
+	Author = {Kimball, Jonathan W. and Flowers, Theresa L. and Chapman, Patrick L.},
+	Title = {Low-input-voltage, low-power boost converter design issues},
+	Journal = {IEEE Power Electronics Letters},
+	Volume = {2},
+	Pages = {96-99},
+	Month = {September},
+	Year = {2004}}
+	
+@article{kimball05,
+	Author = {Kimball, Jonathan W. and Krein, Philip T. and Cahill, Kevin R.},
+	Title = {Modeling of capacitor impedance in switching converters},
+	Journal = {IEEE Power Electronics Letters},
+	Volume = {3},
+	Pages = {136-140},
+	Month = {December},
+	Year = {2005}}
+	
+@article{kimball06,
+	Author = {Kimball, Jonathan W. and Krein, Philip T. and Chen, Yongxiang},
+	Title = {Hysteresis and delta modulation control of converters using sensorless current mode},
+	Journal = {IEEE Transactions on Power Electronics},
+	Volume = {21},
+	Pages = {1154-1158},
+	Month = {July},
+	Year = {2006}}
+	
+@article{kimball08isop,
+	Author = {Kimball, Jonathan W. and Mossoba, Joseph T. and Krein, Philip T.},
+	Title = {A stabilizing, high-performance controller for input series-output parallel converters},
+	Journal = {IEEE Transactions on Power Electronics},
+	Volume = {23},
+	Pages = {1416-1427},
+	Month = {May},
+	Year = {2008}}
+	
+@article{kimball08drcc,
+	Author = {Kimball, Jonathan W. and Krein, Philip T.},
+	Title = {Discrete-time ripple correlation control for maximum power point tracking},
+	Journal = {IEEE Transactions on Power Electronics},
+	Volume = {23},
+	Pages = {2353-2362},
+	Month = {September},
+	Year = {2008}}
+	
+@article{kimball08sing,
+	Author = {Kimball, Jonathan W. and Krein, Philip T.},
+	Title = {Singular perturbation theory for dc-dc converters and application to PFC converters},
+	Journal = {IEEE Transactions on Power Electronics},
+	Volume = {23},
+	Pages = {2970-2981},
+	Month = {November},
+	Year = {2008}}
+	
+@article{kimball09,
+	Author = {Kimball, Jonathan W. and Kuhn, Brian T. and Balog, Robert S.},
+	Title = {A system design approach for unattended solar energy harvesting supply},
+	Journal = {IEEE Transactions on Power Electronics},
+	Volume = {24},
+	Pages = {952-962},
+	Month = {April},
+	Year = {2009}}
+	
+	
+@inproceedings{kimball96,
+	Author = {Kimball, Jonathan and Krein, Philip T.},
+	Title = {Continuous-time optimization of gate timing for synchronous rectification},
+	BookTitle = {Proceedings of the Midwest Symposium on Circuits and Systems},
+	Pages = {1015-1018},
+	Year = {1996}}
+	
+@inproceedings{kimball97,
+	Author = {Kimball, Jonathan and Krein, Philip T.},
+	Title = {Real-time optimization of dead time for motor control inverters},
+	BookTitle = {Record of the IEEE Power Electronics Specialists Conference},
+	Pages = {597-600},
+	Year = {1997}}
+	
+@inproceedings{kimball04pesc,
+	Author = {Kimball, Jonathan W. and Flowers, Theresa L. and Chapman, Patrick L.},
+	Title = {Issues with low-input-voltage boost converter design},
+	BookTitle = {Record of the IEEE Power Electronics Specialists Conference},
+	Pages = {2152-2156},
+	Year = {2004}}
+	
+@inproceedings{kimball04compel,
+	Author = {Kimball, Jonathan W.},
+	Title = {A method of including switching loss in electro-thermal simulation models},
+	BookTitle = {Proceedings of the IEEE Workshop on Computers in Power Electronics},
+	Pages = {36-42},
+	Year = {2004}}
+	
+@inproceedings{kimball04ias,
+	Author = {Kimball, Jonathan W. and Chapman, Patrick L.},
+	Title = {Evaluating conduction loss of a parallel {IGBT-MOSFET} combination},
+	BookTitle = {Proceedings of the Industry Applications Society Annual Meeting},
+	Pages = {1233-1237},
+	Year = {2004}}
+	
+@inproceedings{kimball05apec,
+	Author = {Kimball, Jonathan W. and Krein, Philip T.},
+	Title = {Analysis and design of switched capacitor converters},
+	BookTitle = {Proceedings of the IEEE Applied Power Electronics Conference},
+	Pages = {1473-1477},
+	Year = {2004}}
+	
+@inproceedings{kimball05pescsim,
+	Author = {Kimball, Jonathan W.},
+	Title = {Modeling controlled switches and diodes for electro-thermal simulation},
+	BookTitle = {Record of the IEEE Power Electronics Specialists Conference},
+	Pages = {2175-2179},
+	Year = {2005}}
+	
+@inproceedings{kimball05pescisop,
+	Author = {Kimball, Jonathan W. and Mossoba, Joseph T. and Krein, Philip T.},
+	Title = {Control technique for series input-parallel output converter topologies},
+	BookTitle = {Record of the IEEE Power Electronics Specialists Conference},
+	Pages = {1441-1445},
+	Year = {2005}}
+	
+@inproceedings{kimball05emcwa,
+	Author = {Kimball, Jonathan W. and Amrhein, Marco},
+	Title = {Machine design considerations for the Future Energy Challenge},
+	BookTitle = {Proceedings of the Electrical Manufacturing Conference},
+	Pages = {448-453},
+	Year = {2005}}
+	
+@inproceedings{kimball06compel,
+	Author = {Kimball, Jonathan W.},
+	Title = {An efficient discontinuous-mode model of a switch pole},
+	BookTitle = {Proceedings of the IEEE Computers in Power Electronics Workshop},
+	Pages = {260-263},
+	Year = {2006}}
+	
+@inproceedings{kimball07pescsing,
+	Author = {Kimball, Jonathan W. and Krein, Philip T.},
+	Title = {Singular perturbation theory for dc-dc converters and application to {PFC} converters},
+	BookTitle = {Record of the IEEE Power Electronics Specialists Conference},
+	Pages = {882-887},
+	Year = {2007}}
+	
+@inproceedings{kimball07pescdrcc,
+	Author = {Kimball, Jonathan W. and Krein, Philip T.},
+	Title = {Digital ripple correlation control for photovoltaic applications},
+	BookTitle = {Record of the IEEE Power Electronics Specialists Conference},
+	Pages = {1690-1694},
+	Year = {2007}}
+	
+@inproceedings{kimball07vppc,
+	Author = {Kimball, Jonathan W. and Kuhn, Brian T. and Krein, Philp T.},
+	Title = {Increased performance of battery packs by active equalization},
+	BookTitle = {Proceedings of the IEEE Vehicle Power and Propulsion Conference},
+	Year = {2007}}
+	
+@inproceedings{kimball08apec,
+	Author = {Kimball, Jonathan W. and Krein, Philip T.},
+	Title = {A current-sensorless digital controller for active power factor correction control based on {K}alman filters},
+	BookTitle = {Proceedings of the IEEE Applied Power Electronics Conference},
+	Pages = {1328-1333},
+	Year = {2008}}
+	
+@inproceedings{kimball09ecce,
+	Author = {Kimball, Jonathan W. and Henry, Jordan},
+	Title = {Compatibility between {GFCI} breakers and household adjustable speed drives},
+	BookTitle = {Proceedings of the Energy Conversion Congress and Exposition},
+	Pages = {517-520},
+	Year = {2009}}
+	
+@inproceedings{kimball10apecpwm,
+	Author = {Kimball, Jonathan W. and Zawodniok, Maciej},
+	Title = {Reducing common-mode voltage in three-phase sine-triangle {PWM} with interleaved carriers},
+	BookTitle = {Proceedings of the IEEE Applied Power Electronics Conference},
+	Pages = {1508-1513},
+	Year = {2010}}
+	
+@inproceedings{kimball10apecsigmadelta,
+	Author = {Kimball, Jonathan W. and Eckler, Kyle Roger and Watson, Luke D.},
+	Title = {Sigma-delta modulation of multi-phase high frequency converters},
+	BookTitle = {Proceedings of the IEEE Applied Power Electronics Conference},
+	Pages = {2202-2206},
+	Year = {2010}}
+	
+	
+@inproceedings{krein04compel,
+   Author = {Krein, Philip T. and Kimball, Jonathan W.},
+   Title = {Series-parallel approaches and clamp methods for extreme dynamic response with advanced digital loads},
+   BookTitle = {IEEE Workshop on Computers in Power Electronics},
+   Pages = {85-88},
+      Year = {2004} }
+
+@inproceedings{krein08,
+	Author = {Krein, Philip T. and Kimball, Jonathan W. and Kuhn, Brian T.},
+	Title = {Non-droop methods for context-sensitive sharing in multi-module switching converters},
+	BookTitle = {Proceedings of the IEEE Computers in Power Electronics Workshop},
+	Pages = {1-4},
+	Year = {2008}}
+	
+	
+@inproceedings{midya96,
+   Author = {Midya, Pallab and Krein, Philip T. and Turnbull, Robert J. and Reppa, Robert and Kimball, Jonathan},
+   Title = {Dynamic maximum power point tracker for photovoltaic applications},
+   BookTitle = {Record of the IEEE Power Electronics Specialists Conference},
+   Pages = {1710-1716},
+      Year = {1996} }
+
+@inproceedings{nagarajan11,
+  Author = {Nagarajan, Nisha and Kimball, Jonathan W.},
+  Title = {Development of a GUI for parallel connected solar arrays},
+  BookTitle = {Proceedings of the Power \& Energy Conference at Illinois},
+  Year = {2011}}
+
+@inproceedings{paul11,
+	Author = {Paul, Tamal and Kimball, Jonathan W. and Zawodniok, Maciej and Roth, Thomas P. and McMillin, Bruce},
+	Title = {Invariants as a unified knowledge model for cyber-physical systems},
+	BookTitle = {Proceedings of the IEEE International Conference on Service Oriented Computing and Applications, International Workshop on Knowledge and Service Technology for LIfe, Environment, and Sustainability (KASTLES)},
+	Year = {2011}}
+
+@inproceedings{qin09,
+	Author = {Qin, Hengsi and Kimball, Jonathan W.},
+	Title = {Ac-ac dual active bridge converter for solid state transformer},
+	BookTitle = {Proceedings of the IEEE Energy Conversion Congress and Exposition},
+	Pages = {3039-3044},
+	Year = {2009}}
+
+@inproceedings{qin10iecondepso,
+	Author = {Qin, Hengsi and Kimball, Jonathan W. and Venayagamoorthy, Ganesh Kumar},
+	Title = {Particle swarm optimization of high-frequency transformer},
+	BookTitle = {Proceedings of the Annual Conference of the IEEE Industrial Electronics Society (IECON)},
+	Pages = {2908-2913},
+		Year = {2010}}
+
+@inproceedings{qin10ecce,
+	Author = {Qin, Hengsi and Kimball, Jonathan W.},
+	Title = {A comparative efficiency study of silicon-based solid state transformers},
+	BookTitle = {Proceedings of the IEEE Energy Confersion Congress and Exposition},
+	Pages = {1458-1463},
+		Year = {2010}}
+		
+@article{qin12,
+	Author = {Qin, Hengsi and Kimball, Jonathan W.},
+	Title = {Generalized average modeling of dual active bridge dc-dec converter},
+	Journal = {IEEE Transactions on Power Electronics},
+	Volume = {27},
+	Pages = {2078-2084},
+	Month = {April},
+	Year = {2012}}
+	
+@inproceedings{sorchini04,
+	Author = {Sorchini, Zakdy and Kimball, Jonathan W. and Krein, Philip T.},
+	Title = {Digital {SCR} control box for educational laboratory},
+	BookTitle = {Proceedings of the IEEE Workshop on Computers in Power Electronics},
+	Pages = {223-227},
+	Year = {2004}}
+	
+@inproceedings{yount11,
+  Author = {Yount, Beth A. and Xiao, F. Flora and Kimball, Jonathan W.},
+  Title = {Quantifying insolation in multiple shading scenarios},
+  BookTitle = {Proceedings of the IEEE Green Technologies Conference},
+  Pages = {EGST-2},
+  Year = {2011}}
+  
+  
+% Other papers cited by Kimball
+@misc{epa06,
+   Title = {Electric power annual},
+   Publisher = {Energy Information Administration},
+   Number = {Nov. 28, 2006},
+         Year = {} }
+
+
+
+@article{abrahamsen01,
+   Author = {Abrahamsen, Flemming and Blaabjerg, Frede and Pedersen, John K. and Thoegersen, Paul B.},
+   Title = {Efficiency-optimized control of medium-size induction motor drives},
+   Journal = {IEEE Transactions on Industry Applications},
+   Volume = {37},
+   Number = {6},
+   Pages = {1761-1767},
+   Abstract = {The main thrust of this work is that in larger drive systems, converter losses should be taken into account.},
+      Year = {2001} }
+
+
+
+@article{abuqahouq06,
+   Author = {Abu Qahouq, Jaber A. and Mao, Hong and Al-Atrash, Hussam J. and Batarseh, Issa},
+   Title = {Maximum efficiency point tracking (MEPT) method and digital dead time control implementation},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {21},
+   Number = {5},
+   Pages = {1273-1281},
+      Year = {2006} }
+
+
+
+@book{ackermann85,
+   Author = {Ackermann, Jurgen},
+   Title = {Sampled-Data Control Systems: Analysis and Synthesis, Robust System Design},
+   Publisher = {Springer-Verlag},
+   Address = {New York},
+   Abstract = {This is an excellent text on discrete-time systems, observers, etc.  First German edition 1972, second German edition 1983.  This is the first English edition.},
+      Year = {1985} }
+
+
+
+@inproceedings{alnumay96,
+   Author = {Al-Numay, Mohammed and Taylor, David G.},
+   Title = {A piecewise linear method for digital control of {PWM} systems},
+   BookTitle = {IEEE Power Electronics Specialists Conference},
+   Pages = {803-809},
+      Year = {1996} }
+
+
+
+@article{alnumay98,
+   Author = {Al-Numay, Mohammed and Taylor, David G.},
+   Title = {Digital tracking control for {PWM} systems with unacceptable zeros},
+   Journal = {IEEE Transactions on Circuits and Systems I: Fundamental Theory and Applications},
+   Volume = {45},
+   Number = {4},
+   Pages = {397-407},
+      Year = {1998} }
+
+@article{
+alur94,
+   Author = {Alur, Rajeev and Dill, David L.},
+   Title = {A theory of timed automata},
+   Journal = {Theoretical Computer Science},
+   Volume = {126},
+   Number = {2},
+   Pages = {183-235},
+      Year = {1994} }
+
+
+@techreport{amrhein06,
+   Author = {Amrhein, Marco and Kimball, Jonathan W. and Kwasinski, Alexis and Mossoba, Joseph T. and Nee, Brett and Sorchini, Zakdy and Weaver, Wayne and Wells, Jason R. and Zhang, Guoliang},
+   Title = {Modular inverter for advanced control applications},
+   Institution = {University of Illinois at Urbana-Champaign},
+   Number = {UILU-ENG-2006-2504, CEME-TR-06-01},
+   Type = {Technical Report},
+   Month= {May 2006},
+      Year = {2006} }
+
+
+
+@book{astrom89,
+   Author = {\capitalring Astrom, Karl J. and Wittenmark, Bjorn},
+   Title = {Adaptive Control},
+   Publisher = {Addison-Wesley},
+   Address = {Reading, MA},
+   Abstract = {Covers MRAC, system ID, and self-tuning regulators.},
+      Year = {1989} }
+
+
+
+@article{asumadu89,
+   Author = {Asumadu, Johnson A. and Hoft, Richard G.},
+   Title = {Microprocessor-based sinusoidal waveform synthesis using Walsh and related orthogonal functions},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {4},
+   Number = {2},
+   Pages = {234-241},
+      Year = {1989} }
+
+
+
+@article{athalye04,
+   Author = {Athalye, Praneet and Maksimovic, Dragan and Erickson, Robert},
+   Title = {Variable-frequency predictive digital current mode control},
+   Journal = {IEEE Power Electronics Letters},
+   Volume = {2},
+   Number = {4},
+   Pages = {113-116},
+      Year = {2004} }
+
+@article{balachandran81,
+   Author = {Balachandran, Swaminathan and Lee, Fred C. Y.},
+   Title = {Algorithms for power converter design optimization},
+   Journal = {IEEE Transactions on Aerospace and Electronic Systems},
+   Volume = {AES-17},
+   Number = {3},
+   Pages = {422-432},
+      Year = {1981} }
+
+
+@phdthesis{balog02thesis,
+   Author = {Balog, Robert},
+   Title = {Coupled inductor: A basic filter building block, analysis, simulation and examples},
+   School = {University of Illinois at Urbana-Champaign},
+   Type = {M.S. thesis},
+      Year = {2002} }
+
+
+
+@inproceedings{balog02,
+   Author = {Balog, Robert and Krein, Philip T.},
+   Title = {Automatic tuning of coupled inductor filters},
+   BookTitle = {IEEE Power Electronics Specialists Conference},
+   Pages = {591-596},
+      Year = {2002} }
+
+
+
+@article{barreto04,
+   Author = {Barreto, Luiz Henrizue Silva Colado and Coelho, Ernane Ant\'onio Alves and Farias, Valdeir Jos\'e and Freitas, Luiz Carlos de and Vieira Jr., Jo\~ao Batista},
+   Title = {The bang-bang hysteresis current waveshaping control technique used to implement a high power factor power supply},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {19},
+   Number = {1},
+   Pages = {160-168},
+      Year = {2004} }
+
+
+
+@inproceedings{bash09,
+   Author = {Bash, M. and Chan, R. R. and Crider, J. and Harianto, C. and Lian, J. and Neely, J. and Pekarek, Steven D. and Sudhoff, Scott D. and Vaks, N.},
+   Title = {A medium voltage dc testbed for ship power system research},
+   BookTitle = {IEEE Electric Ship Technologies Symposium},
+   Pages = {560-567},
+      Year = {2009} }
+
+
+
+@inproceedings{bekir85,
+   Author = {Bekir, E. C.},
+   Title = {Singular perturbation methods for discrete time systems},
+   BookTitle = {IEEE Conference on Decision and Control},
+   Volume = {24},
+   Pages = {86-94},
+      Year = {1985} }
+
+
+
+@inproceedings{benavides07,
+   Author = {Benavides, Nicholas D. and Chapman, Patrick L.},
+   Title = {Boost converter with a reconfigurable inductor},
+   BookTitle = {IEEE Power Electronics Specialists Conference},
+   Pages = {1695-1700},
+      Year = {2007} }
+
+
+
+@inproceedings{benavides05,
+   Author = {Benavides, Nicholas D. and Esram, Trishan and Chapman, Patrick L.},
+   Title = {Ripple correlation control of a multiple-input dc-dc converter},
+   BookTitle = {IEEE Power Electronics Specialists Conference},
+   Pages = {160-164},
+   Note  = {RCC for solar using multiple-input buck-boost converter.},
+      Year = {2005} }
+
+
+
+@article{benbouzid98,
+   Author = {Benbouzid, M. E. H. and Said, N. S. Nait},
+   Title = {An efficiency-optimization controller for induction motor drives},
+   Journal = {IEEE Power Engineering Review},
+   Volume = {18},
+   Number = {5},
+   Pages = {63-64},
+   Abstract = {This optimization approach sets motor power factor to its rated value.},
+      Year = {1998} }
+
+
+
+@article{bhowmik97,
+   Author = {Bhowmik, Shibashis and Zyl, Annabelle van and Sp\'ee, Ren\'e and Enslin, Johan H. R.},
+   Title = {Sensorless current control for active rectifiers},
+   Journal = {IEEE Transactions on Industry Applications},
+   Volume = {33},
+   Number = {3},
+   Pages = {765-773},
+      Year = {1997} }
+
+
+
+@article{bibian02,
+   Author = {Bibian, Stephane and Jin, Hua},
+   Title = {High performance predictive dead-beat digital controller for DC power supplies},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {17},
+   Number = {3},
+   Pages = {420-427},
+      Year = {2002} }
+
+
+
+@article{blaabjerg99,
+   Author = {Blaabjerg, Frede and Kjaer, Philip C. and Rasmussen, Peter Omand and Cossar, Calum},
+   Title = {Improved digital current control methods in switched reluctance motor drives},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {14},
+   Number = {3},
+   Pages = {563-572},
+      Year = {1999} }
+
+
+
+@article{boehringer68,
+   Author = {Boehringer, A. F.},
+   Title = {Self-adapting dc converter for solar spacecraft power supply},
+   Journal = {IEEE Transactions on Aerospace and Electronic Systems},
+   Volume = {AES-4},
+   Number = {1},
+   Pages = {102-111},
+   Abstract = {Oldest reference for incremental conductance method of MPPT.},
+      Year = {1968} }
+
+@article{
+bogosyan07,
+   Author = {Bogosyan, Seta and Gokasan, Metin and Goering, Douglas J.},
+   Title = {A novel model validation and estimation approach for hybrid serial electric vehicles},
+   Journal = {IEEE Transactions on Vehicular Technology},
+   Volume = {56},
+   Number = {4},
+   Pages = {1485-1497},
+      Year = {2007} }
+
+
+
+@article{bose97,
+   Author = {Bose, Bimal K. and Patel, Nitin R. and Rajashekara, Kaushik},
+   Title = {A neuro-fuzzy-based on-line efficiency optimization control of a stator flux-oriented direct vector-controlled induction motor drive},
+   Journal = {IEEE Transactions on Industrial Electronics},
+   Volume = {44},
+   Number = {2},
+   Pages = {270-273},
+   Abstract = {Cites an earlier work on the technique.  This shows application to EVs.},
+      Year = {1997} }
+
+
+
+@article{bose83,
+   Author = {Bose, Bimal K. and Sutherland, Hunt A.},
+   Title = {A high-performance pulsewidth modulator for an inverter-fed drive system using a microcomputer},
+   Journal = {IEEE Transactions on Industry Applications},
+   Volume = {IA-19},
+   Number = {2},
+   Pages = {235-243},
+      Year = {1983} }
+
+
+
+@article{bose85,
+   Author = {Bose, Bimal K. and Szczesny, Paul M. and Steigerwald, Robert L.},
+   Title = {Microcomputer control of a residential photovoltaic power conditioning system},
+   Journal = {IEEE Transactions on Industry Applications},
+   Volume = {IA-21},
+   Number = {5},
+   Pages = {1182-1191},
+      Year = {1985} }
+
+@article{
+branicky98,
+   Author = {Branicky, Michael S.},
+   Title = {Multiple Lyapunov functions and other analysis tools for switched and hybrid systems},
+   Journal = {IEEE Transactions on Automatic Control},
+   Volume = {43},
+   Number = {4},
+   Pages = {475-482},
+      Year = {1998} }
+
+
+
+@article{broeck88,
+   Author = {van der Broeck, Heinz Willi and Skudelny, Hans-Christoph and Stanke, Georg Viktor},
+   Title = {Analysis and realization of a pulsewidth modulator based on voltage space vectors},
+   Journal = {IEEE Transactions on Industry Applications},
+   Volume = {24},
+   Number = {1},
+   Pages = {142-150},
+      Year = {1988} }
+
+
+
+@inproceedings{brown81,
+   Author = {Brown, A. R. and Middlebrook, R. D.},
+   Title = {Sampled-data modeling of switching regulators},
+   BookTitle = {IEEE Power Electronics Specialists Conf.},
+   Pages = {349-369},
+      Year = {1981} }
+
+
+
+@inproceedings{butcher09,
+   Author = {Butcher, M. and Maltby, R. and Parvin, P. S.},
+   Title = {Compact dc power and propulsion systems -- the definitive solution?},
+   BookTitle = {IEEE Electric Ship Technologies Symposium},
+   Pages = {521-528},
+      Year = {2009} }
+
+@inproceedings{cale07,
+   Author = {Cale, J. and Sudhoff, Scott D.},
+   Title = {EI core inductor designs using population-based design algorithms},
+   BookTitle = {IEEE Applied Power Electronics Conference},
+   Pages = {1062-1069},
+      Year = {2007} }
+
+@article{caliskan99,
+   Author = {Caliskan, Vahe A. and Verghese, George C. and Stankovi\'c, Aleksander M.},
+   Title = {Multifrequency averaging of dc/dc converters},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {14},
+   Number = {1},
+   Pages = {124-133},
+      Year = {1999} }
+
+
+
+@article{casadei06,
+   Author = {Casadei, Domenico and Grandi, Gabriele and Rossi, Claudio},
+   Title = {Single-phase single-stage photovoltaic generation system based on a ripple correlation control maximum power point tracking},
+   Journal = {IEEE Transactions on Energy Conversion},
+   Volume = {21},
+   Number = {2},
+   Pages = {562-568},
+      Year = {2006} }
+
+
+
+@article{castro03,
+   Author = {de Castro, Angel and Zumel, Pablo and Garc\'ia, Oscar and Riesgo, Teresa and Uceda, Javier},
+   Title = {Concurrent and simple digital controller of an ac/dc converter with power factor correction based on an FPGA},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {18},
+   Number = {1},
+   Pages = {334-343},
+      Year = {2003} }
+
+
+
+@inproceedings{celanovic00,
+   Author = {Celanovic, I. and Milosavljevic, I. and Boroyevich, Dushan and Cooley, R. and Guo, Jinghong},
+   Title = {A new distributed digital controller for the next generation of power electronics building blocks},
+   BookTitle = {Applied Power Electronics Conference},
+   Pages = {889-894},
+      Year = {2000} }
+
+
+
+@article{chakraborty03,
+   Author = {Chakraborty, Chandan and Hori, Yoichi},
+   Title = {Fast efficiency optimization techniques for the indirect vector-controlled induction motor drives},
+   Journal = {IEEE Transactions on Industry Applications},
+   Volume = {39},
+   Number = {4},
+   Pages = {1070-1076},
+   Abstract = {Journal version of similar conference paper.  Uses dc link power.},
+      Year = {2003} }
+
+
+
+@inproceedings{chakraborty02,
+   Author = {Chakraborty, Chandan and Ta, Cao-Minh and Uchida, Toshiyuki and Hori, Yoichi},
+   Title = {Fast search controllers for efficiency maximization of induction motor drives based on dc link power measurement},
+   BookTitle = {Power Conversion Conference},
+   Volume = {2},
+   Pages = {402-408},
+   Abstract = {This differs from earlier work by the same authors only in the search algorithm.  Still uses dc link power measurement.},
+      Year = {2002} }
+
+@inproceedings{chan07,
+   Author = {Chan, R. R. and Sudhoff, Scott D. and Lee, Y. and Zivi, E. L.},
+   Title = {Evolutionary optimization of power electronics based power systems},
+   BookTitle = {IEEE Applied Power Electronics Conference},
+   Pages = {449-456},
+      Year = {2007} }
+
+
+@article{chattopadhyay03,
+   Author = {Chattopadhyay, Souvik and Ramanarayanan, V. and Jayashankar, V.},
+   Title = {A predictive switching modulator for current mode control of high power factor boost rectifier},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {18},
+   Number = {1},
+   Pages = {114-123},
+      Year = {2003} }
+
+
+
+@article{chen04,
+   Author = {Chen, Hung-Chi and Li, Sheng-Hua and Liaw, Chang-Ming},
+   Title = {Switch-mode rectifier with digital robust ripple compensation and current waveform controls},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {19},
+   Number = {2},
+   Pages = {560-566},
+      Year = {2004} }
+
+
+
+@article{chen03,
+   Author = {Chen, Jingquan and Prodi\'c, Aleksander and Erickson, Robert and Maksimovi\'c, Dragan},
+   Title = {Predictive digital current programmed control},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {18},
+   Number = {1},
+   Pages = {411-419},
+      Year = {2003} }
+
+
+
+@inproceedings{chen06,
+   Author = {Chen, Yongxiang and Kimball, Jonathan W. and Krein, Philip T.},
+   Title = {Non-unity active PFC methods for filter size optimization},
+   BookTitle = {Applied Power Electronics Conference},
+   Pages = {268-272},
+      Year = {2006} }
+
+
+
+@book{cheney85,
+   Author = {Cheney, Ward and Kincaid, David},
+   Title = {Numerical Mathematics and Computing},
+   Publisher = {Wadsworth, Inc.},
+   Address = {Belmont, CA},
+   Edition = {2nd},
+      Year = {1985} }
+
+
+
+@inproceedings{choy96,
+   Author = {Choy, Ick and Kwon, Soon H. and Choi, J. Y. and Kim, J. W. and Kim, K. B.},
+   Title = {On-line efficiency optimization control of a slip angular frequency controlled induction motor drive using neural networks},
+   BookTitle = {IEEE International Conference on Industrial Electronics, Control, and Instrumentation},
+   Pages = {1216-1221},
+      Year = {1996} }
+
+@article{chutinan03,
+	Author = {Chutinan, Alongkrit and Krogh, Bruce H.},
+	Title = {Computational techniques for hybrid system verification},
+	Journal = {IEEE Transactions on Automatic Control},
+	Pages = {64-75},
+	Volume = {48},
+	Month = {January},
+	Year = {2003}}
+
+@inproceedings{cifdaloz06,
+   Author = {Cifdaloz, Oguzhan and Konasani, Siva and Rodriguez, Armando A. and Islam, M. Murshidul and Allee, David R.},
+   Title = {DC-DC buck converter design: A sampled-data approach},
+   BookTitle = {American Control Conference},
+   Pages = {2765-2770},
+      Year = {2006} }
+
+@article{compton95,
+   Author = {Compton, W. Dale},
+   Title = {Encouraging graduate study in engineering},
+   Journal = {Journal of Engineering Education},
+   Volume = {84},
+   Number = {3},
+   Pages = {249-255},
+      Year = {1995} }
+
+
+@techreport{iec01,
+   Author = {Commission, International Electrotechnical},
+   Title = {Electromagnetic compatibility (EMC) - Part 3-2: Limits - Limits for harmonic current emissions (equipment input current <16 A per phase)},
+   Number = {Standard IEC 61000-3-2},
+      Year = {2001} }
+
+
+
+@techreport{easton00,
+   Author = {Consultants, Easton},
+   Title = {Variable Frequency Drives},
+   Institution = {Northwest Energy Efficiency Alliance},
+   Number = {E00-054},
+   Month= {June 2000},
+      Year = {2000} }
+
+
+
+@inproceedings{cucej97,
+   Author = {\u Cu\u cej, Zarko and Borojevi\'c, Dusan},
+   Title = {Input power minimization at inverter fed induction motor drive system with FOC by field weakening},
+   BookTitle = {IEEE Power Electronics Specialists Conference},
+   Pages = {1493-1499},
+      Year = {1997} }
+
+
+
+@inproceedings{cuk77,
+   Author = {\'Cuk, Slobodan and Middlebrook, R. D.},
+   Title = {A general unified approach to modeling switching dc-to-dc converters in discontinuous conduction mode},
+   BookTitle = {IEEE Power Electronics Specialists Conference},
+   Pages = {36-57},
+   Note  = {State-space averaging with DCM.},
+      Year = {1977} }
+
+
+
+@article{dallago00,
+   Author = {Dallago, E. and Passoni, M. and Sassone, G.},
+   Title = {Lossless current sensing in low-voltage high-current dc/dc modular supplies},
+   Journal = {IEEE Transactions on Industrial Electronics},
+   Volume = {47},
+   Pages = {1249-1252},
+      Year = {2000} }
+
+
+
+@misc{analog06,
+   Author = {Devices, Analog},
+   Title = {Analog Devices Part Number ADSP-21991},
+   Number = {Sept. 23, 2006},
+         Year = {} }
+
+
+@book{dhillon05,
+	Author = {Dhillon, B. S.},
+	Title = {Reliability, Quality, and Safety for Engineers},
+	Publisher = {CRC Press},
+	Address = {Boca Raton, FL},
+		Year = {2005} }
+
+@article{donkers11,
+	Author = {Donkers, M. C. F. and Heemels, W. P. M. H. and van de Wouw, Nathan and Hetel, Laurentiu},
+	Title = {Stability analysis of networked control systems using a switched linear systems approach},
+	Journal = {IEEE Transactions on Automatic Control},
+	Volume = {56},
+	Pages = {2101-2115},
+	Year = {2011}}
+
+@article{Dowell1966,
+	Author = {Dowell, P. L.},
+	Title = {Effects of eddy currents on transformer windings},
+	Journal = {Proceedings of IEE},
+	Pages = {1387-1394},
+	Volume = {113},
+	Number = {8},
+	Year = {1966}}
+	
+
+@article{ehsani83,
+   Author = {Ehsani, Mehrdad and Kustom, Robert L. and Fuja, R. E.},
+   Title = {Microcomputer control of a current-source dc-dc converter},
+   Journal = {IEEE Transactions on Industry Applications},
+   Volume = {IA-19},
+   Number = {5},
+   Pages = {690-698},
+      Year = {1983} }
+
+
+
+@article{elbuluk88,
+   Author = {Elbuluk, Malik E. and Verghese, George C. and Kassakian, John G.},
+   Title = {Sampled-data modeling and digital control of resonant converters},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {3},
+   Number = {3},
+   Pages = {344-354},
+      Year = {1988} }
+
+@book{
+emadi04,
+   Author = {Emadi, Ali and Ehsani, Mehrdad and Miller, John M.},
+   Title = {Vehicular Electric Power Systems: Land, Sea, Air, and Space Vehicles},
+   Publisher = {Marcel Dekker, Inc.},
+   Address = {New York},
+      Year = {2004} }
+
+
+@article{escobar99,
+   Author = {Escobar, G. and Ortega, R. and Sira-Ramirez, H. and Vilain, J.-P. and Zein, I.},
+   Title = {An experimental comparison of several nonlinear controllers for power converters},
+   Journal = {IEEE Control Systems Magazine},
+   Volume = {19},
+   Number = {1},
+   Pages = {66-82},
+      Year = {1999} }
+
+
+
+@phdthesis{esram04,
+   Author = {Esram, Trishan},
+   Title = {Maximum power point tracking of photovoltaic arrays using ripple correlation control},
+   School = {University of Illinois at Urbana-Champaign},
+   Type = {M.S. thesis},
+      Year = {2004} }
+
+
+
+@article{esram07,
+   Author = {Esram, Trishan and Chapman, Patrick L.},
+   Title = {Comparison of photovoltaic array maximum power point tracking techniques},
+   Journal = {IEEE Transactions on Energy Conversion},
+   Volume = {22},
+   Number = {2},
+   Pages = {439-449},
+      Year = {2007} }
+
+
+
+
+
+@book{faires83,
+   Author = {Faires, J. Douglas and Faires, Barbara Trader},
+   Title = {Calculus and Analytic Geometry},
+   Publisher = {Prindle Weber & Schmidt},
+   Address = {Boston},
+      Year = {1983} }
+
+
+
+@inproceedings{feng05,
+   Author = {Feng, Guang and Eberle, Wilson and Liu, Yan-Fei},
+   Title = {A new digital control algorithm to achieve optimal dynamic performance in dc-to-dc converters},
+   BookTitle = {IEEE Power Electronics Specialists Conference},
+   Pages = {2744-2749},
+      Year = {2005} }
+
+
+
+@inproceedings{feng06,
+   Author = {Feng, Guang and Eberle, Wilson and Liu, Yan-Fei},
+   Title = {A digital control algorithm for dc-dc converters under input voltage changes},
+   BookTitle = {Applied Power Electronics Conference},
+   Pages = {1430-1436},
+      Year = {2006} }
+
+@article{Ferreira1994,
+        author = "J. A. Ferreira",
+        title = "Improved analytical modeling of conductive losses in magnetic components",
+        journal = "Power Electronics, IEEE Transactions on",
+        pages = "127-131",
+        volume = "9",
+        number = "1",
+        year = "1994",
+        issn = "0885-8993",
+        abstract = "The one well-known one-dimensional method for calculating the AC resistance of multilayer transformer windings contains a built-in orthogonality which has not been reported previously. Orthogonality between skin effect and proximity effect makes a more generalized approach for the analytical solution of AC resistance in windings possible. This includes a method to calculate the AC resistance of round conductor windings which is not only convenient to use, but gives more accurate answers than the basic one-dimensional method because the exact analytical equations for round conductors can be used"
+}
+
+
+@inproceedings{foley06,
+   Author = {Foley, Raymond F. and Kavanagh, Richard C. and Marnane, William P. and Egan, Michael G.},
+   Title = {Sensorless current-sharing in multiphase power converters},
+   BookTitle = {IEEE Workshop on Computers in Power Electronics},
+   Pages = {117-122},
+   Note  = {paper 6.3 in pre-prints},
+      Year = {2006} }
+
+
+
+@article{forsyth99,
+   Author = {Forsyth, A. J. and Ellis, I. K. and Möller, M.},
+   Title = {Adaptive control of a high-frequency dc-dc converter by parameter scheduling},
+   Journal = {IEE Proceedings-Electric Power Applications},
+   Volume = {146},
+   Number = {4},
+   Pages = {447-454},
+      Year = {1999} }
+
+
+
+@inproceedings{francis06,
+   Author = {Francis, Gerald and Burgos, Rolando and Wang, Fred and Boroyevich, Dushan},
+   Title = {A universal controller for distributed control of power electronics conversion systems},
+   BookTitle = {IEEE Computers in Power Electronics Workshop},
+   Pages = {8-14},
+      Year = {2006} }
+
+
+
+@article{fujimoto05,
+   Author = {Fujimoto, Yoshihisa and R\'e, Pascal Lo and Miyamoto, Masayuki},
+   Title = {A delta-sigma modulator for a 1-bit digital switching amplifier},
+   Journal = {IEEE Journal of Solid-State Circuits},
+   Volume = {40},
+   Number = {9},
+   Pages = {1865-1871},
+      Year = {2005} }
+
+
+
+@article{garcia03,
+   Author = {Garc\'ia, Oscar and Cobos, Jos\'e A. and Prieto, Roberto and Alou, Pedro and Uceda, Javier},
+   Title = {Single phase power factor correction: A survey},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {18},
+   Number = {3},
+   Pages = {749-755},
+      Year = {2003} }
+
+
+
+@book{gelb74,
+   Editor = {Gelb, Arthur},
+   Title = {Applied Optimal Estimation},
+   Publisher = {The MIT Press},
+   Address = {Cambridge, MA},
+   Abstract = {This is an excellent text on Kalman filters and related topics.},
+      Year = {1974} }
+
+@book{goldberg89,
+	Author = {Goldberg, D.},
+	Title = {Genetic Algorithms in Search, Optimization and Machine Learning},
+	Publisher = {Kluwer},
+	Address = {Norwell, MA},
+		Year = {1989}}
+		
+
+@book{goodwin84,
+   Author = {Goodwin, Graham C. and Sin, Kwai Sang},
+   Title = {Adaptive Filtering, Prediction and Control},
+   Publisher = {Prentice-Hall},
+   Address = {Englewood Cliffs, NJ},
+   Abstract = {Mostly about system ID, some adaptive control, some stochastic filters (Kalman filters).},
+      Year = {1984} }
+
+
+
+@article{grant83,
+   Author = {Grant, Duncan A. and Houldsworth, John A. and Lower, Kim N.},
+   Title = {A new high-quality {PWM} ac drive},
+   Journal = {IEEE Transactions on Industry Applications},
+   Volume = {IA-19},
+   Number = {2},
+   Pages = {211-216},
+      Year = {1983} }
+
+
+
+@inproceedings{green88,
+   Author = {Green, T. C. and Salmon, J. C. and Williams, B. W.},
+   Title = {Investigation of delta modulation spectra and of sub-harmonic elimination techniques},
+   BookTitle = {IEEE Power Electronics Specialists Conference},
+   Pages = {290-297},
+      Year = {1988} }
+
+
+
+@inproceedings{guilar07,
+   Author = {Guilar, Nathaniel J. and Amirtharajah, Rajeevan and Hurst, Paul},
+   Title = {Analysis of DC-DC conversion for energy harvesting systems using a mixed-signal sliding-mode controller},
+   BookTitle = {Power Electronics Specialists Conference},
+   Pages = {2620-2625},
+      Year = {2007} }
+
+
+
+@inproceedings{guo04,
+   Author = {Guo, Jinghong and Boroyevich, Dushan and Edwards, Stephen H.},
+   Title = {Distributed, modular, open control architecture for power conversion systems},
+   BookTitle = {IEEE Power Electronics Specialists Conference},
+   Pages = {2258-2263},
+      Year = {2004} }
+
+
+
+@article{gusseme07,
+   Author = {Gusseme, Koen De and Ryckaert, Wouter R. and Van de Sype, David M. and Ghijselen, Jozef A. and Melkebeek, Jan A. and Vandevelde, Lieven},
+   Title = {A boost PFC converter with programmable harmonic resistance},
+   Journal = {IEEE Transactions on Industry Applications},
+   Volume = {43},
+   Number = {3},
+   Pages = {742-750},
+      Year = {2007} }
+
+
+
+@article{haneyoshi88,
+   Author = {Haneyoshi, Toshimasa and Kawamura, Atsuo and Hoft, Richard G.},
+   Title = {Waveform compensation of {PWM} inverter with cyclic fluctuating loads},
+   Journal = {IEEE Transactions on Industry Applications},
+   Volume = {24},
+   Number = {4},
+   Pages = {582-589},
+      Year = {1988} }
+
+
+
+@article{he05,
+   Author = {He, Dake and Nelms, R. M.},
+   Title = {Fuzzy logic average current-mode control for dc-dc converters using an inexpensive 8-bit microcontroller},
+   Journal = {IEEE Transactions on Industry Applications},
+   Volume = {41},
+   Number = {6},
+   Pages = {1531-1538},
+      Year = {2005} }
+
+
+
+@inproceedings{hegner02,
+   Author = {Hegner, Henry and Desai, Bipin},
+   Title = {Integrated Fight Through Power},
+   BookTitle = {IEEE Power Engineering Society Summer Meeting},
+   Volume = {1},
+   Pages = {336-339},
+      Year = {2002} }
+
+
+
+@misc{henze88,
+   Author = {Henze, Christopher P.},
+   Title = {Digitally controlled ac to dc power conditioner},
+   Month = {August 2, 1988},
+      ISBN = {4,761,725},
+   Year = {1988} }
+
+@inproceedings{henzinger96,
+	Author = {Henzinger, T. A.},
+	Title = {The theory of hybrid automata},
+	BookTitle = {IEEE Symposium on Logic in Computer Science},
+	Pages = {278-292},
+	Year = {1996}}
+
+@inproceedings{herrmann93,
+   Author = {Herrmann, Ulrich and Langer, Hans Georg and Broeck, Heinz van der},
+   Title = {Low cost dc to ac converter for photovoltaic power conversion in residential applications},
+   BookTitle = {IEEE Power Electronics Specialists Conference},
+   Pages = {588-594},
+      Year = {1993} }
+
+
+
+@article{hespanha03,
+   Author = {Hespanha, Joao P. and Liberzon, Daniel and Morse, A. Stephen},
+   Title = {Overcoming the limitations of adaptive control by means of logic-based switching},
+   Journal = {Systems and Control Letters},
+   Volume = {49},
+   Pages = {49-65},
+      Year = {2003} }
+
+@article{hespanha07,
+	Author = {Hespanha, Joao P. and Naghshtabrizi, Payam and Xu, Yonggang},
+	Title = {A survey of recent results in networked control systems},
+	Journal = {Proceedings of the IEEE},
+	Volume = {95},
+	Pages = {138-162},
+	Year = {2007} }
+
+@article{hester90,
+   Author = {Hester, R. K. and Wit, M. D. and Kiriaki, S.},
+   Title = {Fully differential {ADC} with rail-to-rail common-mode range and nonlinear capacitor compensation},
+   Journal = {IEEE Journal of Solid-State Circuits},
+   Volume = {25},
+   Pages = {173-183},
+   Month = {Feb.},
+      Year = {1990}}
+
+@article{
+higham05,
+   Author = {Higham, Nicholas J.},
+   Title = {The scaling and squaring method for the matrix exponential revisited},
+   Journal = {SIAM J. Matrix Anal. Appl.},
+   Volume = {26},
+   Number = {4},
+   Pages = {1179-1193},
+      Year = {2005} }
+
+
+@inproceedings{holmes96,
+   Author = {Holmes, D. G. and Martin, D. A.},
+   Title = {Implementation of a direct digital predictive current controller for single and three phase voltage source inverters},
+   BookTitle = {IEEE Industry Applications Conference},
+   Pages = {906-913},
+      Year = {1996} }
+
+
+
+@article{hoppensteadt77,
+   Author = {Hoppensteadt, F. and Miranker, W.},
+   Title = {Multitime methods for systems of difference equations},
+   Journal = {Studies in Applied Mathematics},
+   Volume = {56},
+   Pages = {273-289},
+      Year = {1977} }
+
+
+
+@inproceedings{huang96,
+   Author = {Huang, Tony C. and El-Sharkawi, Mohamed A.},
+   Title = {Induction motor efficiency maximizer using multi-layer fuzzy control},
+   BookTitle = {International Conference on Intelligent Systems Applications to Power Systems},
+   Pages = {109-113},
+   Abstract = {This approach uses fuzzy logic to improve efficiency and response time simultaneously by adjusting V/Hz parameter.},
+      Year = {1996} }
+
+@article{huang11,
+  Author = {Huang, Alex Q. and Crow, Mariesa L. and Heydt, Gerald T. and Zheng, Jim P. and Dale, Steiner J.},
+  Title = {{The Future Renewable Electric Energy Delivery and Management (FREEDM) System: The energy internet}},
+  Journal = {Proceedings of the IEEE},
+  Volume = {99},
+  Number = {1},
+  Pages = {133-148},
+    Year = {2011},
+    Month = {Jan.}}
+
+
+@article{hurley98,
+   Author = {Hurley, William Gerard and Wolfle, Werner Hugo and Breslin, John G.},
+   Title = {Optimized transformer design: Inclusive of high-frequency effects},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {13},
+   Number = {4},
+   Pages = {651-659},
+      Year = {1998} }
+
+@misc{ti06,
+   Author = {Instruments, Texas},
+   Title = {C2000 controllers overview},
+   Publisher = {Texas Instruments},
+   Number = {Sept. 23, 2006},
+         Year = {} }
+
+
+
+@article{islam04,
+   Author = {Islam, M. Murshidul and Allee, David R. and Konasani, Siva and Rodriguez, Armando A.},
+   Title = {A low-cost digital controller for a switching dc converter with improved voltage regulation},
+   Journal = {IEEE Power Electronics Letters},
+   Volume = {2},
+   Number = {4},
+   Pages = {121-124},
+      Year = {2004} }
+
+
+@article{jabbari10,
+	Author = {Jabbari, Masoud and Farzanehfard, Hossein},
+	Title = {New resonant step-down/up converters},
+	Journal = {IEEE Transactions on Power Electronics},
+	Volume = {25},
+	Number = {1},
+	Pages = {249-256},
+		Year = {2010}}
+
+@article{jackson03,
+   Author = {Jackson, Deron K. and Leeb, Steven B.},
+   Title = {A digitally controlled amplifier with ripple cancellation},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {18},
+   Number = {1},
+   Pages = {486-494},
+      Year = {2003} }
+
+
+
+@article{jiang04,
+   Author = {Jiang, Zhenhua and Dougal, Roger A.},
+   Title = {Synergetic control of power converters for pulse current charging of advanced batteries from a fuel cell power source},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {19},
+   Number = {4},
+   Pages = {1140-1150},
+      Year = {2004} }
+
+@inproceedings{johnson94,
+	Author = {Johnson, Roger T. and Johnson, David W.},
+	Title = {An overview of cooperative learning},
+	BookTitle = {Creativity and Collaborative Learning},
+	Editor = {Thousand, J. and Villa, A. and Nevin, A.},
+	Publisher = {Brookes Press},
+	Address = {Baltimore},
+		Year = {1994},
+		Abstract = {http://www.co-operation.org/pages/overviewpaper.html}}
+
+
+@article{jung05,
+   Author = {Jung, Y.-S.},
+   Title = {Small-signal model-based design of digital current-mode control},
+   Journal = {IEE Proceedings-Electric Power Applications},
+   Volume = {152},
+   Number = {4},
+   Pages = {871-877},
+      Year = {2005} }
+
+
+
+@article{kamas93,
+   Author = {Kamas, Linda A. and Sanders, Seth R.},
+   Title = {Parameter and state estimation in power electronic circuits},
+   Journal = {IEEE Transactions on Circuits and Systems I: Fundamental Theory and Applications},
+   Volume = {40},
+   Number = {12},
+   Pages = {920-928},
+      Year = {1993} }
+
+
+
+@article{kawamura88,
+   Author = {Kawamura, Atsuo and Haneyoshi, Toshimasa and Hoft, Richard G.},
+   Title = {Deadbeat controlled {PWM} inverter with parameter estimation using only voltage sensor},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {3},
+   Number = {2},
+   Pages = {118-125},
+      Year = {1988} }
+
+
+
+@inproceedings{kelly04,
+   Author = {Kelly, Anthony and Rinne, Karl},
+   Title = {Sensorless current-mode control of a digital dead-beat dc-dc converter},
+   BookTitle = {Applied Power Electronics Conference},
+   Pages = {1790-1795},
+      Year = {2004} }
+
+
+
+@inproceedings{kelly06,
+   Author = {Kelly, Anthony and Rinne, Karl},
+   Title = {A self-compensating adaptive digital regulator for switching converters based on linear prediction},
+   BookTitle = {Applied Power Electronics Conference},
+   Pages = {712-718},
+      Year = {2006} }
+
+@article{kheraluwala92,
+   Author = {Kheraluwala, M. H. and Gascoign, R. W. and Divan, Deepak M. and Baumann, E. D.},
+   Title = {Performance characterization of a high-power dual active bridge dc-to-dc converter},
+   Journal = {IEEE Transactions on Industry Applications},
+   Volume = {28},
+   Number = {6},
+   Pages = {1294-1301},
+      Year = {1992} }
+
+@inproceedings{kim09,
+	Author = {Kim, Jaehong and Jeong, Ilsu and Nam, Kwanghee},
+	Title = {Asymmetric duty control of the dual-active-bridge dc/dc converter for single-phase distributed generators},
+	BookTitle = {IEEE Energy Conversion Congress and Exposition},
+	Pages = {75-82},
+		Year = {2009}}
+
+@book{kislovski91,
+   Author = {Kislovski, Andre S. and Redl, Richard and Sokal, Nathan O.},
+   Title = {Dynamic Analysis of Switching-Mode DC/DC Converters},
+   Publisher = {Van Nostrand Reinhold},
+   Address = {New York},
+      Year = {1991} }
+
+
+
+@article{kocher83,
+   Author = {Kocher, Mark J. and Steigerwald, Robert L.},
+   Title = {An ac-to-dc converter with high quality input waveforms},
+   Journal = {IEEE Transactions on Industry Applications},
+   Volume = {IA-19},
+   Number = {4},
+   Pages = {586-599},
+      Year = {1983} }
+
+@book{koen03,
+   Author = {Koen, Billy Vaughn},
+   Title = {Discussion of the Method: Conducting the Engineer's Approach to Problem Solving},
+   Publisher = {Oxford University Press},
+   Address = {New York},
+      Year = {2003} }
+
+
+@article{kojabadi06,
+   Author = {Kojabadi, Hossein Madadi and Yu, Bin and Gadoura, Idris A. and Chang, Liuchen and Ghribi, Mohsen},
+   Title = {A novel DSP-based current-controlled {PWM} strategy for single phase grid connected inverters},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {21},
+   Number = {4},
+   Pages = {985-993},
+      Year = {2006} }
+
+
+
+@article{kokotovic75,
+   Author = {Kokotovi\'c, Peter V.},
+   Title = {A Riccati equation for block-diagonalization of ill-conditioned systems},
+   Journal = {IEEE Transactions on Automatic Control},
+   Volume = {20},
+   Number = {6},
+   Pages = {812-814},
+      Year = {1975} }
+
+
+
+@book{kokotovic86,
+   Author = {Kokotovi\'c, Peter V. and Khalil, Hassan K. and O'Reilly, John},
+   Title = {Singular Perturbation Methods in Control: Analysis and Design},
+   Publisher = {Academic Press},
+   Address = {London},
+      Year = {1986} }
+
+
+
+@book{krause02,
+   Author = {Krause, Paul C. and Wasynczuk, Oleg and Sudhoff, Scott D.},
+   Title = {Analysis of Electric Machinery},
+   Publisher = {Wiley-IEEE Press},
+   Address = {New York},
+      Year = {2002} }
+
+
+
+@book{krein98,
+   Author = {Krein, Philip T.},
+   Title = {Elements of Power Electronics},
+   Publisher = {Oxford University Press},
+   Address = {New York},
+      Year = {1998} }
+
+
+
+@inproceedings{krein99,
+   Author = {Krein, Philip T.},
+   Title = {Ripple correlation control, with some applications},
+   BookTitle = {IEEE International Symposium on Circuits and Systems},
+   Pages = {283-286},
+      Year = {1999} }
+
+
+
+@inproceedings{krein04,
+   Author = {Krein, Philip T.},
+   Title = {Current quality and performance tradeoffs under active power factor correction},
+   BookTitle = {IEEE Workshop on Computers in Power Electronics},
+   Pages = {97-101},
+      Year = {2004} }
+
+
+
+@misc{krein05,
+   Author = {Krein, Philip T.},
+   Title = {Dynamic current sharing dc-dc switching power supply},
+      ISBN = {7,030,512},
+   Year = {2005} }
+
+
+
+@inproceedings{krein06,
+   Author = {Krein, Philip T.},
+   Title = {Feasibility of geometric digital controls and augmentation for ultrafast dc-dc converter response},
+   BookTitle = {IEEE Workshop on Computers in Power Electronics},
+   Pages = {48-56},
+      Year = {2006} }
+
+
+
+@inproceedings{krein90ias,
+   Author = {Krein, Philip T. and Bass, Richard M.},
+   Title = {A new approach to fast simulation of periodically switching power converters},
+   BookTitle = {Industry Applications Society Annual Meeting},
+   Pages = {1185-1189},
+      Year = {1990} }
+
+
+
+@article{krein90kbm,
+   Author = {Krein, Philip T. and Bentsman, Joseph and Bass, Richard M. and Lesieutre, Bernard L.},
+   Title = {On the use of averaging for the analysis of power electronic systems},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {5},
+   Pages = {182-190},
+   Note = {KBM averaging},
+      Year = {1990} }
+
+
+@article{krein04cyclo,
+   Author = {Krein, Philip T. and Geng, Xin and Balog, Robert S.},
+   Title = {High-frequency link inverter for fuel cells based on multiple-carrier {PWM}},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {19},
+   Pages = {1279-1288},
+      Year = {2004} }
+
+
+@techreport{krein93,
+   Author = {Krein, Philip T. and Midya, Pallab and Ekambaram, U.},
+   Title = {A distributed low-voltage power converter},
+   Institution = {University of Illinois at Urbana-Champaign},
+   Number = {PAP-TR-93-4},
+   Type = {Technical Report},
+   Month= {1993},
+      Year = {1993} }
+
+
+@inproceedings{krein04india,
+   Author = {Krein, Philip T. and Mossoba, Joseph T. and Geng, Xin},
+   Title = {Ultimate power electronics control: Formulating the power conversion control problem at its most fundamental level},
+   BookTitle = {India International Conference on Power Electronics},
+   Address= {Mumbai},
+      Year = {2004} }
+
+
+
+
+@inproceedings{krieger07,
+   Author = {Krieger, Alex W. and Salmon, J. C.},
+   Title = {Frequency locked phase estimation under harmonically distorted conditions},
+   BookTitle = {Power Electronics Specialists Conference},
+   Pages = {2982-2986},
+      Year = {2007} }
+
+
+
+@phdthesis{kuai05,
+   Author = {Kuai, Yingying},
+   Title = {Testing and maximum power extraction of photovoltaic panels},
+   School = {North Dakota State University},
+   Type = {M.S. thesis},
+      Year = {2005} }
+
+
+
+@inproceedings{kulkarni09,
+   Author = {Kulkarni, Saurabh and Santoso, Surya},
+   Title = {Estimating transient response of simple ac and dc shipboard power systems to pulse load operations},
+   BookTitle = {IEEE Electric Ship Technology Symposium},
+   Pages = {73-78},
+      Year = {2009} }
+
+
+
+@article{lai97,
+   Author = {Lai, Zheren and Smedley, Keyue M. and Ma, Yunhong},
+   Title = {Time quantity one-cycle control for power-factor correctors},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {12},
+   Number = {2},
+   Pages = {369-375},
+      Year = {1997} }
+
+
+
+@article{lehman96,
+   Author = {Lehman, Brad and Bass, Richard M.},
+   Title = {Switching frequency dependent averaged models for {PWM} dc-dc converters},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {11},
+   Number = {1},
+   Pages = {89-98},
+      Year = {1996} }
+
+
+
+@article{leung04,
+   Author = {Leung, Kelvin K. S. and Chung, Henry S. H.},
+   Title = {Derivation of a second-order switching surface in the boundary control of buck converters},
+   Journal = {IEEE Power Electronics Letters},
+   Volume = {2},
+   Number = {2},
+   Pages = {63-67},
+      Year = {2004} }
+
+
+@book{
+liberzon03,
+   Author = {Liberzon, Daniel},
+   Title = {Switching in Systems and Control},
+   Publisher = {Birkhauser},
+   Address = {Boston},
+      Year = {2003} }
+
+
+@inproceedings{lim01,
+   Author = {Lim, Yan Hong and Hamill, David C.},
+   Title = {Synthesis, simulation and experimental verification of a maximum power point tracker from nonlinear dynamics},
+   BookTitle = {Power Electronics Specialists Conference},
+   Pages = {199-204},
+   Note  = {Almost exactly RCC, uses sgn(pdot)sgn(vdot)},
+      Year = {2001} }
+
+
+
+@phdthesis{logue00,
+   Author = {Logue, Daniel L.},
+   Title = {Power electronic building block applications in optimization, control, and simulation},
+   School = {University of Illinois at Urbana-Champaign},
+   Type = {Ph.D. dissertation},
+      Year = {2000} }
+
+
+
+@inproceedings{logue01apec,
+   Author = {Logue, Daniel L. and Krein, Philip T.},
+   Title = {Machine efficiency optimization using ripple correlation control},
+   BookTitle = {Applied Power Electronics Conference},
+   Pages = {642-648},
+   Note  = {RCC for machines},
+      Year = {2001} }
+
+
+
+@inproceedings{logue01obspesc,
+   Author = {Logue, Daniel L. and Krein, Philip T.},
+   Title = {Observer-based techniques in ripple correlation control applied to power electronic systems},
+   BookTitle = {IEEE Power Electronics Specialists Conference},
+   Pages = {2014-2018},
+      Year = {2001} }
+
+
+
+@inproceedings{logue01optimpesc,
+   Author = {Logue, Daniel L. and Krein, Philip T.},
+   Title = {Optimization of power electronic systems using ripple correlation control: A dynamic programming approach},
+   BookTitle = {IEEE Power Electronics Specialists Conference},
+   Pages = {459-464},
+      Year = {2001} }
+
+
+
+@article{luckjiff05,
+   Author = {Luckjiff, Glen and Dobson, Ian},
+   Title = {Hexagonal $\Sigma\!-\!\Delta$ modulators in power electronics},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {20},
+   Number = {5},
+   Pages = {1075-1083},
+      Year = {2005} }
+
+
+
+@article{lukic07,
+   Author = {Luki\'c, Zdravko and Rahman, Nabeel and Prodi\'c, Aleksander},
+   Title = {Multibit {$\Sigma\!-\!\Delta$} {PWM} digital controller {IC} for dc-dc converters operating at switching frequencies beyond 10 {MHz}},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {22},
+   Number = {5},
+   Pages = {1693-1707},
+   Abstract = {New PWM technique that hybridizes PWM with sigma-delta modulation.},
+      Year = {2007} }
+
+
+
+@article{luo86,
+   Author = {Luo, Fang L. and Hill, Roland J.},
+   Title = {Fast response and optimum regulation in digitally controlled thyristor converters},
+   Journal = {IEEE Transactions on Industry Applications},
+   Volume = {IA-22},
+   Number = {1},
+   Pages = {10-17},
+      Year = {1986} }
+
+
+
+@inproceedings{maksimovic04,
+   Author = {Maksimovi\'c, Dragan and Zane, Regan and Erickson, Robert},
+   Title = {Impact of digital control in power electronics},
+   BookTitle = {International Symposium on Power Semiconductor Devices and ICs},
+   Pages = {13-22},
+      Year = {2004} }
+
+
+@inproceedings{malyna07,
+   Author = {Malyna, D. V. and Duarte, J. L. and Hendrix, M. A. M. and van Horck, F. B. M.},
+   Title = {Optimization of combined thermal and electrical behavior of power converters using multi-objective genetic algorithms},
+   BookTitle = {European Conf. on Power Electronics and Applications},
+   Pages = {1-10},
+      Year = {2007} }
+
+
+@inproceedings{mannan02,
+   Author = {Mannan, Md. Abdul and Murata, Toshiaki and Tamura, Junji and Tsuchiya, Takeshi},
+   Title = {Efficiency optimized speed control of field oriented induction motor including core loss},
+   BookTitle = {Power Conversion Conference},
+   Volume = {3},
+   Pages = {1316-1321},
+   Abstract = {Uses optimal regulator theory for maximum efficiency.},
+      Year = {2002} }
+
+
+
+@article{masoum02,
+   Author = {Masoum, Mohammad A. S. and Dehbonei, Hooman and Fuchs, Ewald F.},
+   Title = {Theoretical and experimental analyses of photovoltaic systems with voltage- and current-based maximum power-point tracking},
+   Journal = {IEEE Transactions on Energy Conversion},
+   Volume = {17},
+   Number = {4},
+   Pages = {514-522},
+      Year = {2002} }
+
+
+
+@article{matsuo98,
+   Author = {Matsuo, Hirofumi and Kurokawa, Fujio and Asano, Mutsuyoshi},
+   Title = {Overcurrent limiting characteristics of the dc-dc converter with a new digital current-injected control circuit},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {13},
+   Number = {4},
+   Pages = {645-650},
+      Year = {1998} }
+
+
+
+@inproceedings{mattavelli04,
+   Author = {Mattavelli, P.},
+   Title = {Digital control of dc-dc boost converters with inductor current estimation},
+   BookTitle = {Applied Power Electronics Conference},
+   Pages = {74-80},
+      Year = {2004} }
+
+
+
+@article{mattavelli05,
+   Author = {Mattavelli, Paolo and Spiazzi, Giorgio and Tenti, Paolo},
+   Title = {Predictive digital control of power factor preregulators with input voltage estimation using disturbance observers},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {20},
+   Number = {1},
+   Pages = {140-147},
+      Year = {2005} }
+
+
+
+@book{mazer97,
+   Author = {Mazer, J. A.},
+   Title = {Solar Cells: An Introduction to Crystalline Photovoltaic Technology},
+   Publisher = {Kluwer Academic Publishers},
+   Address = {Norwell, MA},
+      Year = {1997} }
+
+
+
+@article{mcclamroch00,
+   Author = {McClamroch, N. Harris and Kolmanovsky, Ilya},
+   Title = {Performance benefits of hybrid control design for linear and nonlinear systems},
+   Journal = {Proceedings of the IEEE},
+   Volume = {88},
+   Number = {7},
+   Pages = {1083-1096},
+      Year = {2000} }
+
+
+
+@inproceedings{mcginn09,
+   Author = {McGinn, David and Muthukrishnan, Vijay and Wang, Wei},
+   Title = {Designing microprocessor-based protection hardware for ultra-critical applications},
+   BookTitle = {IEEE Electric Ship Technology Symposium},
+   Pages = {368-375},
+      Year = {2009} }
+
+@book{McLyman2004,
+        author = "Colonel Wm. T. McLyman",
+        title = "Transformer and Inductor Design Handbook",
+        booktitle = "Transformer and Inductor Design Handbook",
+        year = "2004",
+        publisher = "CRC",
+        isbn = "0824753933"
+}
+
+
+@article{meerkov80,
+   Author = {Meerkov, Semyon M.},
+   Title = {Principle of vibrational control: Theory and applications},
+   Journal = {IEEE Transactions on Automatic Control},
+   Volume = {AC-25},
+   Number = {4},
+   Pages = {755-762},
+      Year = {1980} }
+
+
+
+@inproceedings{mendes95,
+   Author = {Mendes, E. and Baba, A. and Razek, A.},
+   Title = {Losses minimization of a field oriented controlled induction machine},
+   BookTitle = {International Conference on Electrical Machines and Drives},
+   Pages = {310-314},
+   Abstract = {This is a dynamic programming approach to loss minimization.},
+      Year = {1995} }
+
+
+
+@inproceedings{miao05pesc,
+   Author = {Miao, Botao and Zane, Regan and Maksimovi\'c, Dragan},
+   Title = {Automated digital controller design for switching converters},
+   BookTitle = {IEEE Power Electronics Specialists Conference},
+   Pages = {2729-2735},
+      Year = {2005} }
+
+
+
+@inproceedings{miao05apec,
+   Author = {Miao, Botao and Zane, Regan and Maksimovi\'c, Dragan},
+   Title = {Detection of instability and adaptive compensation of digitally controlled switched-mode power supplies},
+   BookTitle = {Applied Power Electronics Conference},
+   Pages = {63-69},
+      Year = {2005} }
+
+
+
+@article{miao05sysid,
+   Author = {Miao, Botao and Zane, Regan and Maksimovi\'c, Dragan},
+   Title = {System identification of power converters with digital control through cross-correlation methods},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {20},
+   Number = {5},
+   Pages = {1093-1099},
+      Year = {2005} }
+
+
+
+@inproceedings{middlebrook76,
+   Author = {Middlebrook, R. D.},
+   Title = {Input filter considerations in design and application of switching regulators},
+   BookTitle = {IEEE Industry Applications Society Annual Meeting},
+   Pages = {366-381},
+      Year = {1976} }
+
+
+
+@article{middlebrook88,
+   Author = {Middlebrook, R. D.},
+   Title = {Small-signal modeling of pulse-width modulated switched-mode power converters},
+   Journal = {Proceedings of the IEEE},
+   Volume = {76},
+   Number = {4},
+   Pages = {343-354},
+      Year = {1988} }
+
+
+
+@inproceedings{middlebrook76,
+   Author = {Middlebrook, R. D. and \'Cuk, Slobodan},
+   Title = {A general unified approach to modeling switching converter power stages},
+   BookTitle = {IEEE Power Electronics Specialists Conference},
+   Pages = {18-34},
+   Note  = {Origin of state-space averaging.},
+      Year = {1976} }
+
+
+
+@phdthesis{midya95,
+   Author = {Midya, Pallab},
+   Title = {Nonlinear control and operation of dc to dc switching power converters},
+   School = {University of Illinois at Urbana-Champaign},
+   Type = {Ph.D. dissertation},
+      Year = {1995} }
+
+
+
+@article{midya01,
+   Author = {Midya, Pallab and Krein, Philip T. and Greuel, Matthew F.},
+   Title = {Sensorless current mode control---an observer-based technique for dc-dc converters},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {16},
+   Number = {4},
+   Pages = {522-526},
+      Year = {2001} }
+
+
+
+@misc{midya98,
+   Author = {Midya, Pallab and Krein, Philip T. and Turnbull, Robert J.},
+   Title = {Self-excited power minimizer/maximizer for switching power converters and switching motor drive applications},
+   Month = {September 1, 1998},
+      ISBN = {5,801,519},
+   Year = {1998} }
+
+
+
+
+
+@article{mihajlovic04,
+   Author = {Mihajlovic, Zoran and Lehman, Brad and Sun, Chunxiao},
+   Title = {Output ripple analysis of switching dc-dc converters},
+   Journal = {IEEE Transactions on Circuits and Systems I: Regular Papers},
+   Volume = {51},
+   Number = {8},
+   Pages = {1596-1611},
+      Year = {2004} }
+
+
+
+@article{mitwalli96,
+   Author = {Mitwalli, Ahmed H. and Leeb, Steven B. and Verghese, George C. and Thottuvelil, V. Joseph},
+   Title = {An adaptive digital controller for a unity power factor converter},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {11},
+   Number = {2},
+   Pages = {374-382},
+      Year = {1996} }
+
+
+
+@article{moreira91,
+   Author = {Moreira, Julio C. and Lipo, Thomas A. and Blasko, Vladimir},
+   Title = {Simple efficiency maximizer for an adjustable frequency induction motor drive},
+   Journal = {IEEE Transactions on Industry Applications},
+   Volume = {27},
+   Number = {5},
+   Pages = {940-946},
+   Abstract = {This method uses 3rd harmonic flux to estimate stator flux position, and therefore observe speed and efficiency.},
+      Year = {1991} }
+
+@article{
+morse96,
+	Author = {Morse, A. Stephen},
+	Title = {Supervisory control of families of linear set-point controllers---Part 1: Exact matching},
+	Journal = {IEEE Transactions on Automatic Control},
+	Volume = {41},
+	Number = {10},
+	Pages = {1413-1431},
+	Month = {October},
+	Year = {1996}}
+	
+
+@phdthesis{mossoba05,
+   Author = {Mossoba, Joseph T.},
+   Title = {Modeling and control of multiphase dc-dc converters with linkages to hybrid control},
+   School = {University of Illinois at Urbana-Champaign},
+   Type = {Ph.D. dissertation},
+      Year = {2005} }
+
+
+
+@inproceedings{mossoba03design,
+   Author = {Mossoba, Joseph T. and Krein, Philip T.},
+   Title = {Design and control of sensorless current mode dc-dc converters},
+   BookTitle = {IEEE Applied Power Electronics Conference},
+   Pages = {315-321},
+      Year = {2003} }
+
+
+
+@inproceedings{mossoba03audio,
+   Author = {Mossoba, Joseph T. and Krein, Philip T.},
+   Title = {Null audio susceptibility of current-mode buck converters: Small signal and large signal perspectives},
+   BookTitle = {IEEE Power Electronics Specialists Conference},
+   Pages = {1605-1611},
+      Year = {2003} }
+
+
+
+@inproceedings{mossoba05,
+   Author = {Mossoba, Joseph T. and Krein, Philip T.},
+   Title = {Exploration of deadbeat control for dc-dc converters as hybrid systems},
+   BookTitle = {IEEE Power Electronics Specialists Conference},
+   Pages = {1004-1010},
+      Year = {2005} }
+
+
+
+@inproceedings{murata88,
+   Author = {Murata, Toshiaki and Tsuchiya, Takeshi and Takeda, Ikuo},
+   Title = {A new synthesis method for efficiency optimized speed control system of vector-controlled induction machine},
+   BookTitle = {IEEE Power Electronics Specialists Conference},
+   Volume = {2},
+   Pages = {862-869},
+   Abstract = {This is an early vector-control method for loss minimization.},
+      Year = {1988} }
+
+@article{nersesov06,
+	Author = {Nersesov, Sergey G. and Haddad, Wassim M.},
+	Title = {On the stability and control of nonlinear dynamical systems via vector Lyapunov functions},
+	Journal = {IEEE Transactions on Automatic Control},
+	Volume = {51},
+	Number = {2},
+	Pages = {203-215},
+	Month = {February},
+	Year = {2006}}
+
+@inproceedings{nielsen98,
+   Author = {Nielsen, Karsten},
+   Title = {PEDEC--a novel pulse referenced control method for high quality digital {PWM} switching power amplification},
+   BookTitle = {IEEE Power Electronics Specialists Conference},
+   Pages = {200-207},
+      Year = {1998} }
+
+
+
+@article{oliva06,
+   Author = {Oliva, Alejandro R. and Ang, Simon S. and Bortolotto, Gustavo Eduardo},
+   Title = {Digital control of a voltage-mode synchronous buck converter},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {21},
+   Number = {1},
+   Pages = {157-163},
+      Year = {2006} }
+
+
+
+@article{pan04,
+   Author = {Pan, Ching-Tsai and Huang, Yi-Shuo and Li, Che-Ying},
+   Title = {An error bounded current controller with constant sampling frequency},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {19},
+   Number = {3},
+   Pages = {739-747},
+      Year = {2004} }
+
+
+
+@inproceedings{papafotiou04,
+   Author = {Papafotiou, Georgios and Geyer, Tobias and Morari, Manfred},
+   Title = {Hybrid modelling and optimal control of switch-mode dc-dc converters},
+   BookTitle = {IEEE Workshop on Computers in Power Electronics},
+   Pages = {148-155},
+      Year = {2004} }
+
+
+
+@misc{parker06,
+   Author = {Parker, S. A.},
+   Title = {Reducing demand and energy in motors and drives},
+   Number = {Sept. 23, 2006},
+         Year = {} }
+
+
+
+@phdthesis{pascual00,
+   Author = {Pascual, Cesar},
+   Title = {All-digital audio amplifier},
+   School = {University of Illinois at Urbana-Champaign},
+   Type = {Ph.D. dissertation},
+      Year = {2000} }
+
+
+
+@article{pascual03,
+   Author = {Pascual, Cesar and Song, Zukui and Krein, Philip T. and Sarwate, Dilip V. and Midya, Pallab and Roeckner, William J.},
+   Title = {High-fidelity {PWM} inverter for digital audio amplification: Spectral analysis, real-time {DSP} implementation, and results},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {18},
+   Number = {1},
+   Pages = {473-485},
+      Year = {2003} }
+
+
+
+@article{patel08,
+   Author = {Patel, Hiren and Agarwal, Vivek},
+   Title = {{MATLAB}-based modeling to study the effects of partial shading on PV array characteristics},
+   Journal = {IEEE Transactions on Energy Conversion},
+   Volume = {23},
+   Number = {1},
+   Pages = {302-310},
+      Year = {2008} }
+
+
+
+@article{patel73,
+   Author = {Patel, H. S. and Hoft, Richard G.},
+   Title = {Generalized techniques of harmonic elimination and voltage control in thyristor inverters: Part I--harmonic elimination},
+   Journal = {IEEE Transactions on Industry Applications},
+   Volume = {IA-9},
+   Pages = {310-317},
+      Year = {1973} }
+
+
+
+@article{patel74,
+   Author = {Patel, H. S. and Hoft, Richard G.},
+   Title = {Generalized techniques of harmonic elimination and voltage control in thyristor inverters: Part II--voltage control techniques},
+   Journal = {IEEE Transactions on Industry Applications},
+   Volume = {IA-10},
+   Pages = {666-673},
+      Year = {1974} }
+
+
+
+@article{patella03,
+   Author = {Patella, Benjamin J. and Prodi\'c, Aleksander and Zirger, Art and Maksimovi\'c, Dragan},
+   Title = {High-frequency digital {PWM} controller IC for dc-dc converters},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {18},
+   Number = {1},
+   Pages = {438-446},
+      Year = {2003} }
+
+
+@article{
+pavlidis67,
+   Author = {Pavlidis, Theodosios},
+   Title = {Stability of systems described by differential equations containing impulses},
+   Journal = {IEEE Transactions on Automatic Control},
+   Volume = {AC-12},
+   Number = {1},
+   Pages = {43-45},
+      Year = {1967} }
+
+
+@inproceedings{peng05,
+   Author = {Peng, Hao and Maksimovi\'c, Dragan},
+   Title = {Digital current-mode controller for dc-dc converters},
+   BookTitle = {Applied Power Electronics Conference},
+   Pages = {899-905},
+      Year = {2005} }
+
+
+
+@inproceedings{peng04,
+   Author = {Peng, Hao and Maksimovi\'c, Dragan and Prodi\'c, Aleksander and Alarc\'on, Eduard},
+   Title = {Modeling of quantization effects in digitally controlled dc-dc converters},
+   BookTitle = {IEEE Power Electronics Specialists Conference},
+   Pages = {4312-4318},
+      Year = {2004} }
+
+
+
+@article{peterchev03quant,
+   Author = {Peterchev, Angel V. and Sanders, Seth R.},
+   Title = {Quantization resolution and limit cycling in digitally controlled {PWM} converters},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {18},
+   Number = {1},
+   Pages = {301-308},
+      Year = {2003} }
+
+
+
+@inproceedings{peterchev04,
+   Author = {Peterchev, Angel V. and Sanders, Seth R.},
+   Title = {Digital loss-minimizing multimode synchronous buck converter control},
+   BookTitle = {IEEE Power Electronics Specialists Conference},
+   Pages = {3694-3699},
+      Year = {2004} }
+
+
+
+@article{peterchev03arch,
+   Author = {Peterchev, Angel V. and Xiao, Jinwen and Sanders, Seth R.},
+   Title = {Architecture and IC implementation of a digital VRM controller},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {18},
+   Number = {1},
+   Pages = {356-364},
+      Year = {2003} }
+
+@article{petkov96,
+   Author = {Petkov, R.},
+   Title = {Optimum design of a high-power, high-frequency transformer},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {11},
+   Number = {1},
+   Pages = {33-42},
+      Year = {1996} }
+
+
+
+@phdthesis{phillips79,
+   Author = {Phillips, Randolph Gale},
+   Title = {Two-time-scale discrete systems},
+   School = {University of Illinois at Urbana-Champaign},
+   Type = {M.S. thesis},
+      Year = {1979} }
+
+
+
+@article{phillips80,
+   Author = {Phillips, Randolph Gale},
+   Title = {Reduced order modelling and control of two-time-scale discrete systems},
+   Journal = {International Journal of Control},
+   Volume = {31},
+   Number = {4},
+   Pages = {765-780},
+      Year = {1980} }
+
+@article{pilawa09,
+	Author = {Pilawa-Podgurski, R. C. N. and Sagneri, A. D. and Rivas, J. M. and Anderson, D. I. and Perreault, D. J.},
+	Title = {Very-high-frequency resonant boost converters},
+	Journal = {IEEE Transactions on Power Electronics},
+	Volume = {24},
+	Pages = {1654-1665},
+	Month = {June},
+		Year = {2009}}
+
+
+@inproceedings{pitel06,
+   Author = {Pitel, Grant E. and Krein, Philip T.},
+   Title = {Trajectory paths for dc-dc converters and limits to performance},
+   BookTitle = {IEEE Workshop on Computers in Power Electronics},
+   Pages = {40-47},
+      Year = {2006} }
+
+
+
+@inproceedings{pitel07,
+   Author = {Pitel, Grant E. and Krein, Philip T.},
+   Title = {Transient reduction of dc-dc converters via augmentation and geometric control},
+   BookTitle = {Power Electronics Specialists Conference},
+   Pages = {1652-1657},
+      Year = {2007} }
+
+
+
+@inproceedings{pitel80,
+   Author = {Pitel, Ira J.},
+   Title = {Spectral errors in the application of pulse-width modulated waveforms},
+   BookTitle = {IEEE Industry Applications Society Annual Meeting},
+   Pages = {752-760},
+      Year = {1980} }
+
+@book{pressman98,
+	Author = {Pressman, Abraham I.},
+	Title = {Switching Power Supply Design},
+	Publisher = {McGraw-Hill},
+	Address = {New York},
+		Year = {1998}}
+
+@article{prodic07,
+   Author = {Prodi\'c, Aleksander},
+   Title = {Compensator design and stability assessment for fast voltage loops of power factor correction rectifiers},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {22},
+   Number = {5},
+   Pages = {1719-1730},
+   Abstract = {This is entirely an analysis paper that uses Nyquist-type analysis to determine PFC loop stability.},
+      Year = {2007} }
+
+
+
+@article{prodic03,
+   Author = {Prodi\'c, Aleksander and Chen, Jingquan and Maksimovi\'c, Dragan and Erickson, Robert},
+   Title = {Self-tuning digitally controlled low-harmonic rectifier having fast dynamic response},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {18},
+   Number = {1},
+   Pages = {420-428},
+      Year = {2003} }
+
+
+
+@inproceedings{prodic00,
+   Author = {Prodi\'c, Aleksander and Maksimovi\'c, Dragan},
+   Title = {Digital {PWM} controller and current estimator for a low-power switching converter},
+   BookTitle = {IEEE Workshop on Computers in Power Electronics},
+   Pages = {123-128},
+      Year = {2000} }
+
+
+
+@inproceedings{prodic02,
+   Author = {Prodi\'c, Aleksander and Maksimovi\'c, Dragan},
+   Title = {Design of a digital PID regulator based on look-up tables for control of high-frequency dc-dc converters},
+   BookTitle = {IEEE Workshop on Computers in Power Electronics},
+   Pages = {18-22},
+      Year = {2002} }
+
+
+
+@article{prodic06,
+   Author = {Prodi\'c, Aleksander and Maksimovi\'c, Dragan and Erickson, Robert},
+   Title = {Dead-zone digital controllers for improved dynamic response of low harmonic rectifiers},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {21},
+   Number = {1},
+   Pages = {173-181},
+      Year = {2006} }
+
+
+
+@article{rajasekaran03,
+   Author = {Rajasekaran, Vinod and Sun, Jian and Heck, Bonnie S.},
+   Title = {Bilinear discrete-time modeling for enhanced stability prediction and digital control design},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {18},
+   Number = {1},
+   Pages = {381-389},
+      Year = {2003} }
+
+
+
+@article{rech03,
+   Author = {Rech, Cassiano and Pinheiro, Humberto and Gr\"undling, Hilton Ab\'ilio and Hey, H\'elio Le\~aes and Pinheiro, Jos\'e Renes},
+   Title = {Comparison of digital control techniques with repetitive integral action for low cost {PWM} inverters},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {18},
+   Number = {1},
+   Pages = {401-410},
+      Year = {2003} }
+
+
+
+@phdthesis{reppa96,
+   Author = {Reppa, Robert S.},
+   Title = {A maximum power point tracker for photovoltaic applications},
+   School = {University of Illinois at Urbana-Champaign},
+   Type = {M.S. thesis},
+      Year = {1996} }
+
+@article{rivas06,
+	Author = {Rivas, J. M. and Wahby, R. S. and Shafran, J. S. and Perreault, D. J.},
+	Title = {New architectures for radio-frequency dc-dc power conversion},
+	Journal = {IEEE Transactions on Power Electronics},
+	Volume = {21},
+	Pages = {380-393},
+	Month = {March},
+		Year = {2006}}
+		
+@article{rivas08,
+	Author = {Rivas, J. M. and Han, Y. and Leitermann, O. and Sagneri, A. D. and Perreault, D. J.},
+	Title = {A high-frequency resonant inverter topology with low-voltage stress},
+	Journal = {IEEE Transactions on Power Electronics},
+	Volume = {23},
+	Pages = {1759-1771},
+	Month = {July},
+		Year = {2008}}
+
+
+@inproceedings{rudraraju09,
+   Author = {Rudraraju, Seetharama R. and Srivastava, Anurag K. and Srivastava, Suresh C. and Schulz, Noel N.},
+   Title = {Small signal stability analysis of a shipboard MVDC power system},
+   BookTitle = {IEEE Electric Ship Technology Symposium},
+   Pages = {135-141},
+      Year = {2009} }
+
+
+
+@article{saggini04,
+   Author = {Saggini, Stefano and Ghioni, Massimo and Geraci, Angelo},
+   Title = {An innovative digital control architecture for low-voltage, high-current dc-dc converters with tight voltage regulation},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {19},
+   Number = {1},
+   Pages = {210-218},
+      Year = {2004} }
+
+
+
+@article{sanders93,
+   Author = {Sanders, Seth R.},
+   Title = {On limit cycles and the describing function method in periodically switched circuits},
+   Journal = {IEEE Transactions on Circuits and Systems I: Fundamental Theory and Applications},
+   Volume = {40},
+   Number = {9},
+   Pages = {564-572},
+      Year = {1993} }
+
+
+
+@article{sanders91,
+   Author = {Sanders, Seth R. and Noworolski, J. Mark and Liu, Xiaojun Z. and Verghese, George C.},
+   Title = {Generalized averaging method for power conversion circuits},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {6},
+   Pages = {251-259},
+   Note = {Fourier averaging; emphasis on resonant converters},
+      Year = {1991} }
+
+
+
+@article{sanders92,
+   Author = {Sanders, Seth R. and Verghese, George C.},
+   Title = {Lyapunov-based control for switched power converters},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {7},
+   Number = {1},
+   Pages = {17-24},
+      Year = {1992} }
+
+
+
+@article{santi03,
+   Author = {Santi, Enrico and Monti, Antonello and Li, Donghong and Proddutur, Karthik and Dougal, Roger A.},
+   Title = {Synergetic control for dc-dc boost converter: Implementation options},
+   Journal = {IEEE Transactions on Industry Applications},
+   Volume = {39},
+   Number = {6},
+   Pages = {1803-1813},
+      Year = {2003} }
+
+
+@article{
+sathananthan03,
+   Author = {Sathananthan, S. and Keel, L. H.},
+   Title = {Optimal practical stabilization and controllability of systems with Markovian jumps},
+   Journal = {Nonlinear Analysis},
+   Volume = {54},
+   Number = {6},
+   Pages = {1011-1027},
+   Month = {September},
+      Year = {2003} }
+
+
+
+@article{schlecht86,
+   Author = {Schlecht, Martin F.},
+   Title = {Harmonic-free utility/dc power conditioning interfaces},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {PE-1},
+   Number = {4},
+   Pages = {231-239},
+      Year = {1986} }
+
+
+
+@inproceedings{schoeman82,
+   Author = {Schoeman, J.J. and van Wyk, J. D.},
+   Title = {A simplified maximal power controller for terrestrial photovoltaic panel arrays},
+   BookTitle = {Power Electronics Specialists Conference},
+   Pages = {361-367},
+   Note  = {Fractional Voc},
+      Year = {1982} }
+
+
+
+@inproceedings{sepahvand06,
+   Author = {Sepahvand, H. and Farhangi, Sh.},
+   Title = {Enhancing performance of a fuzzy efficiency optimizer for induction motor drives},
+   BookTitle = {IEEE Power Electronics Specialists Conference},
+   Pages = {1-5},
+   Abstract = {A good recent example of fuzzy logic for efficiency optimization.},
+      Year = {2006} }
+
+
+
+@article{shortt83,
+   Author = {Shortt, D. Jeff and Lee, Fred C.},
+   Title = {Improved switching converter model using discrete and averaging techniques},
+   Journal = {IEEE Transactions on Aerospace and Electronic Systems},
+   Volume = {AES-19},
+   Number = {2},
+   Pages = {190-202},
+      Year = {1983} }
+
+
+
+@article{shortt84,
+   Author = {Shortt, D. Jeff and Lee, Fred C.},
+   Title = {Extensions of the discrete-average models for converter power stages},
+   Journal = {IEEE Transactions on Aerospace and Electronic Systems},
+   Volume = {AES-20},
+   Number = {3},
+   Pages = {279-289},
+      Year = {1984} }
+
+
+
+@article{shoyama86,
+   Author = {Shoyama, Masahito and Harada, Koosuke},
+   Title = {Dynamic characteristics of the push-pull dc to dc converter},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {PE-1},
+   Number = {1},
+   Pages = {3-8},
+      Year = {1986} }
+
+
+
+@article{singh03,
+   Author = {Singh, Bhim and Singh, Brij N. and Chandra, Ambrish and Al-Haddad, Kamal and Pandey, Ashish and Kothari, Dwarka P.},
+   Title = {A review of single-phase improved power quality ac-dc converters},
+   Journal = {IEEE Transactions on Industrial Electronics},
+   Volume = {50},
+   Number = {5},
+   Pages = {962-981},
+      Year = {2003} }
+
+
+
+@article{smedley95,
+   Author = {Smedley, Keyue M. and Ćuk, Slobodan},
+   Title = {One-cycle control of switching converters},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {10},
+   Number = {6},
+   Pages = {625-633},
+      Year = {1995} }
+
+
+
+@article{sriram03,
+   Author = {Sriram, V. B. and SenGupta, Sabyasachi and Patra, Amit},
+   Title = {Indirect current control of a single-phase voltage-sourced boost-type bridge converter operated in the rectifier mode},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {18},
+   Number = {5},
+   Pages = {1130-1137},
+      Year = {2003} }
+
+
+
+@book{steele75,
+   Author = {Steele, Raymond E.},
+   Title = {Delta Modulation},
+   Publisher = {Wiley},
+   Address = {New York},
+      Year = {1975} }
+
+
+
+@article{stihi88,
+   Author = {Stihi, Omar and Ooi, Boon-Teck},
+   Title = {A single-phase controlled-current {PWM} rectifier},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {3},
+   Number = {4},
+   Pages = {453-459},
+      Year = {1988} }
+
+
+
+@article{sudhoff02,
+   Author = {Sudhoff, Scott D. and Aliprantis, Dionysios C. and Kuhn, Brian T. and Chapman, Patrick L.},
+   Title = {An induction machine model for predicting inverter-machine interaction},
+   Journal = {IEEE Transactions on Energy Conversion},
+   Volume = {17},
+   Number = {2},
+   Pages = {203-210},
+      Year = {2002} }
+
+
+
+@article{sudhoff00,
+   Author = {Sudhoff, Scott D. and Glover, Steven F. and Lamm, Peter T. and Schmucker, Donald H. and Delisle, D. E.},
+   Title = {Admittance space stability analysis of power electronic systems},
+   Journal = {IEEE Transactions on Aerospace and Electronic Systems},
+   Volume = {36},
+   Number = {3},
+   Pages = {965-973},
+      Year = {2000} }
+
+
+
+@inproceedings{sullivan07,
+   Author = {Sullivan, Charles J. and Sudhoff, Scott D. and Zivi, Edwin L. and Zak, Stanislaw H.},
+   Title = {Methods of optimal Lyapunov function generation with application to power electronic converters and systems},
+   BookTitle = {IEEE Electric Ship Technologies Symposium},
+   Pages = {267-274},
+      Year = {2007} }
+
+
+
+@article{sun04,
+   Author = {Sun, Jian},
+   Title = {On the zero-crossing distortion in single-phase PFC converters},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {19},
+   Number = {3},
+   Pages = {685-692},
+      Year = {2004} }
+
+
+
+@article{sun97,
+   Author = {Sun, Jian and Grotstollen, Horst},
+   Title = {Symbolic analysis methods for averaged modeling of switching power converters},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {12},
+   Number = {3},
+   Pages = {537-546},
+      Year = {1997} }
+
+
+
+@article{sype04,
+   Author = {Van de Sype, David M. and de Gussem\'e, Koen and Van den Bossche, Alex P. and Melkebeek, Jan A. A.},
+   Title = {A sampling algorithm for digitally controlled boost PFC converters},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {19},
+   Number = {3},
+   Pages = {649-657},
+      Year = {2004} }
+
+
+
+@inproceedings{ta01,
+   Author = {Ta, Cao-Minh and Chakraborty, Chandan and Hori, Yoichi},
+   Title = {Efficiency maximization of induction motor drives for electric vehicles based on actual measurement of input power},
+   BookTitle = {Annual Conference of the IEEE Industrial Electronics Society},
+   Volume = {3},
+   Pages = {1692-1697},
+   Abstract = {Looks like a P&O method that uses Vdc*Idc to measure power consumption.},
+      Year = {2001} }
+
+@article{tomlin03,
+	Author = {Tomlin, Claire J. and Mitchell, Ian and Bayen, Alexandre M. and Oishi, Meeko},
+	Title = {Computational techniques for the verification of hybrid systems},
+	Journal = {Proceedings of the IEEE},
+	Pages = {986-1001},
+	Volume = {91},
+	Month = {July},
+	Year = {2003}}
+
+@inproceedings{toit95,
+   Author = {du Toit, J. A. and Enslin, J. H. R. and Sp\'ee, Ren\'e},
+   Title = {Experimental evaluation of digital control options for high power electronics},
+   BookTitle = {IEEE International Conference on Industrial Electronics, Control, and Instrumentation},
+   Pages = {674-679},
+      Year = {1995} }
+
+
+
+@inproceedings{trevisan07,
+   Author = {Trevisan, D. and Saggini, Stefano and Mattavelli, P. and Corradini, L. and Tenti, Paolo},
+   Title = {Analysis of a mixed-signal control for dc-dc converters based on hysteresis modulation and estimated inductor current},
+   BookTitle = {Power Electronics and Drives Symposium},
+   Address= {Bangkok},
+   Pages = {391-397},
+      Year = {2007} }
+
+
+
+@article{turnbull64,
+   Author = {Turnbull, F. G.},
+   Title = {Selected harmonic reduction in static dc-ac inverters},
+   Journal = {IEEE Transactions on Communication and Electronics},
+   Volume = {83},
+   Pages = {374-378},
+      Year = {1964} }
+
+
+
+@techreport{turner96,
+   Author = {Turner, M. W. and McCormick, V. E. and Cleland, J. G.},
+   Title = {Efficiency optimization control of AC induction motors: Initial laboratory results},
+   Institution = {Environmental Protection Agency},
+   Number = {EPA/600/SR-96/008},
+   Month= {May 1996},
+      Year = {1996} }
+
+@book{uden05,
+   Author = {Uden, Lorna and Beaumont, Chris},
+   Title = {Technology and Problem-Based Learning},
+   Publisher = {Information Science Publishing},
+   Address = {Hershey, PA},
+      Year = {2005} }
+
+
+
+@article{valle08,
+	Author = {del Valle, Y. and Venayagamoorthy, Ganesh Kumar and Mohagheghi, S. and Hernandez, J. C. and Harley, Ronald G.},
+	Title = {Particle swarm optimization: Basic concepts, variants and applications in power systems},
+	Journal = {IEEE Transactions on Evolutionary Computation},
+	Volume = {12},
+	Number = {2},
+	Pages = {171-195},
+	Month = {April},
+		Year = {2008}}
+		
+
+@article{varnitovsky83,
+   Author = {Varnitovsky, Marlen},
+   Title = {A microcomputer-based control signal generator for a three-phase switching power inverter},
+   Journal = {IEEE Transactions on Industry Applications},
+   Volume = {IA-19},
+   Number = {2},
+   Pages = {228-234},
+      Year = {1983} }
+
+
+
+@article{verghese86,
+   Author = {Verghese, George C. and Elbuluk, Malik E. and Kassakian, John G.},
+   Title = {A general approach to sampled-data modeling for power electronic circuits},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {PE-1},
+   Number = {2},
+   Pages = {76-89},
+      Year = {1986} }
+
+
+
+@inproceedings{visser91,
+   Author = {Visser, H. R. and Bosch, P. P. J. van den},
+   Title = {Modelling of periodically switching networks},
+   BookTitle = {IEEE Power Electronics Specialists Conference},
+   Pages = {67-73},
+      Year = {1991} }
+
+
+
+@article{vukosavic03,
+   Author = {Vukosavic, Slobodan N. and Levi, Emil},
+   Title = {Robust DSP-based efficiency optimization of a variable speed induction motor drive},
+   Journal = {IEEE Transactions on Industrial Electronics},
+   Volume = {50},
+   Number = {3},
+   Pages = {560-570},
+   Abstract = {This uses some sort of successive approximation method to compute partial-P/partial-Psi.},
+      Year = {2003} }
+
+
+
+@article{wang93,
+   Author = {Wang, Andrew C. and Sanders, Seth R.},
+   Title = {Programmed pulsewidth modulated waveforms for electromagnetic interference mitigation in dc-dc converters},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {8},
+   Number = {4},
+   Pages = {596-605},
+      Year = {1993} }
+
+
+
+@article{wang97,
+   Author = {Wang, J. B. and Liaw, C. M.},
+   Title = {Indirect field-oriented induction motor drive with fuzzy detuning correction and efficiency optimisation controls},
+   Journal = {IEE Proceedings-Electric Power Applications},
+   Volume = {144},
+   Number = {1},
+   Pages = {37-45},
+   Abstract = {There are two fuzzy logic systems here.  One is to optimize decoupling in the IFOC algorithm.  The other is to optimize efficiency.},
+      Year = {1997} }
+
+
+
+@article{wasynczuk83,
+   Author = {Wasynczuk, Oleg},
+   Title = {Dynamic behavior of a class of photovoltaic power systems},
+   Journal = {IEEE Transactions on Power Apparatus and Systems},
+   Volume = {102},
+   Number = {9},
+   Pages = {3031-3037},
+      Year = {1983} }
+
+
+
+@article{wasynczuk98,
+   Author = {Wasynczuk, Oleg and Sudhoff, Scott D. and Corzine, Keith A. and Tichenor, Jerry L. and Krause, Paul C. and Hansen, Irving G. and Taylor, Linda M.},
+   Title = {A maximum torque per ampere control strategy for induction motor drives},
+   Journal = {IEEE Transactions on Energy Conversion},
+   Volume = {13},
+   Number = {2},
+   Pages = {163-169},
+   Abstract = {This is constant slip control.  Shows MTA, max PF, max efficiency values for slip.},
+      Year = {1998} }
+
+
+
+@inproceedings{wells03iemdc,
+   Author = {Wells, Jason R. and Chapman, Patrick L. and Krein, Philip T.},
+   Title = {Applications of ripple correlation control of electric machinery},
+   BookTitle = {IEEE International Electric Machines and Drives Conference},
+   Pages = {1498-1503},
+      Year = {2003} }
+
+
+
+@inproceedings{wells03pesc,
+   Author = {Wells, Jason R. and Chapman, Patrick L. and Krein, Philip T.},
+   Title = {Fundamental aspects of ripple correlation control of electric machinery},
+   BookTitle = {IEEE Power Electronics Specialists Conference},
+   Pages = {1659-1662},
+      Year = {2003} }
+
+
+
+@article{wells03,
+   Author = {Wells, Jason R. and Nee, Brett M. and Chapman, Patrick L. and Krein, Philip T.},
+   Title = {Selective harmonic control: A general problem formulation and selected solutions},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {20},
+   Number = {6},
+   Pages = {1337-1345},
+      Year = {2005} }
+
+
+
+@article{willems80,
+   Author = {Willems, J. L.},
+   Title = {Design of state observers for linear discrete-time systems},
+   Journal = {International Journal of Systems Science},
+   Volume = {11},
+   Number = {2},
+   Pages = {139-147},
+      Year = {1980} }
+
+
+
+@article{williams91,
+   Author = {Williams, Stephen M. and Hoft, Richard G.},
+   Title = {Adaptive frequency domain control of {PWM} switched power line conditioner},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {6},
+   Number = {4},
+   Pages = {665-670},
+      Year = {1991} }
+
+
+
+@article{wu90,
+   Author = {Wu, Rusong and Dewan, Shashi B. and Slemon, Gordon R.},
+   Title = {A {PWM} ac-to-dc converter with fixed switching frequency},
+   Journal = {IEEE Transactions on Industry Applications},
+   Volume = {26},
+   Number = {5},
+   Pages = {880-885},
+      Year = {1990} }
+
+
+
+@article{xiao04,
+   Author = {Xiao, Jinwen and Peterchev, Angel V. and Zhang, Jianhui and Sanders, Seth R.},
+   Title = {A 4-mA quiescent-current dual-mode digitally controlled buck converter IC for cellular phone applications},
+   Journal = {IEEE Journal of Solid-State Circuits},
+   Volume = {39},
+   Number = {12},
+   Pages = {2342-2348},
+      Year = {2004} }
+
+
+
+@inproceedings{xiaofeng04,
+   Author = {Xiaofeng, Sun and Kun, Wei and Baocheng, Wang and Weiyang, Wu and Qiang, Mei},
+   Title = {Optimal control of three-phase {PWM} converter without small signal linearization},
+   BookTitle = {International Power Electronics and Motion Control Conference},
+   Pages = {1625-1629},
+      Year = {2004} }
+
+
+
+@inproceedings{xu01,
+   Author = {Xu, Dewei and Zhu, Dongqi and Wu, Bin},
+   Title = {High performance induction motor drive with optimized excitation current control},
+   BookTitle = {Industry Applications Conference},
+   Volume = {3},
+   Pages = {1673-1678},
+   Abstract = {This approach guarantees good steady-state efficiency.  Looks like a maximum torque-per-amp approach.},
+      Year = {2001} }
+
+
+
+@article{yao03,
+   Author = {Yao, Kaiwei and Xu, Ming and Meng, Yu and Lee, Fred C.},
+   Title = {Design considerations for VRM transient response based on the output impedance},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {18},
+   Number = {6},
+   Pages = {1270-1277},
+      Year = {2003} }
+
+@article{
+ye98impulse,
+   Author = {Ye, Hui and Michel, Anthony N. and Hou, Ling},
+   Title = {Stability analysis of systems with impulse effects},
+   Journal = {IEEE Transactions on Automatic Control},
+   Volume = {43},
+   Number = {12},
+   Pages = {1719-1723},
+      Year = {1998} }
+
+
+
+@article{
+ye98hybrid,
+   Author = {Ye, Hui and Michel, Anthony N. and Hou, Ling},
+   Title = {Stability theory for hybrid dynamical systems},
+   Journal = {IEEE Transactions on Automatic Control},
+   Volume = {43},
+   Number = {4},
+   Pages = {461-474},
+      Year = {1998} }
+
+@article{yin04,
+   Author = {Yin, Yan and Zane, Regan},
+   Title = {Digital phase control for resonant inverters},
+   Journal = {IEEE Power Electronics Letters},
+   Volume = {2},
+   Number = {2},
+   Pages = {51-53},
+      Year = {2004} }
+
+
+
+@article{
+yoo08,
+   Author = {Yoo, Hyunjae and Sul, Seung-Ki and Park, Yongho and Jeong, Johnchan},
+   Title = {System integration and power-flow management for a series hybrid electric vehicle using supercapacitors and batteries},
+   Journal = {IEEE Transactions on Industry Applications},
+   Volume = {44},
+   Number = {1},
+   Pages = {108-114},
+      Year = {2008} }
+
+
+
+
+@article{yousefzadeh06,
+   Author = {Yousefzadeh, Vahid and Maksimovi\'c, Dragan},
+   Title = {Sensorless optimization of dead times in dc-dc converters with synchronous rectifiers},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {21},
+   Number = {4},
+   Pages = {994-1002},
+      Year = {2006} }
+
+
+
+@inproceedings{yu73,
+   Author = {Yu, Yuan and Biess, John J. and Schoenfeld, Arthur D. and Lalli, Vincent R.},
+   Title = {The application of standardized control and interface circuits to three dc to dc power converters},
+   BookTitle = {IEEE Power Electronics Specialists Conf.},
+   Pages = {237-248},
+      Year = {1973} }
+
+@article{yu79,
+   Author = {Yu, Yuan and Lee, Fred C. Y. and Triner, James E.},
+   Title = {Power converter design optimization},
+   Journal = {IEEE Transactions on Aerospace and Electronic Systems},
+   Volume = {AES-15},
+   Number = {3},
+   Pages = {344-355},
+      Year = {1979} }
+
+
+@article{zhang01,
+	Author = {Zhang, Jun and Chung, Henry Shu-Chung and Lo, Wai-Lun and Hui, S. Y. and Wu, Angus Kwok-Ming},
+	Title = {Implementation of a decoupled optimization technique for design of switching regulators using genetic algorithms},
+	Journal = {IEEE Transactions on Power Electronics},
+	Volume = {16},
+	Number = {6},
+	Month = {November},
+		Year = {2001}}
+
+@inproceedings{Zhao2007,
+        author = "Zhao Tiefu and Yang Liyu and Wang Jun and A. Q. Huang",
+        title = "270 kVA Solid State Transformer Based on 10 kV SiC Power Devices",
+	booktitle = "Electric Ship Technologies Symposium, 2007. ESTS '07. IEEE",
+        pages = "145-149",
+        year = "2007",
+        abstract = "With the advancement of semiconductor technology, solid state transformer (SST) with high voltage fast switching SiC power devices is becoming a valid option to replace the conventional transformers in power substation. In this paper, a 270 kVA solid state transformer based on 10 kV SiC power MOSFET has been proposed. The two stages of SST, five-level Vienna rectifier and five-level DC/DC converter are specifically designed and simulated in closed loop. The analysis of device losses is performed based on the device characteristics. A design of high frequency transformer is presented as well. The simulation results together with the loss analysis verify the functionality and feasibility of SST."
+}
+
+@article{zhou00,
+   Author = {Zhou, X. and Xu, P. and Lee, Fred C.},
+   Title = {A novel current-sharing control technique for low-voltage high-current voltage regulator module applications},
+   Journal = {IEEE Transactions on Power Electronics},
+   Volume = {15},
+   Pages = {1153-1162},
+      Year = {2000} }
+
+
+
+@inproceedings{ziling04,
+   Author = {Ziling, Nie and Weiming, Ma and Hao, Lv},
+   Title = {Robust control of induction motor with maximum efficiency for HEVs},
+   BookTitle = {IEEE International Symposium on Industrial Electronics},
+   Volume = {2},
+   Pages = {1087-1092},
+   Abstract = {This is mainly a control paper.  They take a partial derivative to get an expression of flux vs. torque.},
+      Year = {2004} }
+
+
+@article{zydney02,
+   Author = {Zydney, Andrew L. and Bennett, Joan S. and Shahid, Abdus and Bauer, Karen W.},
+   Title = {Impact of undergraduate research experience in engineering},
+   Journal = {Journal of Engineering Education},
+   Volume = {91},
+   Number = {2},
+   Pages = {151-157},
+      Year = {2002} }
