@@ -1,6 +1,12 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
 \BOOKMARK [1][-]{section.2}{Background and Related Work}{}% 2
-\BOOKMARK [1][-]{section.3}{Methodology}{}% 3
-\BOOKMARK [1][-]{section.4}{Conclusions}{}% 4
-\BOOKMARK [1][-]{section.5}{Additional Authors}{}% 5
-\BOOKMARK [1][-]{section.6}{References}{}% 6
+\BOOKMARK [1][-]{section.3}{System Model And Assumptions}{}% 3
+\BOOKMARK [1][-]{section.4}{System Analysis And Invariant Formation}{}% 4
+\BOOKMARK [2][-]{subsection.4.1}{Physical System Analysis}{section.4}% 5
+\BOOKMARK [2][-]{subsection.4.2}{Network And Scheduling Analysis}{section.4}% 6
+\BOOKMARK [1][-]{section.5}{Adaptive Scheduling with Early Congestion Notification}{}% 7
+\BOOKMARK [2][-]{subsection.5.1}{Adaptive Scheduling Overview}{section.5}% 8
+\BOOKMARK [2][-]{subsection.5.2}{Early Congestion Notification Mechanism}{section.5}% 9
+\BOOKMARK [1][-]{section.6}{Conclusions}{}% 10
+\BOOKMARK [1][-]{section.7}{Additional Authors}{}% 11
+\BOOKMARK [1][-]{section.8}{References}{}% 12

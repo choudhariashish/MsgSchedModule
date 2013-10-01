@@ -11,6 +11,10 @@
 %\usepackage{algorithmic}
 %\usepackage{algorithm}
 
+%\usepackage{algpseudocode}
+%\usepackage{algorithm2e}
+
+
 \usepackage{fancyhdr}
 
 
@@ -130,15 +134,14 @@ email: {\texttt{jsmith@affiliation.org}}) and Julius P.~Kumquat
 
 \input{background}
 
-%\input{assumptions}
+% assumptions and system model
+\input{assumptions}
 
-%\input{physicalsystem}
+% physical system analysis, Ip formation
+% network and scheduling analysis, Is formation
+\input{invariants}
 
-%\input{networksystem}
-
-\section{Methodology}
-Methodology goes here
-
+\input{adaptive_with_ecn}
 
 \section{Conclusions}
 Conclusion goes here.
@@ -447,6 +450,19 @@ Y.~Zhu, E.~Westbrook, J.~Inoue, A.~Chapoutot, C.~Salama, M.~Peralta, T.~Martin,
 \newblock In {\em Proceedings of the 1st ACM/IEEE International Conference on
   Cyber-Physical Systems}, ICCPS '10, pages 1--11, New York, NY, USA, 2010.
   ACM.
+
+% new bib for iccps2014
+\bibitem{hadidraft}
+J.~Hadi Salim, B.~Nandy, N.~Seddigh.
+\newblock A Proposal for Backward ECN for the Internet Protocol (IPv4/IPv6).
+\newblock {\em Internet Draft, draftsalim-jhsbnns-ecn-00.txt.}
+
+\bibitem{acsmartgrid}
+A.~Choudhari, H.~Ramaprasad, T.~Paul, J.~Kimball, M.~Zawodniok, B.~McMillin, S.~Chellappan
+\newblock Stability of a Cyber-Physical Smart Grid System using Cooperating Invariants.
+\newblock In {\em Proceedings of the 37th Annual IEEE International Computer Software and 
+Applications Conference}, COMPSAC, Kyoto, Japan, 2013.
+
 
 \end{thebibliography}
 
