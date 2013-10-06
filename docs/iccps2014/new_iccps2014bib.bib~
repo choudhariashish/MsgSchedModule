@@ -16,8 +16,8 @@
  publisher = {}
 }
 
-@MISC{Owidzki_simulation-basedstudy,
-    author = {Marek Mal Owidzki},
-    title = {Simulation-Based Study Of Ecn Performance In Red Networks},
-    year = {}
+@misc{
+    simulation-basedStudyOf,
+    url = "http://citeseerx.ist.psu.edu/viewdoc/download?rep=rep1&type=pdf&doi=10.1.1.10.685",
+    title = "Simulation-Based Study Of Ecn Performance In Red Networks"
 }

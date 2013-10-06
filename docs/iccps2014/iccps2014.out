@@ -1,12 +1,13 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
 \BOOKMARK [1][-]{section.2}{Background and Related Work}{}% 2
 \BOOKMARK [1][-]{section.3}{System Model And Assumptions}{}% 3
-\BOOKMARK [1][-]{section.4}{System Analysis And Invariant Formation}{}% 4
-\BOOKMARK [2][-]{subsection.4.1}{Physical System Analysis}{section.4}% 5
-\BOOKMARK [2][-]{subsection.4.2}{Network And Scheduling Analysis}{section.4}% 6
-\BOOKMARK [1][-]{section.5}{Adaptive Scheduling with Early Congestion Notification}{}% 7
-\BOOKMARK [2][-]{subsection.5.1}{Adaptive Scheduling Overview}{section.5}% 8
-\BOOKMARK [2][-]{subsection.5.2}{Early Congestion Notification Mechanism}{section.5}% 9
-\BOOKMARK [1][-]{section.6}{Conclusions}{}% 10
-\BOOKMARK [1][-]{section.7}{Additional Authors}{}% 11
-\BOOKMARK [1][-]{section.8}{References}{}% 12
+\BOOKMARK [1][-]{section.4}{Adaptive Communication}{}% 4
+\BOOKMARK [2][-]{subsection.4.1}{Scheduling Algorithm}{section.4}% 5
+\BOOKMARK [1][-]{section.5}{Adaptive Scheduling with Early Congestion Notification}{}% 6
+\BOOKMARK [2][-]{subsection.5.1}{Early Congestion Notification Mechanism}{section.5}% 7
+\BOOKMARK [2][-]{subsection.5.2}{Integration: Scheduling With ECN}{section.5}% 8
+\BOOKMARK [1][-]{section.6}{Varying Quantum Of Power \(\)}{}% 9
+\BOOKMARK [1][-]{section.7}{Experimental Setup}{}% 10
+\BOOKMARK [2][-]{subsection.7.1}{Experimental Results}{section.7}% 11
+\BOOKMARK [1][-]{section.8}{Conclusions}{}% 12
+\BOOKMARK [1][-]{section.9}{References}{}% 13
