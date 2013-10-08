@@ -57,7 +57,7 @@
 \section{Adaptive Communication} 
 \label{adap_comm}
 
-Physical system stability at any point of time is determined by the product of power migrate messages
+Physical system stability at any point of time is determined by the product of power migration messages
 $K$ in transit and amount of power $\delta$ transferred with every message. 
 Stability of network depends only on $K$, where $K$ is a function of rate(s) of power migration
 and observed round-trip time between source and receiver nodes in the communication network.
@@ -65,9 +65,10 @@ To provide safe and stable operation, an upper bound $Kmax_{global}$ for maximum
 is established prior to power transfer phase, based on physical and network restrictions. $Kmax_{global}$ 
 is then distributed as in Figure~\ref{fig:Kmax_distribution} among the nodes that have excess power 
 and needs to undergo power migrations. For example, in Equation~\ref{eq:kmax_distrib}, $Kmax_{global}$ 
-is distributed among $n$ nodes in proportion to excess power. After distribution, each excess power 
-node has a limit $Kmax_s$ on maximum number of outstanding messages it can have in the network at any 
-point of time.
+is distributed among $n$ nodes in proportion to excess power. After distribution, the message scheduling 
+algorithm running at node $s$, adapts the power message migration rate $r_s$ or, inversely, the period 
+$p_s$ such that the number of outstanding messages of node $s$ at any given time, never exceeds its 
+maximum allowed outstanding messages $Kmax_s$.
 
 \begin{equation}
 Kmax_s = \lfloor(\frac{P_s}{\sum_{i=1}^{n} P_i}) * Kmax_{global}\rfloor
@@ -82,42 +83,45 @@ Kmax_s = \lfloor(\frac{P_s}{\sum_{i=1}^{n} P_i}) * Kmax_{global}\rfloor
   \end{center}
 \end{figure}
 
-The message scheduling algorithm running at node $s$, adapts the power message migration 
-rate $r_s$ or, inversely, the period $p_s$ such that the number of outstanding messages
-of node $s$ at any given time, never exceeds its maximum allowed outstanding messages $Kmax_s$.
-
-
 \subsection{Scheduling Algorithm}
 \label{sec:sched_algo_explanation} 
 
-
-Every power migrate message initiated by node $s$ is assigned a relative deadline $D_s$ determined 
+Every power migrate message initiated by node $s$ is assigned a relative deadline $D_s$ which is determined 
 from the current expected response time ($RT_s^{ex}$). Where, $RT_s^{ex}$ is the average of certain number 
-of previously observed response times (response time also known as round-trip time). 
+of previously observed response times (response time also known as round-trip time). If an acknowledgment 
+$m_a$ of message $m$ is not received before its deadline (\textit{deadline miss}) indicates that there 
+is a possibility of congestion in the network. Therefore, in an effort to reduce congestion, the algorithm 
+increases its expected response time $RT_s^{ex}$ by a pre-defined margin ($RTMargin$) and determines a 
+larger transmission period $p_s$ (1/rate) and a larger relative deadline. In the worst case, power migration will only 
+be done if acknowledgments for all the outstanding messages are received. Whereas, if certain $CtrMax$ 
+(response time counter limit) number of acknowledgments are received consecutively with smaller response 
+times than expected, then the algorithm reduces its transmission period (1/$r_s$) and calculates a more tighter 
+(smaller) relative deadline, ensuring that physical and network stability is still maintained. Note that 
+$RTMargin$ and $CtrMax$ are configurable system parameters and are assumed to be constant for all nodes 
+in a given power transfer phase, but in this paper we do make changes to the $CtrMax$ policy in the later 
+section. 
 
-If an acknowledgment $m_a$ of message $m$ is not received before its deadline (\textit{deadline miss}) 
-indicates that there is a possibility of congestion in the network. 
+Following is a table of events which sets the scheduling algorithm in motion.\\
 
-Therefore, in an effort to reduce congestion, the algorithm increases its expected response time $RT_s^{ex}$
-by a pre-defined margin ($RTMargin$) and determines a smaller transmission rate and a larger relative deadline.
-
-In the worst case, power migration will only be done if acknowledgments for all the outstanding messages is received. 
-
-Whereas, if certain $CtrMax$ (response time counter limit) number of acknowledgments are received 
-consecutively with smaller response times than expected, then the algorithm increases its transmission rate 
-and calculates a more tighter (smaller) relative deadline, ensuring that physical and network stability is 
-still maintained. Note that $RTMargin$ and $CtrMax$ are configurable system parameters and are assumed to 
-be constant for all nodes in a given power transfer phase. 
-
-
-Following is the list of events which sets the scheduling algorithm in motion.\\
-\\*1. Initialize Event.
-\\*2. Sent power message event.		
-\\*3. Ack received event.
-\\*\- 3.1. Ack received is better event.
-\\*\- 3.2. Ack received after deadline miss event.
-\\*4. Deadline miss event.
-\\*5. Receive power event.
+\begin{scriptsize}
+\begin{tabular}{| l | l | l | l |}
+	\hline
+		&   \textbf{Event Name}	&	\textbf{Sub Event} 			&	\textbf{Function} \\ \hline
+	1	&	\textit{Initialize}	&	n/a							&	* Configure and set system parameters \\ \hline
+	2	&	\textit{Sent Power}	&	n/a							&	* Assign deadline for message $m$ \\ \hline
+	3	&	\textit{Ack Recv}	&	\textit{Better Ack}			&	* Increment $RTCtr$, \\
+		&						&								&	IF ($RTCtr=CtrMax$) then \\
+		&						&								&	update $r_s, RT_s^{ex}, deadline$ \\
+		&						&								&	and reset $RTCtr$. \\
+		&						&	\textit{Expected Ack}		&	* Reset $RTCtr$. \\
+		&						&	\textit{Ack Of Dln Miss}	&	* IF ($RT_{s(m)}>RT_s^{ex}$) then \\
+		&						&								&	update $r_s, RT_s^{ex}, deadline$. \\ \hline	
+	4	&	\textit{Dln Miss}	&	n/a							&	* Increment $RT_s^{ex}$ by $RTMargin$ \\
+		&						&								&	and update $r_s, RT_s^{ex}, deadline$. \\ \hline
+	5	&	\textit{Recv Power}	&	n/a							&	* Send signal to local actuator\\
+	\hline
+\end{tabular}
+\end{scriptsize}
 
 
 {\bf Message Scheduling Invariant ($I_S$).}
@@ -134,7 +138,7 @@ I_k: K_s < Kmax_s
 \label{eq:sched_invariant_2}
 \end{equation}
 \begin{equation}
-I_c: RT_s^{ex} \leq PT - t 
+I_c: RT_s^{ex} \leq PT_e - t 
 \label{eq:sched_invariant_3}
 \end{equation}
 \begin{equation}
@@ -142,13 +146,8 @@ I_p: t - LT(s) \geq p_s
 \label{eq:sched_invariant_4}
 \end{equation}
 
-Here, $PT$ is the end time of the power transfer phase, $t$ is the time at which
+Here, $PT_e$ is the end time of the power transfer phase, $t$ is the time at which
 the invariant is evaluated and $LT(s)$ is the time at which the last power
-migration message was initiated by node $s$. Work done in~\cite{acsmartgrid} shows the importance of
-composing system correctness through conjunction of physical $I_p$ and scheduling $I_s$ invariants in order
+migration message was initiated by node $s$. Work in~\cite{acsmartgrid} shows the necessity of 
+conjunction of physical $I_p$ and scheduling $I_s$ invariants in order
 to maintain system stability.
-
-
-
-
-

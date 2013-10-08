@@ -19,25 +19,24 @@ In recent work~\cite{acsmartgrid}, we developed a
 scheduling invariant for our distributed, adaptive algorithm for scheduling power 
 migrations between smart grid nodes and demonstrated that conjunction of such a
 scheduling invariant and an invariant for physical system state is necessary to 
-maintain overall system stability. In order to improve efficiency along with stability, components in CPS must have certain amount of inter-component information. In the current paper, we focus on 
-improving the efficiency while also maintaining the stability of smart grid nodes 
-by exploiting the network congestion information obtained from Early Congestion 
-Notification (ECN) scheme. In this scheme, packets are marked indicating impending congestion,
-instead of dropping them\cite{floyd1994tcp, ramakrishnan1999proposal, 
-ramakrishnan2001addition}. We allow the smart grid nodes to sense the possible 
-upcoming network congestion and change the amount of power being transferred with 
-every power migrate message in order to compensate for reduced rate of power transfers.
-As of our knowledge, this is the first work that explore ECN scheme from CPS context
-for the benefit of physical system efficiency as well as take necessary action to 
-reduce network congestion.
+maintain overall system stability. In order to improve efficiency along with stability, 
+components in CPS must have certain amount of inter-component information. 
+In the current paper, we focus on improving the efficiency while also maintaining 
+the stability of smart grid nodes by exploiting the network congestion information 
+obtained from Early Congestion Notification (ECN) scheme. In this scheme, packets 
+are marked indicating impending congestion, instead of dropping 
+them~\cite{floyd1994tcp, ramakrishnan1999proposal, ramakrishnan2001addition}. 
+We allow the smart grid nodes to sense the possible upcoming network congestion and 
+change the amount of power being transferred with every power migrate message in order 
+to compensate for reduced rate of power transfers. As of our knowledge, this is the 
+first work that explore ECN scheme from CPS context for the benefit of physical system 
+efficiency as well as take necessary action to reduce network congestion.
 
 The rest of this paper is organized as follows. Section \ref{sec:related_work}
 provides some background information and discusses related work. We present our
 system model and assumptions in Section \ref{sec:assumptions}. Section
-\ref{sec:invariants} presents our physical system 
-invariant and adaptive scheduling invariant. Section \ref{sec:power_management_algo} 
-presents our resulting power management algorithm. Our simulation setup is introduced 
-in Section \ref{sec:simulation_setup} and results are presented in Section
-\ref{sec:results}. Section \ref{sec:discussion} presents a brief discussion and
-conclusions are presented in Section \ref{sec:conclusions}.
-
+\ref{sec:adapt_comm} briefly discusses our adaptive scheduling algorithm. 
+In Section 5 we explain Early Congestion Notification technique and propose modifications
+required for scheduling algorithm to support ECN. Section 6 discusses an idea to vary
+amount of power transferred with every power transfer message. Our experimental
+setup and results are presented in Section 7 followed by conclusion in Section 8. 
