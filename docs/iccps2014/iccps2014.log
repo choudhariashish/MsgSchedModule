@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.23)  7 OCT 2013 16:52
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.8.23)  10 OCT 2013 11:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -748,16 +748,12 @@ Package epstopdf Info: Source file: <Figures/iccps2014/ack_recv_flowchart.eps>
 (epstopdf)                    size: 16929 bytes
 (epstopdf)             Output file: <Figures/iccps2014/ack_recv_flowchart-eps-c
 onverted-to.pdf>
+(epstopdf)                    date: 2013-10-07 16:52:49
+(epstopdf)                    size: 20665 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/iccps2014/ack_recv
 _flowchart-eps-converted-to.pdf Figures/iccps2014/ack_recv_flowchart.eps>
 (epstopdf)             \includegraphics on input line 89.
-runsystem(repstopdf --outfile=Figures/iccps2014/ack_recv_flowchart-eps-converte
-d-to.pdf Figures/iccps2014/ack_recv_flowchart.eps)...executed safely (allowed).
-
-Package epstopdf Info: Result file: <Figures/iccps2014/ack_recv_flowchart-eps-c
-onverted-to.pdf>
-(epstopdf)                    date: 2013-10-07 16:52:49
-(epstopdf)                    size: 20665 bytes.
+Package epstopdf Info: Output file is already uptodate.
 
 <Figures/iccps2014/ack_recv_flowchart-eps-converted-to.pdf, id=295, 746.79pt x 
 454.69875pt>

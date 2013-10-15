@@ -20,10 +20,6 @@ Considering that \textit{realPeer50} granted $20000~units$ of excess power it ha
   \end{center}
 \end{figure}
 
-\subsection{Experimental Results}
-\label{sec:exp_results}
-
-
 %----------------------------------------
 \begin{figure}[htb]
   \begin{center}
@@ -81,8 +77,22 @@ Considering that \textit{realPeer50} granted $20000~units$ of excess power it ha
 \end{figure}
 %----------------------------------------
 
+\subsection{Experimental Results}
+\label{sec:exp_results}
 
-
+Original adaptive scheduling algorithm was ran for 20000 units of time with
+constant $\delta=10$ and no traffic as shown in Figure~\ref{fig:no_ecn_no_tr_d10} and, 
+on the other hand, our modified algorithm with ECN support was ran for the same units of 
+time and same $\delta$ in~\ref{fig:w_ecn_no_tr_d10}. In these two experiments, $PA$ at the 
+end of 20000 units of time is more when used original algorithm than in algorithm with ECN. 
+The main reason for this is due to the limitation imposed by gateways on the $Q_{avg}$ size, 
+which controls the maximum outstanding messages a node (sender) has in the network. Thus, in
+~\ref{fig:no_ecn_no_tr_d10} average $K$ is around $100$ in and~\ref{fig:w_ecn_no_tr_d10} 
+average $K$ is around $80$. Now, both the algorithms were ran with traffic in the network as 
+in Figure~\ref{fig:no_ecn_w_tr_d10} and~\ref{fig:w_ecn_w_tr_d10}, again $PA$ is more when used 
+original algorithm but, the algorithm with ECN actually takes an effort to reduce network congestion
+as seen in~\ref{fig:w_ecn_w_tr_d10} from $time=5000 to time=10000$ instead of just adapting 
+according to the network latencies.  
 
 
 

@@ -19,7 +19,7 @@ MS_Power::~MS_Power()
 {
 }
 
-int MS_Power::Calculate_Delta(MS_Tick_Type _Curr_Period, MS_Tick_Type _Curr_RTT, MS_Tick_Type _t, int _PA)
+int MS_Power::Calculate_Delta(MS_Tick_Type _Curr_Period, MS_Tick_Type _Curr_RTT, MS_Tick_Type _t, int _PT)
 {
 	int Delta=0;
 	int Total_Msgs=0;
@@ -31,7 +31,7 @@ int MS_Power::Calculate_Delta(MS_Tick_Type _Curr_Period, MS_Tick_Type _Curr_RTT,
 
 	Total_Msgs = (LTT - _t)/ _Curr_Period;
 
-	Delta = (TPT - _PA) / Total_Msgs;
+	Delta = (TPT - _PT) / Total_Msgs;
 
 	return Delta;
 }

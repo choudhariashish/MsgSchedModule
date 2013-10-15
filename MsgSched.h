@@ -196,8 +196,8 @@ private:
 #endif
 
 	// power specific
-	int PA;
-	void Set_PA(int _PA);
+	int PT;
+	void Set_PT(int _PT);
 	int DeltaMin, DeltaMax, Curr_Delta;
 #ifdef ALLOW_DELTA_VARY
 	MS_Power *Power;

@@ -111,7 +111,7 @@ void Peer::Msg_Received(int _MsgID)
    else->   Delete_Msg_Deadline() ,  if ack's message already missed its deadline
    else->	Deadline_Met()
 */
-void Peer::Msg_Ack_Received(int _MsgID, int _ECN, int _PA)
+void Peer::Msg_Ack_Received(int _MsgID, int _ECN, int _PT)
 {
 	// practically 'Relative_Deadline' should never be '0'
 	if(Deadline_Data_Map.at(_MsgID)->Relative_Deadline != 0)
@@ -129,7 +129,7 @@ void Peer::Msg_Ack_Received(int _MsgID, int _ECN, int _PA)
 			ECN=false;
 #endif
 
-		Set_PA(_PA);
+		Set_PT(_PT);
 
 		Actual_RTT= Tick->Get_Current_Tick()-Deadline_Data_Map.at(_MsgID)->Time_Sent;
 
@@ -242,9 +242,9 @@ void Peer::Check_Deadline_Miss()
 	}
 
 	// dump statistics
-	pfile<<Tick->Get_Current_Tick()<<";"<<Curr_Period<<";"<<Curr_K<<";"<<Actual_RTT<<";"<<PA<<";"<<ECN<<"\n";
+	pfile<<Tick->Get_Current_Tick()<<";"<<Curr_Period<<";"<<Curr_K<<";"<<Actual_RTT<<";"<<PT<<";"<<ECN<<"\n";
 #else
-	pfile<<Tick->Get_Current_Tick()<<";"<<Curr_Period<<";"<<Curr_K<<";"<<Actual_RTT<<";"<<PA<<"\n";
+	pfile<<Tick->Get_Current_Tick()<<";"<<Curr_Period<<";"<<Curr_K<<";"<<Actual_RTT<<";"<<PT<<"\n";
 #endif
 
 	pfile.flush();
@@ -465,7 +465,7 @@ void Peer::Update_Period()
 
 // calculate new delta
 #ifdef ALLOW_DELTA_VARY
-	temp_Curr_Delta = Power->Calculate_Delta(Curr_Period, Curr_RTT, Tick->Get_Current_Tick(), PA);
+	temp_Curr_Delta = Power->Calculate_Delta(Curr_Period, Curr_RTT, Tick->Get_Current_Tick(), PT);
 
 	if(temp_Curr_Delta >= DeltaMax)
 		Curr_Delta = DeltaMax;
@@ -476,9 +476,9 @@ void Peer::Update_Period()
 #endif
 }
 
-void Peer::Set_PA(int _PA)
+void Peer::Set_PT(int _PT)
 {
-	PA = _PA;
+	PT = _PT;
 }
 
 void Peer::Set_DeltaMin_DeltaMax(int _deltaMin, int _deltaMax)
@@ -541,7 +541,7 @@ Peer::Peer(int _PeerID, MS_Tick_Type _Phase_Time, MS_Tick_Type _Curr_RTT=800 )
 #endif
 
 	// power specific
-	PA=0;
+	PT=0;
 #ifdef ALLOW_DELTA_VARY
 	DeltaMin = 10;
 	Curr_Delta = DeltaMin;
@@ -585,9 +585,9 @@ void Peer::Create_LogFile()
 	    // LiveGraph specific
 	    pfile << "@LiveGraph test file.\n";
 	#ifdef ENABLE_ECN
-	    pfile << "Tick;Period;Curr_K;Actual_RTT;PA;ECN\n";
+	    pfile << "Tick;Period;Curr_K;Actual_RTT;PT;ECN\n";
 	#else
-	    pfile << "Tick;Period;Curr_K;Actual_RTT;PA\n";
+	    pfile << "Tick;Period;Curr_K;Actual_RTT;PT\n";
 	#endif
 	    pfile.flush();
 }

@@ -18,7 +18,7 @@ class MS_Power
 public:
 	MS_Power(MS_Tick_Type _Phase_Time, int _TPT);
 	~MS_Power();
-	int Calculate_Delta(MS_Tick_Type _Curr_Period, MS_Tick_Type _Curr_RTT, MS_Tick_Type _t, int _PA);
+	int Calculate_Delta(MS_Tick_Type _Curr_Period, MS_Tick_Type _Curr_RTT, MS_Tick_Type _t, int _PT);
 
 private:
 	int TPT;

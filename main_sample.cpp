@@ -62,7 +62,7 @@ void receiverFunc()
     		}
     		cout<<"\n"<<indata<<"\n";
     		PA = parseValue(indata,2);
-    		ms_Agent->Event_Msg_Ack_Received(peerID, parseValue(indata,1), parseValue(indata,3), PA);
+    		ms_Agent->Event_Msg_Ack_Received(peerID, parseValue(indata,1), parseValue(indata,3), PT);
 
     	}
     	// flush buffers
